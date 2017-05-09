@@ -1,0 +1,36 @@
+pictures in png and pdf?
+tables as html and csv?
+
+SUPPLEMENT:
+
+2) METHODS AND MATERIAL
+
+pics:
+- Taxonomic trees for fungi + list of genome sources
+
+tables:
+- Table containing original snoRNA sequences ( 5 publications)
+- mapping of original names with internal snoStrip names
+  - table of C/D
+  - table of H/ACA
+
+
+3) RESULTS
+
+sequences:
+- fasta files containing box C/D and box H/ACA snoRNAs
+
+alignments:
+- (box and structure annotated) snoRNA family alignments
+
+pics:
+- pyhylogenetic heatmaps of snoRNAs
+  - heatmap of C/D
+  - heatmap of H/ACA
+- absolute evolutionary events, mapped to the taxonomic tree
+- relative gain/loss events
+- evolutionary history of snoRNA clans CD_5 (including cluster evolution) and CD_19
+
+tables:
+- tables of snoRNA target interactions -> all tables from the appendix
+--> table converter: http://truben.no/latex/table/ 
