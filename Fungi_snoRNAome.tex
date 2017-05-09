@@ -31,7 +31,7 @@
 \renewcommand\dblfloatpagefraction{.95}
 %\newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
 %\newcommand{\DOM}[1]{\begingroup\color{green}#1\endgroup}
-\newcommand{\Jana}[1]{\begingroup\color{purple}#1\endgroup}
+\newcommand{\JH}[1]{\begingroup\color{purple}#1\endgroup}
 %\newcommand{\KR}[1]{\begingroup\color{magenta}#1\endgroup}
 \newcommand{\Sebastian}[1]{\begingroup\color{turquoise}#1\endgroup}
 %\newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
@@ -320,29 +320,29 @@
 \section{Introduction}
 
 Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs) that guide the modification of single nucleotides in other RNA molecules.
-Localized in the nucleolus of the cell they associate with at least four proteins in a small nucleolar ribonucleoprotein (snoRNP) complex.
+Localized in the nucleolus of eukaryotic (and some archaean) cells they associate with at least four proteins in a small nucleolar ribonucleoprotein (snoRNP) complex.
 The target RNA molecule is hold in the correct position by base pairing to short unpaired region(s) within the snoRNA. 
 These regions are referred to as antisense elements (ASE). 
 At a specific position, the target is then modified.
 Ribosomal RNAs (rRNAs) and small nuclear RNAs (snRNAs) constitute the main class of targets.
-However, several snoRNAs have been shown to target residues in other (small) RNAs \cite{•}.
+However, several snoRNAs have been shown to target residues in \JH{other (small) RNAs \cite{•}}.
 There are two distinct classes of snoRNAs: box C/D and box H/ACA snoRNAs. 
 They are distinguished by their secondary structure, sequence features and the modification they guide. 
 Box C/D snoRNAs form a stem-loop structure with a rather long loop which is stabilized by the associated proteins.
 They guide the 3'OH-methylation of nucleotides.
 Box H/ACA snoRNAs, on the other hand, are longer, fold into a thermodynamically more stable double stem-loop structure. 
 These genes guide pseudouridylation of uracil residues in the target RNA.
-In addition, there are chimeric snoRNAs that share features of both classes, are much longer and/or are described to have different functions. 
-Like other small ncRNAs, snoRNAs are functional due to their secondary structure \emph{and} characteristic (short) regions in their primary structure. 
+In addition, there are chimeric snoRNAs that share features of both classes, are much longer and/or are described to have different functions \JH{REFS!}. 
+Like other small ncRNAs, snoRNAs are functional due to their secondary structure \emph{and} characteristic (short) regions in their nucleotide sequence. 
 In consequence, selective pressure acts on these short sequence motifs (boxes and ASEs) and the preservation of the stem-loop(s) during evolution. 
 This led to a low conservation of the \emph{overall} sequence, an increased number of compensatory mutations in structured regions and high sequence conservation at the protein and target RNA binding sites.
 The annotation and classification of snoRNAs according to sequence homology only, e.g. by using \texttt{NCBI-blast}\cite{•} is therefore not feasible. 
 Our recently  introduced computational annotation pipeline \snostrip\cite{Bartschat:2014} is specifically designed to take care of all specific characteristics of snoRNAs.
 It can be used to relibaly annotate the snoRNA complement in a group of species based on an initial set of confirmed snoRNA genes of a related organism. 
-In this study we analysed a large set of fungal species with genomes that are available in decent quality for their snoRNA abundance. 
+
+Here, we analysed a large set of fungal species with genomes that are available in decent quality for their snoRNA abundance. 
 We started with experimentally verified snoRNAs in five fungi.
-Further, we studied the evolutionary conservation of those snoRNAs and the co-evolution of snoRNAs and their targets. 
-As a result we provide a comprehensive set of fungal snoRNAs, their detailed description with respect to genomic location, box motifs and position, potential/confirmed target information (including target switches), family assignment and evolutionary history. 
+Further, we studied the evolutionary conservation of those snoRNAs and the co-evolution of snoRNAs and their targets. We provide a comprehensive set of fungal snoRNAs, their detailed description with respect to genomic location, box motifs and position, potential/confirmed target information (including observed target switches), family assignment and a suggestion of the evolutionary history of individual snoRNA families. 
 All data can be downloaded from our electronic supplement. 
 
 % --------------------------------------------------------------------------- %
@@ -351,9 +351,9 @@ All data can be downloaded from our electronic supplement.
 
 \subsection{Genome and snoRNA Data} 
 
-Genome sequences from 147 fungal species were downloaded from various sources, e.g. NCBI\cite{•}, ENSEMBL\cite{•}, USCS\cite{•}, etc. \Sebastian{(others? references?)} 
-An \ncbi-based taxonomic tree displaying the relationship, genome source, and genome version of all fungal organisms in the evolutionary survey is shown in the supplement, see Figures S\ref{fig:complete_taxonomic_tree_upper_half} and S\ref{fig:complete_taxonomic_tree_lower_half}. 
-A simplified taxonomic tree that shows the important fungal lineages is provided in Figure \ref{fig:simplified_tree}. 
+Genome sequences from 147 fungal species were downloaded from NCBI\cite{•}, ENSEMBL\cite{•}, USCS\cite{•}, \JH{etc. (explicitly name all that you used!)} 
+An \ncbi-based taxonomic tree displaying the relationship, genome source, and version for all fungal organisms in the evolutionary survey is shown in the supplement, see Figures S\ref{fig:complete_taxonomic_tree_upper_half} and S\ref{fig:complete_taxonomic_tree_lower_half}. 
+A simplified version of that showing the important fungal lineages is provided in Figure \ref{fig:simplified_tree}. 
 
 \begin{figure}[b]
   \centering
@@ -362,31 +362,31 @@ A simplified taxonomic tree that shows the important fungal lineages is provided
   \label{fig:simplified_tree}
 \end{figure}
 
-For 63 out of the 147 species, snoRNA sequences were readily available at the \snostrip\ webservere\footnote{\url{http://snostrip.bioinf.uni-leipzig.de/}}. 
+For 63 out of the 147 species, snoRNA sequences were readily available at the \snostrip\ webserver\footnote{\url{http://snostrip.bioinf.uni-leipzig.de/}}. 
 This data is based on a previous \snostrip\ study\cite{Bartschat:2014} that started with experimentally detected snoRNAs extracted from five surveys for \Ncr\ \citep{Liu:2009}, \Afu\ \citep{Joechl:2008}, \Calb\
 \citep{Mitrovich:2010}, \Sce\ \citep{Piekna-Przybylska:2007}, and
 \Spo\ \citep{Li:2005}. An overview of the retrieved \snos\ and the
 corresponding publications can be seen in supplementary Table
-\ref{tab:original_snornas} \Sebastian{A complete mapping of the species-specific names as they were used in the respective publication and the internal \snostrip\ names is shown in supplementary Tables \ref{tab:haca_snoRNA_mapping} and \ref{tab:cd_snoRNA_mapping}. }. Note that annotated \afu\ \cd\  AM921943 is treated as a \haca.  It shows two separated,
+\ref{tab:original_snornas} \Sebastian{A complete mapping of the species-specific names as they were used in the respective publication and the internal \snostrip\ names is shown in supplementary Tables \ref{tab:haca_snoRNA_mapping} and \ref{tab:cd_snoRNA_mapping}. }. \JH{Is the following a result from the previous study \cite{Bartschat:2014} or from this one? This does not feel like a methods paragraph.} Note that annotated \afu\ \cd\  AM921943 is treated as a \haca.  It shows two separated,
 perfect hairpins and comprises convincing box motifs while it clearly
 lacks characteristics of \cd.  In addition, \afu\ \cd s AM921919 and AM921934 are treated as a single \sno. Both sequences map to the same genomic location. Though, AM921934 comprises three point-mutations compared to AM921919.
-All but budding yeast \sno s have been taken from the corresponding publication. Budding yeast sequences have been downloaded from the
+Budding yeast \sno\ sequences have been downloaded from the
 \texttt{UMass}-database\footnote{http://people.biochem.umass.edu/fournierlab/snornadb/main.php}.
-In total, this starting set of snoRNAs comprises more than 3500 snoRNA sequences assigned to 123 snoRNA families in the 63 species. \Sebastian{(Wrong(!) Table: Table 4.1: 68+50+1=119 != 120??) This is the final result of snoRNA families..., The 123 families are in the starting set...} 
+All other \sno s have been taken from the corresponding publication. In total, our starting set of snoRNAs comprises more than 3500 \JH{Provide the precise number!} snoRNA sequences assigned to 123 snoRNA families in the 63 species. \Sebastian{(Wrong(!) Table: Table 4.1: 68+50+1=119 != 120??) This is the final result of snoRNA families..., The 123 families are in the starting set...} \JH{??? watn nu?}
 
 \subsection{Homology search}
 
-The \snostrip\ pipeline was applied to the set of collected snoRNAs and the 147 fungal species in an iterative manner. Starting with Pezizomycotina, followed by Saccharomycotina, down to the other lineages towards the root of the phylogenetic tree. Each time new homologous snoRNAs were detected, the procedure was repeated to decrease the number of false negatives until no novel homologs were found.
+\snostrip\citep{Bartschat:2014} - our snoRNA annotation pipeline - was applied to the set of collected snoRNAs and the 147 fungal species in an iterative manner. Starting with Pezizomycotina, followed by Saccharomycotina, and other lineages towards the root of the phylogenetic tree. Each time new (plausible) homologous snoRNAs were detected, the procedure was repeated to decrease the number of false negatives until no novel homologs were found anymore.
 
 \subsection{Data curation}
 
 The \snostrip\ retrieved homologs were curated regarding the automatically identified box motifs, correct molecule lengths, and the overall fit of each \sno\ sequence in its respective family. 
 To identify falsely annotated box motifs, the conservation
 of all automatically selected  boxes was checked by a comparison
-of the start positions within the \sno\ family alignment. Motifs with start positions that are not conserved were corrected. 
+of the start positions within the \sno\ family alignment. Motifs with start positions that are not conserved \JH{what is the criteria for beeing conserved or not?} were corrected. 
 %If this was not feasible due to non-canonical box motifs at the supposed positions, either the box annotation was deleted (prime boxes) or the whole \sno\ candidate was rejected. 
 % since disrupted box motifs imply non-functional mature \sno s.
-Too large or too short sequences were adjusted according to box motifs, sequence and structure conservation. 
+Too large or too short sequences were adjusted according to box motifs, sequence and structure conservation. \JH{autmoatically or manually?} 
 
 \subsection{Box motifs, sequence and structure}
 
@@ -396,10 +396,10 @@ Sequence lengths and distances between all box motifs were collected and compare
 \subsection{Phylogenetic analysis}
 
 To follow the evolution of the snoRNA families along the phylogenetic tree we used the software \epope\cite{Hertel:2015}. 
-It implements an efficient algorithm to predict the last common ancestor of a gene family and a potential number of the observed number of paralogs at any inner node of the tree. 
+It implements a variant of Sankoff’s parsimony algorithm using the Dollo variant that excludes the loss and re-gain of a gene family along the same lineage during evolution. 
 Innovation and deletion$/$loss$/$divergence events are deduced and mapped to the branches of the phylogenetic tree. 
 The \epope\ results are combined for \emph{all} \sno\ families 
-using the \texttt{ePoPE\_summarize.pl} script that comes with the \epope\ distribution.
+using the \texttt{ePoPE\_summarize.pl} tool that comes with the \epope\ distribution.
 
 \subsection{Target prediction and analysis}
 
@@ -483,6 +483,19 @@ where $O_\tau(s) = \{\  k\  |\  \exists t\  :\  X(t,s,k) \ne \emptyset\ \&\
 v_k \in V_\tau\ \}$ denotes the set of organisms that are contained in the
 subtree $\tau$ and share at least one snoRNA of family $s$. $v_k$ is the leaf
 that denotes organism $k$.
+
+\vspace{5mm}
+\par
+In this work, \sno\ families are mostly denoted with their 
+internal \snostrip\ name. Original names are given in parentheses in cases where previously annotated \snos\
+are present, e.g., the internal \snostrip\ name
+CD\_22 maps the experimentally detected \sce\ sequence snR62. A
+complete mapping of \snostrip\ derived \sno\ names with their
+species specific names is provided in the supplement. 
+A similar notion is chosen when target positions are described. In most
+cases, the alignment position is given and the sequence specific
+position of selected organisms are provided in parentheses. 
+
 % --------------------------------------------------------------------------- %
 
 \section{Results}

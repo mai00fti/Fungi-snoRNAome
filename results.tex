@@ -1,24 +1,14 @@
 \newcommand{\TODO}[1] {\begingroup\color{red}#1\endgroup}
 
-In this work, \sno\ families are mostly denoted with their 
-internal \snostrip\ name. Original names are given in parentheses in cases where previously annotated \snos\
-are present, e.g., the internal \snostrip\ name
-CD\_22 maps the experimentally detected \sce\ sequence snR62. A
-complete mapping of \snostrip\ derived \sno\ names with their
-species specific names is shown in supplement. A
-similar notion is chosen when target positions are described. In most
-cases, the alignment position is given and the sequence specific
-position of selected organisms are written in parentheses. 
-
-\subsection{The snoRNA complement in fungi}
+\subsection{Expanded fungi snoRNA complement}
 
 A set of 68 \cd\ and 50 \haca\ families were searched for additional homologs in 
 147 fungal organisms. The U3 \sno\ family is considered separately due to its 
 special function and characteristics and published elsewhere \cite{Canzler:2017}. All \snostrip\ retrieved snoRNA sequences 
 were carefully cross-checked in all species to reduce the number of false 
-negatives and exclude potential wrong associations. This resulted in a total 
+negatives and exclude potentially wrong associations. This resulted in a total 
 amount of 5595 and 2331 \cd\ and \haca\ sequences. Hence, we expanded the fungi 
-snoRNA complement by \Sebastian{XXX$\%$} and immensely increased its density. 
+snoRNA complement by \Sebastian{XXX$\%$} and immensely increased its resolution. 
 
 %Although, the characteristic box motifs C,D',C',D,H, and ACA, and the anti-sense 
 %elements are highly conserved, the remaining sequence shows little or no 
@@ -35,65 +25,49 @@ snoRNA complement by \Sebastian{XXX$\%$} and immensely increased its density.
 %the resulting alignments are still better than those produced with e.g. 
 %locarna???} \Sebastian{$\rightarrow$ Der ganze Absatz stoert mich irgendwie. So weit ich mich erinnern kann, konnte man nur mit locarna die sequencen an bestimmten positionen ankern. ( zumindest ohne grosse kofpstaende... diesen Ansatz haben wir aber im laufe der Zeit aufgegeben, hauptsaechlich weil mlocarna fuer HACAs so lange gerechnet hat. Muscle produzierte mindestens gleichwertige alignments in einem bruchteil der zeit. d.h. zur zeit werden die boxen NICHT geankert, sollten aber trotzdem aligniert werden. Um da sicher zu gehen dass die richtigen Boxen als boxen annotiert sind, gibt es ja diesen optionalen quality check. Ich denke ich wuerde auf die genaue alignment computation nicht weiter eingehen, die ganze pipeline ist ja schon im snoStrip paper erklaert, eigentlich sollte es reichen wenn man darauf verweist.....oder?}
 %
-A straightforward downstream analysis of this dataset is the evolutionary 
-analysis on family and class level. The \epope\ approach was used to identify 
-the last common ancestor of each individual snoRNA family and to trace the 
-evolution of gain and loss events from the LCA down to the leafs -- that 
-represent our species -- of a phylogenetic tree.
 
+\subsection{Observed fungi snoRNA characteristics}
 
-\subsection{Fungi snoRNA characteristics}
+\paragraph{\textbf{Box motifs}} Sequence motifs were created from all \snostrip-annotated \sno s. They can be downloaded from the supplement.
+In general these motifs follow the propagated rules for canonical \sno\ box motifs known from yeast and animals: 
 
-\paragraph{\textbf{Box motifs}} Sequenc motifs were created from all \snostrip-annotated and can be found in the supplement.
-In general these motifs follow the propagated rules for canonical \sno\ box motifs.
-
-Box C (RTGATGA) and D (CTGA) match the consensus sequence motifs
-almost perfectly. Box C, for example,
-shows a purine (R) in 92\% of all cases. The 5' GA dinucleotide is present in all
-detected \sno\ candidates. In case of box D, the 5' nucleotide
-shows small mutations (4.2\%) mostly towards an adenine but the
+Box C (RTGATGA) and D (CTGA) \JH{(We are talking about RNAs, shouldn't we $s/T/U/g;$?)} match the consensus sequence motifs
+almost perfectly. Box C shows a purine (R) in 92\% of all cases. 
+The 5' GA di-nucleotide is conserved to 100\%. 
+The 5' nucleotide \JH{C or which one?} of box D
+shows few mutations (4.2\%) mostly towards an adenine while the
 remaining positions are highly conserved ($\ge$99.7\%). 
 
-This is dramatically different in prime box
-motifs. For box C', merely the 5' TG dinucleotide and, to a lesser extent, the
-trailing GA dinucleotide show high conservation which might point at a
- role in the binding of snoRNP associated
-proteins. In case of box D', variations of the canonical nucleotides occur quite
-frequently (between 15\% and 45\% in each position).
+As expected from yeast and other animal snoRNAs the situation is different for the prime box motifs. 
+In box C', merely the 5' TG \JH{(UG)} di-nucleotide and, to a lesser extent, the
+trailing GA di-nucleotide show high conservation. 
+This might indicate a role in the protein-binding within the snoRNP. 
+In box D' variations of the canonical nucleotides occur quite
+frequently (between 15\% and 45\%) in each position.
 
-In case of \haca s, the sequence of box ACA is highly conserved with
-slight variations in its middle position. Box H (ANANNA) on the other side
-comprises highly conserved adenine residues in its 1$^{st}$ and
-3$^{rd}$ position while the trailing adenine is more variable. The
-2$^{nd}$ position of this motif is a guanine in nearly 80\%, whereas
-the other "N'' associated positions (4$^{th}$ and 5$^{th}$ position) do not show a favored nucleotide.
+In \haca s, we observe that the sequence of box ACA is highly conserved with
+slight variations in its middle position. The adenine residues of box H (ANANNA) are highly conserved at the 1$^{st}$ and
+3$^{rd}$ position while the trailing \JH{(trailing $\neq$ 3$^{rd}$ position???)} adenine is more variable. The
+2$^{nd}$ position of this motif is a guanine in nearly 80\% of the \haca s, whereas the other "N" associated positions (4$^{th}$ and 5$^{th}$ position) do not show a favoured nucleotide.
 
-\paragraph{\textbf{Sequence}} In
+\paragraph{\textbf{Sequence}} \JH{Can we include a figure, e.g. boxplot for all boxes of \cd s and \haca s here? I don't like these numbers in the text.} In
 accordance with the published \cd\ length, 90\% of the novel
-\snostrip-annotated  are found to be 80nts to 135nts in length. The
-median length is 93nts (data not shown). Family CD\_53 (originally Nc\_CD\_53 in \cite{Joechl:2008}) is the only exception
-since its members share sequences with lengths between 200 and
-300nts. Crucial features are the distances between box C
+\snostrip-annotated  \sno s are 80-135nt in length, with a median of 93nt (data not shown). 
+Family CD\_53 (originally Nc\_CD\_53 in \cite{Joechl:2008}) is the only exception since its members share sequences with lengths between 200 and 300nt. 
+Crucial features are the distances between box C
 and the potential box D'  as well as between box C' and D
-since these stretches harbor the target binding sites. In case of box C/D' distances, the
-minimal gap is found to be 11nts while the median space is 24nts
-long. The gap between box C' and box D is at least 9nts long while the median is
-22nts. The D'-C' distance is not known to be of
-significant relevance although 
-at least 2nts are required to form another kink-turn motif with the aid of snoRNP
-associated proteins. Larger distances do not pose a problem. Within
-the fungi \sno s, the shortest distance is 3nts while 80\% of all
+since these stretches harbor the target binding sites. 
+Box C/D' distances are observed to be at least 11nt (median: 24nt), while box C'/D distances span at least 9nt (median: 22nt). 
+The distance between boxes D' and C' is not known to be of significant relevance although at least 2nt are required to form another kink-turn motif supported by  the snoRNP associated proteins. 
+Larger distances do not pose a problem there. 
+Within the fungi \sno s, the shortest distance is 3nt while 80\% of all
 prime box annotated sequences possess distance between 6 to 31
 nucleotides.
 
 Box H/ACA snoRNAs are reasonably longer. Their
-median sequence length is 188nt. The shortest sequence being 
-annotated by \snostrip\ is 115nts while 90\% of all
-sequences are between 148 and 266nts long. When comparing both
-hairpins, no significant difference can be observed. Both share
-similar median values of 85nts and 79nts for hairpin 1 (HP1) and
-hairpin 2 (HP2), respectively. Extraordinary
-long \sno s can be found in families HACA\_36 (snR86) and HACA\_41
+median sequence length is 188nt. The shortest sequence comprises 115nt, while 90\% of all sequences are between 148 and 266nt. 
+The lengths of both hairpin structures are similar: 85 and 79nt for hairpin 1 (HP1) and hairpin 2 (HP2), respectively. 
+Extraordinarily long \sno s can be found in families HACA\_36 (snR86) and HACA\_41
 (snR84) with lengths of $\sim$1000nt and $\sim$600nt,
 respectively. Family HACA\_12 (snR30), which is $\sim$600nt long,
 provides an exceptional secondary structure with extensively enlarged
@@ -104,47 +78,27 @@ form a so-called internal hairpin \citep{Fayet-Lebaron:2009}.
 post-transcriptional processing by exonucleases, both trailing ends of
 \cd s are cut not farther than 5 nucleotides apart from box C and D,
 respectively \citep{Kishore:2013}. Owed to these rather short ends,
-only a small subset of \sno\ sequences were found to be capable of
-folding a short stem (1208 of 5595). When the trailing ends are
-enlarged to 10nts instead, a stem was detected in nearly 60\%
-(3317). These observations and the rather large fraction of \sno s
-that are still unable to fold into a characteristic hairpin indicate
-that a specific naturally occurring secondary structure is probably
-not needed for \cd s to function. In consequence, snoRNP-associated
-proteins may take charge of bringing the RNA molecule and the
-assembled proteins into the correct functional conformation.
+only a small subset of \sno\ sequences were predicted to fold a short closing stem (1208 out of 5595). 
+If we enlarge the trailing ends to 10nt instead, a stem could be predicted for nearly 60\% (3317). 
+These observations and the rather large fraction of \sno s that are still unable to fold into a characteristic stem loop structure indicate that a specific naturally occurring secondary structure is probably not needed for \cd s to fulfil their function. 
+In consequence, snoRNP-associated proteins may take charge of bringing the RNA molecule and the assembled proteins into the correct functional conformation.
 
-In contrast, \haca s are required to develop a
-significant and specific secondary structure in order to function
-appropriately. Only 15\% (395 of
-2269) of all snoRNAs were not found to develop a hairpin like
-structure in both hairpins. 
-A constraint folding, i.e., the 14th position either
-upstream of box H or ACA is forced to be unpaired, should enable the
-folding algorithm to "open" the pseudouridylation pocket by predicting
-an interior loop at this position. Apperently, when comparing the
-natural folding with the constraint one, both mfe values are nearly
-identical. This clearly indicates that the \textit{in vivo} folding
-already supplies sufficient access to the bipartite anti sense element
-and hence, the snoRNP associated proteins have a rather stabilizing
-role than to mould the sequence into a specific shape.
-
+In contrast, \haca s are required to develop a significant and specific secondary structure in order to function appropriately. Only 15\% (395 out of 2269) of all snoRNAs were not predicted to fold into a stem-loop structure for both hairpins. 
 
 In general, \sno -specific characteristics like box motifs, lengths,
 and secondary structures are highly comparable between Fungi and
 Metazoa \cite{Kehr:2014}. 
 
 
-\subsection{The evolution of snoRNAs}
+\subsection{Evolution of fungi snoRNAs}
   
 \paragraph{\textbf{Phylogenetic distribution of snoRNAs}}
 A heatmap depicting the distribution of  fungal \cd\ families is shown
-in \ref{fig:heatmap_CD_snoRNAs}. A similar illustration of \haca\
-families can be seen in the Supplement. In both figures, the amount of
-\sno\ sequences belonging to a particular organism and family is color
-encoded. 
+in figure \ref{fig:heatmap_CD_snoRNAs}. A similar illustration of \haca\
+families can be seen in the Supplement. 
 
-Commonly, fungal \sno\ families encompass exactly one \sno\ sequence
+\JH{Please rephrase the next paragraph}
+In general, fungal \sno\ families encompass exactly one \sno\ sequence
 per organism. Exceptions of this rule are given by 
 families CD\_5 and CD\_19 whose coverage number mainly lies between two and
 three. This is rather a technical result of how \snostrip\ works than a
@@ -180,7 +134,7 @@ Leotiomycetes in CD\_41 or Sordariomycetes in CD\_28.
 
 
 
-Nearly half of all \cd\
+Almost half of all \cd\
 families are traceable down to the root of fungi (32/68), i.e., at least one early
 branching fungal lineage is attested to carry this \sno\
 family, such as Microsporidia, Mucoromycotina, Chytridiomycota, or
@@ -209,8 +163,8 @@ a true member of the family or merely an artifact.
 %  \centering
 %  \includegraphics[width=\textwidth]{PICS/FUNGI/HACA_snoRNAs_collapsed.eps}
 %    \caption{A heatmap of
-%    \snostrip-detected \haca s is shown on the previous site. Each column represents a specific \sno\
-%    family, while each row either represents a certain species or
+%    \snostrip-detected \haca s is shown on the previous site. Each column represent a specific \sno\
+%    family, while each row either represent a certain species or
 %    genus. A taxonomic classification is shown on the left side. The amount of
 %    \sno s detected in a specific species and \sno\ family is encoded in a
 %    blue color scheme. Lineage specific families are boxed (A:
@@ -224,7 +178,7 @@ Compared to \cd s, only seven \haca\ families (out of 50) are detected in early 
 and Dikarya. None of these is detected in Microsporidia
 leaving this clade completely without any annotated \sno\ candidate. It
 is apparent, however, that \haca s shows substantially
-more lineage specific innovation and deletion events than observed in \cd s, see supplementary Figure.
+more lineage specific innovation and deletion event than observed in \cd s, see supplementary Figure.
 
 %In total, seven families are exclusively found in Schizosaccharomyces
 %(red box 'A' in Figure \ref{fig:heatmap_HACA_snoRNAs}),
@@ -259,7 +213,7 @@ evolution. The relative gain is the number of gained snoRNA families compared to
 observed number of snoRNA families. The relative loss describes the number of lost
 snoRNA families compared to the number of snoRNA families in the parent node of the
 phylogenetic tree.}
-\label{fig:relative_innovation_deletion_events}
+\label{fig:relative_innovation_deletion_event}
 \end{figure*}
 
 
@@ -269,41 +223,31 @@ where \ptt\ orthologs are found in nearly all families that are
 present in the \ptt-containing Dothideomycetes lineage.
 
 
-\paragraph{\textbf{Evolutionary events in snoRNA history}}
+\paragraph{\textbf{Evolutionary event in snoRNA history}}
+
+With the help of the \epope\ software, we identified the last common ancestor of each individual snoRNA family and found the most parsimonious estimate for the number of paralogs at the inner nodes of the tree. 
+We deduced gain and loss event of individual paralogs of each snoRNA family and summarized this information for all analysed snoRNA families to retrieve a full picture of the evolution of  snoRNAs in fungi.
 
 Relative innovation and deletion events mapped to the pre-ordered
 nodes of the NCBI-derived taxonomic tree up to species level are shown in
-Figure \ref{fig:relative_innovation_deletion_events}. 
-Absolute events that are traceable from the root of major fungal
-lineages up to families and orders are shown in the supplement.
-In both images, it is clearly
-visible that a large amount of \sno\ families has evolved at each
+Figure \ref{fig:relative_innovation_deletion_event}, see the supplement for the version with corresponding absolute values.
+We observe a large amount of \sno\ families that emerged at each
 major branch point along the backbone of the taxonomic
-tree. In case of \cd s, 34 families are already present at the root of
+tree. The innovation of 34 \cd\ families could be traced to the root of
 fungi, indicating an even more ancient origin. At the root of 
 Dikarya, Ascomycota, Saccharomyceta, and Pezizomycotina, a total
  of 9, 3, 6, and 10 families arose, respectively. A similar picture is drawn in
-case of \haca s where 7 families are already present at the root of
+case of \haca s where 7 families could be traced to the root of
 fungi and additional 7, 10, 4, and 3 families are gained at the root
-of Dikarya, Ascomycota, saccharomyceta, and Pezizomycotina,
-respectively. Due to the homology-based search procedure in \snostrip\
-which is based on a experimentally verified set of \sno s, it is quite
-logical that innovation events are exclusively detectable at nodes
-leading to the leaves that represent these five species.  
+of Dikarya, Ascomycota, Saccharomyceta, and Pezizomycotina. 
+According to our methods, we could only detect innovations of snoRNA families at branches leading to the five starting species.  
 
+Microsporidia seem to have lost almost the entire snoRNA complement that has been present before their split during the evolution. 
+Only two \cd\ families seem to be conserved in this lineage. 
+Gardner \emph{et.~al} formerly mentioned the remarkable absence of \sno\ genes in this clade, although all components of the \sno\ machinery are clearly present
+\cite{Gardner:2010}. 
+We agree with these researchers that without further experimental investigations in these fungi we cannot state a true loss or a rearrangement of their snoRNA repertoire. 
 
-
-Major \sno\ losses in both, an absolute and relative point of view,
-can be seen in Microsporidia which are found to harbour only two
-distinct \cd\ families while all remaining C/D and H/ACA families are
-not detectable. Gardner \emph{et.~al} formerly mentioned the
-remarkable absence of \sno\ genes in this clade, although all
-components of the \sno\ machinery are clearly present
-\cite{Gardner:2010}. They argued with a lack of experimental
-investigations and only insufficient bioinformatic methods. However,
-the more sophisticated \snostrip\ approach was also not able to detect
-a great variety of \sno\ genes which might point at a rather
-diversified \sno\ repertoire compared to other fungal lineages. 
 %On the
 %contrary, losses of seven or more families at a particular point in
 %the tree, have only a little relative effect when a large fraction of
@@ -312,17 +256,16 @@ diversified \sno\ repertoire compared to other fungal lineages.
 %Figure \ref{fig:relative_innovation_deletion_events}. 
 
 When focusing on species level, it is frequently observed that single
-organisms seem to have lost a large amount of their snoRNA repertoire. In
-particular, species in the Basidiomycota lineage miss a fairly high
-portion of their \sno s. Especially \wse\ and several Pucciniomycota
-seem to have lost nearly their entire set of \haca s (\wse: 0.92, \rmi: 0.86,
-or \sli: 0,86). The impact on \cd s is more moderate (0.26 on
+organisms seem to have lost a large amount of their snoRNAs, i.e. in the  Basidiomycota lineage. 
+Especially \wse\ and several Pucciniomycota seem to have lost nearly their entire set of \haca s (\wse: 0.92, \rmi: 0.86,
+or \sli: 0,86) \JH{(\% ??)}. The impact on \cd s is more moderate (0.26 on
 average). A potential correlation with significantly smaller genome
 sizes in Pucciniomycota was not detected (data not shown). The
 previously mentioned loss of the entire \haca\ set in \Ptt\ is also clearly
 visible. Other organisms such
 as \pan\ and  \opi\ also show an increased loss rate (\pan: 0.15 C/D
 and 0.13 H/ACA; \opi: 0.30 C/D and 0.42 H/ACA). 
+
 
 %\begin{figure}
 %  \centering

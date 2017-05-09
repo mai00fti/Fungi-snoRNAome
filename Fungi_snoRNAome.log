@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.3)  9 MAY 2017 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.3)  9 MAY 2017 15:50
 entering extended mode
 **./Fungi_snoRNAome.tex
 (Fungi_snoRNAome.tex
@@ -639,13 +639,13 @@ Package: floatflt 1997/07/16 v. 1.31
 \fltitemwidth=\dimen160
 \outputpretest=\toks33
 )
-No file Fungi_snoRNAome.aux.
+(Fungi_snoRNAome.aux)
 \openout1 = `Fungi_snoRNAome.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 233.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 233
 .
-("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omltxmi.fd"
+ ("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 233.
@@ -656,8 +656,7 @@ LaTeX Font Info:    ... okay on input line 233.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 233.
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 233
 .
-
-("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omstxsy.fd"
+ ("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omstxsy.fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 233.
@@ -810,7 +809,7 @@ Package natbib Warning: Citation `Bartschat:2014' on page 1 undefined on input
 line 340.
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 322--347
+Underfull \hbox (badness 1132) in paragraph at lines 322--342
 []\OT1/txr/m/n/10 Small nu-cle-o-lar RNAs (snoRNAs) are non-
  []
 
@@ -837,15 +836,6 @@ efined on input line 355.
 
 LaTeX Warning: Reference `fig:complete_taxonomic_tree_lower_half' on page 2 und
 efined on input line 355.
-
-
-LaTeX Warning: Reference `fig:simplified_tree' on page 2 undefined on input lin
-e 356.
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 354--357
-\OT1/txr/m/n/10 were down-loaded from var-i-ous sources, e.g.
- []
 
 
 Package natbib Warning: Citation `Bartschat:2014' on page 2 undefined on input 
@@ -884,14 +874,28 @@ LaTeX Warning: Reference `tab:cd_snoRNA_mapping' on page 2 undefined on input l
 ine 370.
 
 
+Package natbib Warning: Citation `Bartschat:2014' on page 2 undefined on input 
+line 370.
+
+
 Overfull \hbox (21.00287pt too wide) in paragraph at lines 374--374
 [][]\OT1/txr/m/n/8 http://people.biochem.umass.edu/fournierlab/snornadb/main.ph
 p| 
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 365--376
-\OT1/txr/m/n/10 pared to AM921919. All but bud-ding yeast
+Underfull \hbox (badness 1325) in paragraph at lines 365--376
+\OT1/txr/m/n/10 quences as-signed to 123 snoRNA fam-i-lies in
+ []
+
+
+Package natbib Warning: Citation `Bartschat:2014' on page 2 undefined on input 
+line 379.
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 379--380
+[]\OT1/cmtt/m/n/10 snoStrip\OT1/txr/m/n/10 [\OT1/txr/bx/n/10 ? \OT1/txr/m/n/10 
+] - our snoRNA an-no-ta-tion
  []
 
 
@@ -908,17 +912,21 @@ Underfull \hbox (badness 1721) in paragraph at lines 393--395
 \OT1/txr/m/n/10 canon-i-cal box mo-tifs of yeast and ver-te-brate
  []
 
+[2]
 
-Package natbib Warning: Citation `Hertel:2015' on page 2 undefined on input lin
+Package natbib Warning: Citation `Hertel:2015' on page 3 undefined on input lin
 e 398.
 
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no ™ in font txr!
 
 Underfull \hbox (badness 1152) in paragraph at lines 398--403
 \OT1/txr/m/n/10 of the phy-lo-ge-netic tree. The \OT1/cmtt/m/n/10 ePoPE \OT1/tx
 r/m/n/10 re-sults
  []
 
-[2]
+
 Underfull \hbox (badness 2103) in paragraph at lines 406--408
 []\OT1/txr/m/n/10 Target pre-dic-tion is part of the \OT1/cmtt/m/n/10 snoStrip
  []
@@ -927,46 +935,52 @@ Underfull \hbox (badness 2103) in paragraph at lines 406--408
 Package natbib Warning: Citation `Kehr:2014' on page 3 undefined on input line 
 411.
 
-(results.tex
-Underfull \hbox (badness 1331) in paragraph at lines 3--12
+[3]
+Underfull \hbox (badness 1331) in paragraph at lines 489--498
 \OT1/txr/m/n/10 i-nal names are given in paren-the-ses in cases
  []
 
-[3]
+(results.tex
 
 Package natbib Warning: Citation `Canzler:2017' on page 4 undefined on input li
-ne 17.
+ne 7.
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 41--47
+[]\OT1/txr/m/n/10 As ex-pected from yeast and other an-i-mal
+ []
 
 
 Package natbib Warning: Citation `Joechl:2008' on page 4 undefined on input lin
-e 74.
+e 56.
 
 
 Package natbib Warning: Citation `Fayet-Lebaron:2009' on page 4 undefined on in
-put line 101.
+put line 75.
 
 
-Package natbib Warning: Citation `Kishore:2013' on page 4 undefined on input li
-ne 106.
+Underfull \hbox (badness 1997) in paragraph at lines 67--76
+\OT1/txr/m/n/10 be found in fam-i-lies HACA[]36 (snR86) and
+ []
 
 [4]
 
+Package natbib Warning: Citation `Kishore:2013' on page 5 undefined on input li
+ne 80.
+
+
 Package natbib Warning: Citation `Kehr:2014' on page 5 undefined on input line 
-135.
+90.
 
 
-LaTeX Warning: Reference `fig:heatmap_CD_snoRNAs' on page 5 undefined on input 
-line 142.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
  \OT1/txr/bx/it/10 Phy-lo-ge-netic dis-tri-bu-tion of snoRNAs\OT1/txr/m/it/10 .
 [] \OT1/txr/m/n/10 A
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 141--146
-\OT1/txr/m/n/10 amount of snoRNA se-quences be-long-ing to a
+Underfull \hbox (badness 3579) in paragraph at lines 96--99
+\OT1/txr/m/n/10 heatmap de-pict-ing the dis-tri-bu-tion of fun-gal
  []
 
 Package epstopdf Info: Source file: <pics/CD_snoRNAs_collapsed.eps>
@@ -974,127 +988,105 @@ Package epstopdf Info: Source file: <pics/CD_snoRNAs_collapsed.eps>
 (epstopdf)                    size: 2357549 bytes
 (epstopdf)             Output file: <pics/CD_snoRNAs_collapsed-eps-converted-to
 .pdf>
+(epstopdf)                    date: 2017-05-09 13:26:21
+(epstopdf)                    size: 624074 bytes
 (epstopdf)             Command: <epstopdf --outfile=pics/CD_snoRNAs_collapsed-e
 ps-converted-to.pdf pics/CD_snoRNAs_collapsed.eps>
-(epstopdf)             \includegraphics on input line 167.
-runsystem(epstopdf --outfile=pics/CD_snoRNAs_collapsed-eps-converted-to.pdf pic
-s/CD_snoRNAs_collapsed.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <pics/CD_snoRNAs_collapsed-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2017-05-09 13:26:21
-(epstopdf)                    size: 624074 bytes.
-
-<pics/CD_snoRNAs_collapsed-eps-converted-to.pdf, id=25, 1189.44376pt x 1574.883
+<pics/CD_snoRNAs_collapsed-eps-converted-to.pdf, id=26, 1189.44376pt x 1574.883
 74pt>
 File: pics/CD_snoRNAs_collapsed-eps-converted-to.pdf Graphic file (type pdf)
  <use pics/CD_snoRNAs_collapsed-eps-converted-to.pdf>
 Package pdftex.def Info: pics/CD_snoRNAs_collapsed-eps-converted-to.pdf used on
- input line 167.
+ input line 121.
 (pdftex.def)             Requested size: 445.81685pt x 590.26756pt.
 
-Overfull \hbox (21.2306pt too wide) in paragraph at lines 167--177
+Overfull \hbox (21.2306pt too wide) in paragraph at lines 121--131
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 9.26756pt on input line 179.
+LaTeX Warning: Float too large for page by 9.26756pt on input line 133.
 
-
-LaTeX Warning: Reference `fig:heatmap_CD_snoRNAs' on page 5 undefined on input 
-line 189.
-
-[5] [6 <./pics/CD_snoRNAs_collapsed-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/fungi_relative_gain_loss.eps>
 (epstopdf)                    date: 2017-02-02 19:38:30
 (epstopdf)                    size: 164771 bytes
 (epstopdf)             Output file: <pics/fungi_relative_gain_loss-eps-converte
 d-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:25
+(epstopdf)                    size: 48893 bytes
 (epstopdf)             Command: <epstopdf --outfile=pics/fungi_relative_gain_lo
 ss-eps-converted-to.pdf pics/fungi_relative_gain_loss.eps>
-(epstopdf)             \includegraphics on input line 256.
-runsystem(epstopdf --outfile=pics/fungi_relative_gain_loss-eps-converted-to.pdf
- pics/fungi_relative_gain_loss.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <pics/fungi_relative_gain_loss-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2017-05-09 13:26:25
-(epstopdf)                    size: 48893 bytes.
-
-<pics/fungi_relative_gain_loss-eps-converted-to.pdf, id=38, 1489.565pt x 695.59
+<pics/fungi_relative_gain_loss-eps-converted-to.pdf, id=27, 1489.565pt x 695.59
 875pt>
 File: pics/fungi_relative_gain_loss-eps-converted-to.pdf Graphic file (type pdf
 )
  <use pics/fungi_relative_gain_loss-eps-converted-to.pdf>
 Package pdftex.def Info: pics/fungi_relative_gain_loss-eps-converted-to.pdf use
-d on input line 256.
+d on input line 210.
 (pdftex.def)             Requested size: 424.58624pt x 198.26894pt.
-
-
-LaTeX Warning: Reference `fig:relative_innovation_deletion_events' on page 7 un
-defined on input line 276.
-
+ [5] [6 <./pics/CD_snoRNAs_collapsed-eps-converted-to.pdf>]
 
 Package natbib Warning: Citation `Gardner:2010' on page 7 undefined on input li
-ne 302.
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 296--313
-[]\OT1/txr/m/n/10 Major snoRNA losses in both, an ab-so-lute
- []
+ne 248.
 
 
 Package natbib Warning: Citation `Mitrovich:2010' on page 7 undefined on input 
-line 377.
+line 320.
 
 
 Package natbib Warning: Citation `Mitrovich:2010' on page 7 undefined on input 
-line 378.
+line 321.
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 377--379
+Underfull \hbox (badness 1448) in paragraph at lines 320--322
 \OT1/txr/m/n/10 a known \OT1/txr/m/it/10 N.crassa \OT1/txr/m/n/10 snoRNA (CD[]3
 9). Fam-i-
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 377--379
+Underfull \hbox (badness 1910) in paragraph at lines 320--322
 \OT1/txr/m/n/10 (LSU-G1431) are ex-clu-sively present in Sac-
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 377--379
+Underfull \hbox (badness 1082) in paragraph at lines 320--322
 \OT1/txr/m/n/10 cha-romy-cotina ex-cept for Sac-cha-romyc-etaceae.
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 377--379
+Underfull \hbox (badness 2707) in paragraph at lines 320--322
 \OT1/txr/m/n/10 1.813 (25S-4055; \OT1/txr/m/it/10 C.albicans\OT1/txr/m/n/10 : 2
 5S-3118) and
  []
 
 
-Package natbib Warning: Citation `Li:2005' on page 7 undefined on input line 41
-5.
+Package natbib Warning: Citation `Li:2005' on page 7 undefined on input line 35
+8.
 
 
-Package natbib Warning: Citation `Li:2005' on page 7 undefined on input line 41
-6.
+Package natbib Warning: Citation `Li:2005' on page 7 undefined on input line 35
+9.
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 414--417
+Underfull \hbox (badness 5231) in paragraph at lines 357--360
  \OT1/txr/bx/it/10 Fis-sion Yeast Spe-cific snoRNAs\OT1/txr/m/it/10 .[] \OT1/tx
 r/m/n/10 Sim-i-lar to
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 414--417
+Underfull \hbox (badness 1168) in paragraph at lines 357--360
 \OT1/txr/m/n/10 a HP1 tar-get in \OT1/txr/m/it/10 S.pombe \OT1/txr/m/n/10 to a 
 HP2 tar-get in
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 414--417
+Underfull \hbox (badness 1558) in paragraph at lines 357--360
 \OT1/txr/m/n/10 a find-ing. The re-main-ing se-quences are ei-
  []
 
@@ -1104,122 +1096,92 @@ Package epstopdf Info: Source file: <pics/pieCharts_snoRNAs_modified.eps>
 (epstopdf)                    size: 173144 bytes
 (epstopdf)             Output file: <pics/pieCharts_snoRNAs_modified-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:31
+(epstopdf)                    size: 58036 bytes
 (epstopdf)             Command: <epstopdf --outfile=pics/pieCharts_snoRNAs_modi
 fied-eps-converted-to.pdf pics/pieCharts_snoRNAs_modified.eps>
-(epstopdf)             \includegraphics on input line 463.
-runsystem(epstopdf --outfile=pics/pieCharts_snoRNAs_modified-eps-converted-to.p
-df pics/pieCharts_snoRNAs_modified.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 406.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <pics/pieCharts_snoRNAs_modified-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2017-05-09 13:26:31
-(epstopdf)                    size: 58036 bytes.
-
-<pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf, id=43, 777.90625pt x 378
+<pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf, id=44, 777.90625pt x 378
 .41376pt>
 File: pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf Graphic file (type p
 df)
  <use pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf>
 Package pdftex.def Info: pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf u
-sed on input line 463.
+sed on input line 406.
 (pdftex.def)             Requested size: 382.12502pt x 185.89206pt.
-
-
-LaTeX Warning: Reference `fig:pie_charts' on page 8 undefined on input line 493
-.
-
 
 Underfull \vbox (badness 5189) has occurred while \output is active []
 
  [8 <./pics/fungi_relative_gain_loss-eps-converted-to.pdf>]
-Underfull \hbox (badness 5231) in paragraph at lines 533--542
+Underfull \hbox (badness 5231) in paragraph at lines 476--485
  \OT1/txr/bx/it/10 Or-phan snoRNA\OT1/txr/m/it/10 .[] \OT1/txr/m/n/10 Or-phan s
 noRNAs are se-
  []
 
-
-LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 9 undefined on i
-nput line 545.
-
 [9 <./pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 10 undefined on 
-input line 607.
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 603--611
+Underfull \hbox (badness 2213) in paragraph at lines 546--554
 []\OT1/txr/m/n/10 The pic-ture looks much bet-ter in case of
  []
 
 
-Package natbib Warning: Citation `Li:2005' on page 10 undefined on input line 6
-14.
-
-
-LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 10 undefined on 
-input line 625.
+Package natbib Warning: Citation `Li:2005' on page 10 undefined on input line 5
+57.
 
 
 Package natbib Warning: Citation `Liu:2009' on page 10 undefined on input line 
-628.
+571.
 
 
-LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 10 undefined on 
-input line 635.
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 627--637
+Underfull \hbox (badness 2221) in paragraph at lines 570--580
 []\OT1/txr/m/n/10 Family CD[]54 was orig-i-nally pub-lished to
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 627--637
-\OT1/txr/m/n/10 cotina lin-eages and a highly con-served tar-get
+Underfull \hbox (badness 2799) in paragraph at lines 570--580
+\OT1/txr/m/n/10 fam-ily CD[]54 is de-tected amongst all Pez-i-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 627--637
-\OT1/txr/m/n/10 re-gion is clearly vis-i-ble up-stream of box D',
+Underfull \hbox (badness 3078) in paragraph at lines 570--580
+\OT1/txr/m/n/10 zomy-cotina lin-eages and a highly con-served
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 627--637
-\OT1/txr/m/n/10 con-vinc-ing base pair-ing ca-pa-bil-i-ties to U6-70
+Underfull \hbox (badness 1776) in paragraph at lines 570--580
+\OT1/txr/m/n/10 shows con-vinc-ing base pair-ing ca-pa-bil-i-ties to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--637
+Underfull \hbox (badness 10000) in paragraph at lines 570--580
 
  []
 
 
-Overfull \hbox (12.36288pt too wide) in paragraph at lines 645--657
+Overfull \hbox (12.36288pt too wide) in paragraph at lines 588--600
  [] 
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 661--664
+Underfull \hbox (badness 1377) in paragraph at lines 604--607
 \OT1/txr/m/n/10 (6 se-quences), \OT1/txr/m/it/10 A.fumigatus \OT1/txr/m/n/10 (1
  se-quence), and
  []
 
 
-LaTeX Warning: Reference `tab:orphan_hacas_short' on page 10 undefined on input
- line 669.
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 665--683
+Underfull \hbox (badness 1960) in paragraph at lines 608--626
 []\OT1/txr/m/n/10 By means of \OT1/cmtt/m/n/10 snoStrip\OT1/txr/m/n/10 , eight 
 or-phan se-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 665--683
+Underfull \hbox (badness 3942) in paragraph at lines 608--626
 \OT1/txr/m/n/10 quences are found to be con-served on se-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 665--683
+Underfull \hbox (badness 1221) in paragraph at lines 608--626
 \OT1/txr/m/n/10 i-dated tar-get sites (HACA[]11 matches snR11,
  []
 
@@ -1230,157 +1192,110 @@ Package epstopdf Info: Source file: <pics/conservation_lineage_specific_targets
 (epstopdf)                    size: 119230 bytes
 (epstopdf)             Output file: <pics/conservation_lineage_specific_targets
 -eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:35
+(epstopdf)                    size: 40909 bytes
 (epstopdf)             Command: <epstopdf --outfile=pics/conservation_lineage_s
 pecific_targets-eps-converted-to.pdf pics/conservation_lineage_specific_targets
 .eps>
-(epstopdf)             \includegraphics on input line 708.
-runsystem(epstopdf --outfile=pics/conservation_lineage_specific_targets-eps-con
-verted-to.pdf pics/conservation_lineage_specific_targets.eps)...executed (allow
-ed).
+(epstopdf)             \includegraphics on input line 651.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <pics/conservation_lineage_specific_targets
--eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-09 13:26:35
-(epstopdf)                    size: 40909 bytes.
-
-<pics/conservation_lineage_specific_targets-eps-converted-to.pdf, id=61, 782.92
+<pics/conservation_lineage_specific_targets-eps-converted-to.pdf, id=62, 782.92
 5pt x 881.2925pt>
 File: pics/conservation_lineage_specific_targets-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use pics/conservation_lineage_specific_targets-eps-converted-to.pdf>
 Package pdftex.def Info: pics/conservation_lineage_specific_targets-eps-convert
-ed-to.pdf used on input line 708.
+ed-to.pdf used on input line 651.
 (pdftex.def)             Requested size: 424.58624pt x 477.93488pt.
 
 
-LaTeX Warning: Reference `fig:additional_targets' on page 11 undefined on input
- line 724.
-
-
 Package natbib Warning: Citation `Liu:2009' on page 11 undefined on input line 
-738.
-
-
-LaTeX Warning: Reference `fig:additional_targets' on page 11 undefined on input
- line 742.
+681.
 
 
 Package natbib Warning: Citation `Machnicka:2013' on page 11 undefined on input
- line 744.
+ line 687.
 
 
 Package natbib Warning: Citation `Massenet:1998' on page 11 undefined on input 
-line 744.
+line 687.
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 727--759
+Underfull \hbox (badness 1490) in paragraph at lines 670--702
 \OT1/txr/m/n/10 i-men-tally ver-i-fied tar-get 18S-479 (\OT1/txr/m/it/10 S.cere
 visiae
  []
 
 
 Package natbib Warning: Citation `Lowe:1999' on page 11 undefined on input line
- 762.
+ 705.
 
 [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `fig:additional_targets' on page 12 undefined on input
- line 784.
-
-[12 <./pics/conservation_lineage_specific_targets-eps-converted-to.pdf>]
+ [12 <./pics/conservation_lineage_specific_targets-eps-converted-to.pdf>]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ™ in font txr!
-
-
-LaTeX Warning: Reference `tab:sno_clans' on page 13 undefined on input line 827
-.
-
 Package epstopdf Info: Source file: <pics/target_switches_CD_5.eps>
 (epstopdf)                    date: 2017-03-06 15:19:16
 (epstopdf)                    size: 188621 bytes
 (epstopdf)             Output file: <pics/target_switches_CD_5-eps-converted-to
 .pdf>
+(epstopdf)                    date: 2017-05-09 13:26:40
+(epstopdf)                    size: 50912 bytes
 (epstopdf)             Command: <epstopdf --outfile=pics/target_switches_CD_5-e
 ps-converted-to.pdf pics/target_switches_CD_5.eps>
-(epstopdf)             \includegraphics on input line 860.
-runsystem(epstopdf --outfile=pics/target_switches_CD_5-eps-converted-to.pdf pic
-s/target_switches_CD_5.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 803.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <pics/target_switches_CD_5-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2017-05-09 13:26:40
-(epstopdf)                    size: 50912 bytes.
-
-<pics/target_switches_CD_5-eps-converted-to.pdf, id=74, 597.23125pt x 770.88pt>
+<pics/target_switches_CD_5-eps-converted-to.pdf, id=75, 597.23125pt x 770.88pt>
 File: pics/target_switches_CD_5-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/target_switches_CD_5-eps-converted-to.pdf>
 Package pdftex.def Info: pics/target_switches_CD_5-eps-converted-to.pdf used on
- input line 860.
+ input line 803.
 (pdftex.def)             Requested size: 382.12502pt x 493.23213pt.
-
-
-LaTeX Warning: Reference `fig:CD_5' on page 13 undefined on input line 885.
-
-[13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ [13]
 Package epstopdf Info: Source file: <pics/target_switches_CD_5_cluster.eps>
 (epstopdf)                    date: 2017-02-13 07:35:14
 (epstopdf)                    size: 172891 bytes
 (epstopdf)             Output file: <pics/target_switches_CD_5_cluster-eps-conv
 erted-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:44
+(epstopdf)                    size: 46172 bytes
 (epstopdf)             Command: <epstopdf --outfile=pics/target_switches_CD_5_c
 luster-eps-converted-to.pdf pics/target_switches_CD_5_cluster.eps>
-(epstopdf)             \includegraphics on input line 900.
-runsystem(epstopdf --outfile=pics/target_switches_CD_5_cluster-eps-converted-to
-.pdf pics/target_switches_CD_5_cluster.eps)...executed (allowed).
+(epstopdf)             \includegraphics on input line 843.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <pics/target_switches_CD_5_cluster-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2017-05-09 13:26:44
-(epstopdf)                    size: 46172 bytes.
-
-<pics/target_switches_CD_5_cluster-eps-converted-to.pdf, id=80, 647.41875pt x 3
+<pics/target_switches_CD_5_cluster-eps-converted-to.pdf, id=81, 647.41875pt x 3
 47.2975pt>
 File: pics/target_switches_CD_5_cluster-eps-converted-to.pdf Graphic file (type
  pdf)
  <use pics/target_switches_CD_5_cluster-eps-converted-to.pdf>
 Package pdftex.def Info: pics/target_switches_CD_5_cluster-eps-converted-to.pdf
- used on input line 900.
+ used on input line 843.
 (pdftex.def)             Requested size: 424.58624pt x 227.76503pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [14 <./pics/target_switches_CD_5-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:CD_5_cluster_history' on page 15 undefined on inp
-ut line 931.
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 928--937
+Underfull \hbox (badness 3158) in paragraph at lines 871--880
 \OT1/txr/m/n/10 snoRNA tran-script is ar-ranged in-clud-ing the
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 928--937
+Underfull \hbox (badness 1838) in paragraph at lines 871--880
 \OT1/txr/m/n/10 snoRNA se-quences of CD[]24, CD[]12, CD[]7
  []
 
 
-LaTeX Warning: Reference `fig:CD_5_cluster_history' on page 15 undefined on inp
-ut line 942.
-
-
-LaTeX Warning: Reference `fig:CD_5_cluster_history' on page 15 undefined on inp
-ut line 953.
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 938--967
+Underfull \hbox (badness 1097) in paragraph at lines 881--910
 \OT1/txr/m/n/10 present at the 5' end of this clus-ter when it
  []
 
@@ -1388,23 +1303,14 @@ Underfull \hbox (badness 1097) in paragraph at lines 938--967
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./pics/target_switches_CD_5_cluster-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:additional_targets' on page 16 undefined on input
- line 978.
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 990--1028
+Underfull \hbox (badness 1275) in paragraph at lines 933--971
 \OT1/txr/m/n/10 pre-dicted to guide one spe-cific tar-get mod-i-fi-
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 990--1028
+Underfull \hbox (badness 1629) in paragraph at lines 933--971
 \OT1/txr/m/n/10 ca-tion but two or even more with the same
  []
-
-
-LaTeX Warning: Reference `tab:redundant_predictions' on page 16 undefined on in
-put line 1033.
 
 ) (discussion.tex [16]
 
@@ -1416,13 +1322,11 @@ Underfull \hbox (badness 1895) in paragraph at lines 97--108
 []\OT1/txr/m/n/10 In gen-eral, one can say that the snoRNA
  []
 
-[17]
 
-Package natbib Warning: Citation `Jorjani:2016' on page 18 undefined on input l
+Package natbib Warning: Citation `Jorjani:2016' on page 17 undefined on input l
 ine 114.
 
-)
-No file Fungi_snoRNAome.bbl.
+) [17] (Fungi_snoRNAome.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1432,33 +1336,31 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5931 strings out of 493334
- 81988 string characters out of 3139676
- 168115 words of memory out of 3000000
+ 5935 strings out of 493334
+ 82061 string characters out of 3139676
+ 168421 words of memory out of 3000000
  9264 multiletter control sequences out of 15000+200000
  44538 words of font info for 111 fonts, out of 3000000 for 9000
  1151 hyphenation exceptions out of 8191
  40i,18n,39p,1093b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files
 /MiKTeX2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX2.
-9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files/MiKTeX2.9/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/
-public/amsfonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/publi
-c/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/txfonts/rtxr
-.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/txfonts/txex.pfb><C:/Progra
-m Files/MiKTeX2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/MiKTeX2
-.9/fonts/type1/public/txfonts/txsyc.pfb><C:/Program Files/MiKTeX2.9/fonts/type1
-/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/urw/times/utmbi8a
-.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
-iles/MiKTeX2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Fungi_snoRNAome.pdf (18 pages, 1046622 bytes).
+9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files/MiKTeX2.9/fonts/ty
+pe1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/ams
+fonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/txfonts/
+rtxmi.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/P
+rogram Files/MiKTeX2.9/fonts/type1/public/txfonts/txex.pfb><C:/Program Files/Mi
+KTeX2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/MiKTeX2.9/fonts/t
+ype1/public/txfonts/txsyc.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/urw/times
+/utmb8a.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/P
+rogram Files/MiKTeX2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTe
+X2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Fungi_snoRNAome.pdf (18 pages, 1052576 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
