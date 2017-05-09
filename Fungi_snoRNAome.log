@@ -1,0 +1,1464 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.3)  9 MAY 2017 13:26
+entering extended mode
+**./Fungi_snoRNAome.tex
+(Fungi_snoRNAome.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX2.9\tex\latex\elsarticle\elsarticle.cls"
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+("C:\Program Files\MiKTeX2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+ (Fungi_snoRNAome.spl)
+("C:\Program Files\MiKTeX2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `Fungi_snoRNAome.spl'.
+
+
+("C:\Program Files\MiKTeX2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks17
+
+("C:\Program Files\MiKTeX2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX2.9\tex\latex\base\fleqn.clo"
+File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
+\mathindent=\dimen117
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+))
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\txfonts.sty"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen118
+))
+("C:\Program Files\MiKTeX2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen119
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen120
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip10
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks20
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks21
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks22
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cnta=\count110
+\multirow@cntb=\count111
+\multirow@dima=\skip51
+\bigstrutjot=\dimen127
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count112
+\rotFPtop=\skip52
+\rotFPbot=\skip53
+\rot@float@box=\box32
+\rot@mess@toks=\toks24
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\capt-of\capt-of.sty"
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count113
+Package caption Info: rotating package is loaded.
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen135
+\lightrulewidth=\dimen136
+\cmidrulewidth=\dimen137
+\belowrulesep=\dimen138
+\belowbottomsep=\dimen139
+\aboverulesep=\dimen140
+\abovetopsep=\dimen141
+\cmidrulesep=\dimen142
+\cmidrulekern=\dimen143
+\defaultaddspace=\dimen144
+\@cmidla=\count114
+\@cmidlb=\count115
+\@aboverulesep=\dimen145
+\@belowrulesep=\dimen146
+\@thisruleclass=\count116
+\@lastruleclass=\count117
+\@thisrulewidth=\dimen147
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) ("C:\Program Files\MiKTeX2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks25
+\float@box=\box33
+\@float@everytoks=\toks26
+\@floatcapt=\box34
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks27
+\AP@partial=\box35
+\AP@footins=\box36
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\soul\soul.sty"
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks28
+\SOUL@lasttoken=\toks29
+\SOUL@cmds=\toks30
+\SOUL@buffer=\toks31
+\SOUL@token=\toks32
+\SOUL@spaceskip=\skip54
+\SOUL@ttwidth=\dimen148
+\SOUL@uldp=\dimen149
+\SOUL@ulht=\dimen150
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen151
+\epsfysize=\dimen152
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\a4wide\a4wide.sty"
+Package: a4wide 1994/08/30
+
+("C:\Program Files\MiKTeX2.9\tex\latex\ntgclass\a4.sty"
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)) (floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count119
+\figbox=\box37
+\tabbox=\box38
+\pagebox=\box39
+\ffigcount=\count120
+\ftabcount=\count121
+\fftest=\count122
+\hangcount=\count123
+\nosuccesstryfig=\count124
+\nosuccesstrytab=\count125
+\figgutter=\dimen153
+\tabgutter=\dimen154
+\htdone=\dimen155
+\pageht=\dimen156
+\startpageht=\dimen157
+\tabbredd=\dimen158
+\floatfltwidth=\dimen159
+\fltitemwidth=\dimen160
+\outputpretest=\toks33
+)
+No file Fungi_snoRNAome.aux.
+\openout1 = `Fungi_snoRNAome.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 233.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 233
+.
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omltxmi.fd"
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 233.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 233
+.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omstxsy.fd"
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 233.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 233
+.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\omxtxex.fd"
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 233.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 233.
+
+
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\utxexa.fd"
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 233.
+
+
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\ot1txr.fd"
+File: ot1txr.fd 2000/12/15 v3.1
+)
+("C:\Program Files\MiKTeX2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count126
+\scratchdimen=\dimen161
+\scratchbox=\box40
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen162
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks35
+) ("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(64.75394pt, 468.0pt, 64.75394pt)
+* v-part:(T,H,B)=(111.52342pt, 622.0pt, 111.52342pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=424.58624pt
+* \textheight=646.0pt
+* \oddsidemargin=18.06749pt
+* \evensidemargin=18.06749pt
+* \topmargin=0.0pt
+* \headheight=50.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=18.0pt
+* \marginparwidth=54.2025pt
+* \marginparsep=10.0pt
+* \columnsep=24.0pt
+* \skip\footins=24.0pt plus 2.0pt minus 12.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: floatflt package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 316.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\utxmia.fd"
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 316.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 316.
+
+("C:\Program Files\MiKTeX2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 316.
+
+
+("C:\Program Files\MiKTeX2.9\tex\latex\txfonts\utxsyc.fd"
+File: utxsyc.fd 2000/12/15 v3.1
+)
+
+Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 328.
+
+
+Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 339.
+
+
+Package natbib Warning: Citation `Bartschat:2014' on page 1 undefined on input 
+line 340.
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 322--347
+[]\OT1/txr/m/n/10 Small nu-cle-o-lar RNAs (snoRNAs) are non-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+
+Package natbib Warning: Citation `â€¢' on page 2 undefined on input line 354.
+
+
+Package natbib Warning: Citation `â€¢' on page 2 undefined on input line 354.
+
+
+Package natbib Warning: Citation `â€¢' on page 2 undefined on input line 354.
+
+
+LaTeX Warning: Reference `fig:complete_taxonomic_tree_upper_half' on page 2 und
+efined on input line 355.
+
+
+LaTeX Warning: Reference `fig:complete_taxonomic_tree_lower_half' on page 2 und
+efined on input line 355.
+
+
+LaTeX Warning: Reference `fig:simplified_tree' on page 2 undefined on input lin
+e 356.
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 354--357
+\OT1/txr/m/n/10 were down-loaded from var-i-ous sources, e.g.
+ []
+
+
+Package natbib Warning: Citation `Bartschat:2014' on page 2 undefined on input 
+line 366.
+
+
+Package natbib Warning: Citation `Liu:2009' on page 2 undefined on input line 3
+66.
+
+
+Package natbib Warning: Citation `Joechl:2008' on page 2 undefined on input lin
+e 366.
+
+
+Package natbib Warning: Citation `Mitrovich:2010' on page 2 undefined on input 
+line 367.
+
+
+Package natbib Warning: Citation `Piekna-Przybylska:2007' on page 2 undefined o
+n input line 367.
+
+
+Package natbib Warning: Citation `Li:2005' on page 2 undefined on input line 36
+8.
+
+
+LaTeX Warning: Reference `tab:original_snornas' on page 2 undefined on input li
+ne 370.
+
+
+LaTeX Warning: Reference `tab:haca_snoRNA_mapping' on page 2 undefined on input
+ line 370.
+
+
+LaTeX Warning: Reference `tab:cd_snoRNA_mapping' on page 2 undefined on input l
+ine 370.
+
+
+Overfull \hbox (21.00287pt too wide) in paragraph at lines 374--374
+[][]\OT1/txr/m/n/8 http://people.biochem.umass.edu/fournierlab/snornadb/main.ph
+p| 
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 365--376
+\OT1/txr/m/n/10 pared to AM921919. All but bud-ding yeast
+ []
+
+
+Package natbib Warning: Citation `Hofacker:1994' on page 2 undefined on input l
+ine 394.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 393--395
+\OT1/txr/m/n/10 derived snoRNA can-di-dates and com-pared to
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 393--395
+\OT1/txr/m/n/10 canon-i-cal box mo-tifs of yeast and ver-te-brate
+ []
+
+
+Package natbib Warning: Citation `Hertel:2015' on page 2 undefined on input lin
+e 398.
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 398--403
+\OT1/txr/m/n/10 of the phy-lo-ge-netic tree. The \OT1/cmtt/m/n/10 ePoPE \OT1/tx
+r/m/n/10 re-sults
+ []
+
+[2]
+Underfull \hbox (badness 2103) in paragraph at lines 406--408
+[]\OT1/txr/m/n/10 Target pre-dic-tion is part of the \OT1/cmtt/m/n/10 snoStrip
+ []
+
+
+Package natbib Warning: Citation `Kehr:2014' on page 3 undefined on input line 
+411.
+
+(results.tex
+Underfull \hbox (badness 1331) in paragraph at lines 3--12
+\OT1/txr/m/n/10 i-nal names are given in paren-the-ses in cases
+ []
+
+[3]
+
+Package natbib Warning: Citation `Canzler:2017' on page 4 undefined on input li
+ne 17.
+
+
+Package natbib Warning: Citation `Joechl:2008' on page 4 undefined on input lin
+e 74.
+
+
+Package natbib Warning: Citation `Fayet-Lebaron:2009' on page 4 undefined on in
+put line 101.
+
+
+Package natbib Warning: Citation `Kishore:2013' on page 4 undefined on input li
+ne 106.
+
+[4]
+
+Package natbib Warning: Citation `Kehr:2014' on page 5 undefined on input line 
+135.
+
+
+LaTeX Warning: Reference `fig:heatmap_CD_snoRNAs' on page 5 undefined on input 
+line 142.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--146
+ \OT1/txr/bx/it/10 Phy-lo-ge-netic dis-tri-bu-tion of snoRNAs\OT1/txr/m/it/10 .
+[] \OT1/txr/m/n/10 A
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 141--146
+\OT1/txr/m/n/10 amount of snoRNA se-quences be-long-ing to a
+ []
+
+Package epstopdf Info: Source file: <pics/CD_snoRNAs_collapsed.eps>
+(epstopdf)                    date: 2017-03-06 15:33:20
+(epstopdf)                    size: 2357549 bytes
+(epstopdf)             Output file: <pics/CD_snoRNAs_collapsed-eps-converted-to
+.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/CD_snoRNAs_collapsed-e
+ps-converted-to.pdf pics/CD_snoRNAs_collapsed.eps>
+(epstopdf)             \includegraphics on input line 167.
+runsystem(epstopdf --outfile=pics/CD_snoRNAs_collapsed-eps-converted-to.pdf pic
+s/CD_snoRNAs_collapsed.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/CD_snoRNAs_collapsed-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:21
+(epstopdf)                    size: 624074 bytes.
+
+<pics/CD_snoRNAs_collapsed-eps-converted-to.pdf, id=25, 1189.44376pt x 1574.883
+74pt>
+File: pics/CD_snoRNAs_collapsed-eps-converted-to.pdf Graphic file (type pdf)
+ <use pics/CD_snoRNAs_collapsed-eps-converted-to.pdf>
+Package pdftex.def Info: pics/CD_snoRNAs_collapsed-eps-converted-to.pdf used on
+ input line 167.
+(pdftex.def)             Requested size: 445.81685pt x 590.26756pt.
+
+Overfull \hbox (21.2306pt too wide) in paragraph at lines 167--177
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 9.26756pt on input line 179.
+
+
+LaTeX Warning: Reference `fig:heatmap_CD_snoRNAs' on page 5 undefined on input 
+line 189.
+
+[5] [6 <./pics/CD_snoRNAs_collapsed-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pics/fungi_relative_gain_loss.eps>
+(epstopdf)                    date: 2017-02-02 19:38:30
+(epstopdf)                    size: 164771 bytes
+(epstopdf)             Output file: <pics/fungi_relative_gain_loss-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/fungi_relative_gain_lo
+ss-eps-converted-to.pdf pics/fungi_relative_gain_loss.eps>
+(epstopdf)             \includegraphics on input line 256.
+runsystem(epstopdf --outfile=pics/fungi_relative_gain_loss-eps-converted-to.pdf
+ pics/fungi_relative_gain_loss.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/fungi_relative_gain_loss-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:25
+(epstopdf)                    size: 48893 bytes.
+
+<pics/fungi_relative_gain_loss-eps-converted-to.pdf, id=38, 1489.565pt x 695.59
+875pt>
+File: pics/fungi_relative_gain_loss-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use pics/fungi_relative_gain_loss-eps-converted-to.pdf>
+Package pdftex.def Info: pics/fungi_relative_gain_loss-eps-converted-to.pdf use
+d on input line 256.
+(pdftex.def)             Requested size: 424.58624pt x 198.26894pt.
+
+
+LaTeX Warning: Reference `fig:relative_innovation_deletion_events' on page 7 un
+defined on input line 276.
+
+
+Package natbib Warning: Citation `Gardner:2010' on page 7 undefined on input li
+ne 302.
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 296--313
+[]\OT1/txr/m/n/10 Major snoRNA losses in both, an ab-so-lute
+ []
+
+
+Package natbib Warning: Citation `Mitrovich:2010' on page 7 undefined on input 
+line 377.
+
+
+Package natbib Warning: Citation `Mitrovich:2010' on page 7 undefined on input 
+line 378.
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 377--379
+\OT1/txr/m/n/10 a known \OT1/txr/m/it/10 N.crassa \OT1/txr/m/n/10 snoRNA (CD[]3
+9). Fam-i-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 377--379
+\OT1/txr/m/n/10 (LSU-G1431) are ex-clu-sively present in Sac-
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 377--379
+\OT1/txr/m/n/10 cha-romy-cotina ex-cept for Sac-cha-romyc-etaceae.
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 377--379
+\OT1/txr/m/n/10 1.813 (25S-4055; \OT1/txr/m/it/10 C.albicans\OT1/txr/m/n/10 : 2
+5S-3118) and
+ []
+
+
+Package natbib Warning: Citation `Li:2005' on page 7 undefined on input line 41
+5.
+
+
+Package natbib Warning: Citation `Li:2005' on page 7 undefined on input line 41
+6.
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 414--417
+ \OT1/txr/bx/it/10 Fis-sion Yeast Spe-cific snoRNAs\OT1/txr/m/it/10 .[] \OT1/tx
+r/m/n/10 Sim-i-lar to
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 414--417
+\OT1/txr/m/n/10 a HP1 tar-get in \OT1/txr/m/it/10 S.pombe \OT1/txr/m/n/10 to a 
+HP2 tar-get in
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 414--417
+\OT1/txr/m/n/10 a find-ing. The re-main-ing se-quences are ei-
+ []
+
+[7]
+Package epstopdf Info: Source file: <pics/pieCharts_snoRNAs_modified.eps>
+(epstopdf)                    date: 2017-02-03 07:42:16
+(epstopdf)                    size: 173144 bytes
+(epstopdf)             Output file: <pics/pieCharts_snoRNAs_modified-eps-conver
+ted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/pieCharts_snoRNAs_modi
+fied-eps-converted-to.pdf pics/pieCharts_snoRNAs_modified.eps>
+(epstopdf)             \includegraphics on input line 463.
+runsystem(epstopdf --outfile=pics/pieCharts_snoRNAs_modified-eps-converted-to.p
+df pics/pieCharts_snoRNAs_modified.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/pieCharts_snoRNAs_modified-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:31
+(epstopdf)                    size: 58036 bytes.
+
+<pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf, id=43, 777.90625pt x 378
+.41376pt>
+File: pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf Graphic file (type p
+df)
+ <use pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf>
+Package pdftex.def Info: pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf u
+sed on input line 463.
+(pdftex.def)             Requested size: 382.12502pt x 185.89206pt.
+
+
+LaTeX Warning: Reference `fig:pie_charts' on page 8 undefined on input line 493
+.
+
+
+Underfull \vbox (badness 5189) has occurred while \output is active []
+
+ [8 <./pics/fungi_relative_gain_loss-eps-converted-to.pdf>]
+Underfull \hbox (badness 5231) in paragraph at lines 533--542
+ \OT1/txr/bx/it/10 Or-phan snoRNA\OT1/txr/m/it/10 .[] \OT1/txr/m/n/10 Or-phan s
+noRNAs are se-
+ []
+
+
+LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 9 undefined on i
+nput line 545.
+
+[9 <./pics/pieCharts_snoRNAs_modified-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 10 undefined on 
+input line 607.
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 603--611
+[]\OT1/txr/m/n/10 The pic-ture looks much bet-ter in case of
+ []
+
+
+Package natbib Warning: Citation `Li:2005' on page 10 undefined on input line 6
+14.
+
+
+LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 10 undefined on 
+input line 625.
+
+
+Package natbib Warning: Citation `Liu:2009' on page 10 undefined on input line 
+628.
+
+
+LaTeX Warning: Reference `tab:orphan_cd_snoRNAs_short' on page 10 undefined on 
+input line 635.
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 627--637
+[]\OT1/txr/m/n/10 Family CD[]54 was orig-i-nally pub-lished to
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 627--637
+\OT1/txr/m/n/10 cotina lin-eages and a highly con-served tar-get
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 627--637
+\OT1/txr/m/n/10 re-gion is clearly vis-i-ble up-stream of box D',
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 627--637
+\OT1/txr/m/n/10 con-vinc-ing base pair-ing ca-pa-bil-i-ties to U6-70
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--637
+
+ []
+
+
+Overfull \hbox (12.36288pt too wide) in paragraph at lines 645--657
+ [] 
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 661--664
+\OT1/txr/m/n/10 (6 se-quences), \OT1/txr/m/it/10 A.fumigatus \OT1/txr/m/n/10 (1
+ se-quence), and
+ []
+
+
+LaTeX Warning: Reference `tab:orphan_hacas_short' on page 10 undefined on input
+ line 669.
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 665--683
+[]\OT1/txr/m/n/10 By means of \OT1/cmtt/m/n/10 snoStrip\OT1/txr/m/n/10 , eight 
+or-phan se-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 665--683
+\OT1/txr/m/n/10 quences are found to be con-served on se-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 665--683
+\OT1/txr/m/n/10 i-dated tar-get sites (HACA[]11 matches snR11,
+ []
+
+[10]
+Package epstopdf Info: Source file: <pics/conservation_lineage_specific_targets
+.eps>
+(epstopdf)                    date: 2017-02-07 21:57:10
+(epstopdf)                    size: 119230 bytes
+(epstopdf)             Output file: <pics/conservation_lineage_specific_targets
+-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/conservation_lineage_s
+pecific_targets-eps-converted-to.pdf pics/conservation_lineage_specific_targets
+.eps>
+(epstopdf)             \includegraphics on input line 708.
+runsystem(epstopdf --outfile=pics/conservation_lineage_specific_targets-eps-con
+verted-to.pdf pics/conservation_lineage_specific_targets.eps)...executed (allow
+ed).
+
+Package epstopdf Info: Result file: <pics/conservation_lineage_specific_targets
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:35
+(epstopdf)                    size: 40909 bytes.
+
+<pics/conservation_lineage_specific_targets-eps-converted-to.pdf, id=61, 782.92
+5pt x 881.2925pt>
+File: pics/conservation_lineage_specific_targets-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use pics/conservation_lineage_specific_targets-eps-converted-to.pdf>
+Package pdftex.def Info: pics/conservation_lineage_specific_targets-eps-convert
+ed-to.pdf used on input line 708.
+(pdftex.def)             Requested size: 424.58624pt x 477.93488pt.
+
+
+LaTeX Warning: Reference `fig:additional_targets' on page 11 undefined on input
+ line 724.
+
+
+Package natbib Warning: Citation `Liu:2009' on page 11 undefined on input line 
+738.
+
+
+LaTeX Warning: Reference `fig:additional_targets' on page 11 undefined on input
+ line 742.
+
+
+Package natbib Warning: Citation `Machnicka:2013' on page 11 undefined on input
+ line 744.
+
+
+Package natbib Warning: Citation `Massenet:1998' on page 11 undefined on input 
+line 744.
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 727--759
+\OT1/txr/m/n/10 i-men-tally ver-i-fied tar-get 18S-479 (\OT1/txr/m/it/10 S.cere
+visiae
+ []
+
+
+Package natbib Warning: Citation `Lowe:1999' on page 11 undefined on input line
+ 762.
+
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `fig:additional_targets' on page 12 undefined on input
+ line 784.
+
+[12 <./pics/conservation_lineage_specific_targets-eps-converted-to.pdf>]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no ™ in font txr!
+
+
+LaTeX Warning: Reference `tab:sno_clans' on page 13 undefined on input line 827
+.
+
+Package epstopdf Info: Source file: <pics/target_switches_CD_5.eps>
+(epstopdf)                    date: 2017-03-06 15:19:16
+(epstopdf)                    size: 188621 bytes
+(epstopdf)             Output file: <pics/target_switches_CD_5-eps-converted-to
+.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/target_switches_CD_5-e
+ps-converted-to.pdf pics/target_switches_CD_5.eps>
+(epstopdf)             \includegraphics on input line 860.
+runsystem(epstopdf --outfile=pics/target_switches_CD_5-eps-converted-to.pdf pic
+s/target_switches_CD_5.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/target_switches_CD_5-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:40
+(epstopdf)                    size: 50912 bytes.
+
+<pics/target_switches_CD_5-eps-converted-to.pdf, id=74, 597.23125pt x 770.88pt>
+File: pics/target_switches_CD_5-eps-converted-to.pdf Graphic file (type pdf)
+<use pics/target_switches_CD_5-eps-converted-to.pdf>
+Package pdftex.def Info: pics/target_switches_CD_5-eps-converted-to.pdf used on
+ input line 860.
+(pdftex.def)             Requested size: 382.12502pt x 493.23213pt.
+
+
+LaTeX Warning: Reference `fig:CD_5' on page 13 undefined on input line 885.
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <pics/target_switches_CD_5_cluster.eps>
+(epstopdf)                    date: 2017-02-13 07:35:14
+(epstopdf)                    size: 172891 bytes
+(epstopdf)             Output file: <pics/target_switches_CD_5_cluster-eps-conv
+erted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pics/target_switches_CD_5_c
+luster-eps-converted-to.pdf pics/target_switches_CD_5_cluster.eps>
+(epstopdf)             \includegraphics on input line 900.
+runsystem(epstopdf --outfile=pics/target_switches_CD_5_cluster-eps-converted-to
+.pdf pics/target_switches_CD_5_cluster.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pics/target_switches_CD_5_cluster-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-05-09 13:26:44
+(epstopdf)                    size: 46172 bytes.
+
+<pics/target_switches_CD_5_cluster-eps-converted-to.pdf, id=80, 647.41875pt x 3
+47.2975pt>
+File: pics/target_switches_CD_5_cluster-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use pics/target_switches_CD_5_cluster-eps-converted-to.pdf>
+Package pdftex.def Info: pics/target_switches_CD_5_cluster-eps-converted-to.pdf
+ used on input line 900.
+(pdftex.def)             Requested size: 424.58624pt x 227.76503pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./pics/target_switches_CD_5-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:CD_5_cluster_history' on page 15 undefined on inp
+ut line 931.
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 928--937
+\OT1/txr/m/n/10 snoRNA tran-script is ar-ranged in-clud-ing the
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 928--937
+\OT1/txr/m/n/10 snoRNA se-quences of CD[]24, CD[]12, CD[]7
+ []
+
+
+LaTeX Warning: Reference `fig:CD_5_cluster_history' on page 15 undefined on inp
+ut line 942.
+
+
+LaTeX Warning: Reference `fig:CD_5_cluster_history' on page 15 undefined on inp
+ut line 953.
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 938--967
+\OT1/txr/m/n/10 present at the 5' end of this clus-ter when it
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./pics/target_switches_CD_5_cluster-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:additional_targets' on page 16 undefined on input
+ line 978.
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 990--1028
+\OT1/txr/m/n/10 pre-dicted to guide one spe-cific tar-get mod-i-fi-
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 990--1028
+\OT1/txr/m/n/10 ca-tion but two or even more with the same
+ []
+
+
+LaTeX Warning: Reference `tab:redundant_predictions' on page 16 undefined on in
+put line 1033.
+
+) (discussion.tex [16]
+
+Package natbib Warning: Citation `Xue:2012' on page 17 undefined on input line 
+64.
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 97--108
+[]\OT1/txr/m/n/10 In gen-eral, one can say that the snoRNA
+ []
+
+[17]
+
+Package natbib Warning: Citation `Jorjani:2016' on page 18 undefined on input l
+ine 114.
+
+)
+No file Fungi_snoRNAome.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[18
+
+] (Fungi_snoRNAome.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5931 strings out of 493334
+ 81988 string characters out of 3139676
+ 168115 words of memory out of 3000000
+ 9264 multiletter control sequences out of 15000+200000
+ 44538 words of font info for 111 fonts, out of 3000000 for 9000
+ 1151 hyphenation exceptions out of 8191
+ 40i,18n,39p,1093b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files
+/MiKTeX2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX2.
+9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files/MiKTeX2.9/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/
+public/amsfonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/publi
+c/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/txfonts/rtxr
+.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/public/txfonts/txex.pfb><C:/Progra
+m Files/MiKTeX2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/MiKTeX2
+.9/fonts/type1/public/txfonts/txsyc.pfb><C:/Program Files/MiKTeX2.9/fonts/type1
+/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/urw/times/utmbi8a
+.pfb><C:/Program Files/MiKTeX2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
+iles/MiKTeX2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Fungi_snoRNAome.pdf (18 pages, 1046622 bytes).
+PDF statistics:
+ 151 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
