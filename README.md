@@ -10,3 +10,6 @@ SnoStrip based annotation and analysis of fungi snoRNAs
 
 # MAKEFILE
 - simply run 'make' to compile
+
+# TODO
+- update names of suppl tables in tex file!!
