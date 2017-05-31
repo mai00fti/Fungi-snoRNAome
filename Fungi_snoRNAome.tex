@@ -382,7 +382,7 @@ Genomes \cite{Kersey:2016}, JGI \cite{Nordberg:2014}, Broad Institute
 (Fungal Genome Initiative) , and Candida Genome Database
 \cite{Skrzypek:2017}.  An \ncbi-based taxonomic tree displaying the
 relationship, genome source, and version for all fungal organisms in
-the evolutionary survey is shown in the supplementary Figures S1.
+this evolutionary survey is shown in the supplementary Figures S1.
 %A simplified version of that showing the important fungal lineages is provided in Figure \ref{fig:simplified_tree}. 
 
 %\begin{figure}[b]
@@ -392,35 +392,39 @@ the evolutionary survey is shown in the supplementary Figures S1.
 %  \label{fig:simplified_tree}
 %\end{figure}
 
-For 63 out of the 147 species, snoRNA sequences were readily available
-at the \snostrip\
-webserver\footnote{\url{http://snostrip.bioinf.uni-leipzig.de/}}.
-This data is based on a previous \snostrip\ study\cite{Bartschat:2014}
+For 63 out of the 147 species, snoRNA sequences were already retrieved in 
+%at the \snostrip\
+%webserver\footnote{\url{http://snostrip.bioinf.uni-leipzig.de/}}.
+%This data is based on 
+a previous \snostrip\ study \cite{Bartschat:2014}
 that started with experimentally detected snoRNAs extracted from five
 surveys for \Ncr\ \citep{Liu:2009}, \Afu\ \citep{Joechl:2008}, \Calb\
 \citep{Mitrovich:2010}, \Sce\ \citep{Piekna-Przybylska:2007}, and
-\Spo\ \citep{Li:2005}. An overview of the retrieved \snos\ and the
-corresponding publications can be seen in supplementary Table S2.  A
-complete mapping of the species-specific names as they were used in
-the respective publication and the internal \snostrip\ names is shown
-in supplementary Tables S3. \JH{Is the following a result from the
-  previous study \cite{Bartschat:2014} or from this one? This does not
-  feel like a methods paragraph.} Note that annotated \afu\ \cd\
-AM921943 is treated as a \haca.  It shows two separated, perfect
-hairpins and comprises convincing box motifs while it clearly lacks
-characteristics of \cd.  In addition, \afu\ \cd s AM921919 and
-AM921934 are treated as a single \sno. Both sequences map to the same
-genomic location. Though, AM921934 comprises three point-mutations
-compared to AM921919.  Budding yeast \sno\ sequences have been
-downloaded from the
-\texttt{UMass}-database\footnote{http://people.biochem.umass.edu/fournierlab/snornadb/main.php}.
-All other \sno s have been taken from the corresponding
-publication. In total, our starting set of snoRNAs comprises 3564
-snoRNA sequences assigned to 123 snoRNA families in the 63 species.
+\Spo\ \citep{Li:2005}. An overview of the exerimentally verified \snos\ and the
+corresponding publications can be seen in supplementary Table S2.  An
+entire mapping of the species-specific \sno\ names as they were used in
+the original publications and the internal \snostrip\ names is shown
+in supplementary Tables S3. 
+%\JH{Is the following a result from the
+%previous study \cite{Bartschat:2014} or from this one? This does not
+%feel like a methods paragraph.} Note that annotated \afu\ \cd\
+%AM921943 is treated as a \haca.  It shows two separated, perfect
+%hairpins and comprises convincing box motifs while it clearly lacks
+%characteristics of \cd.  In addition, \afu\ \cd s AM921919 and
+%AM921934 are treated as a single \sno. Both sequences map to the same
+%genomic location. Though, AM921934 comprises three point-mutations
+%compared to AM921919. 
+%Budding yeast \sno\ sequences have been
+%downloaded from the
+%\texttt{UMass}-database\footnote{http://people.biochem.umass.edu/fournierlab/snornadb/main.php}.
+%All other \sno s have been taken from the corresponding
+%publication. 
+In total, our starting set of snoRNAs comprises 3564
+snoRNA sequences assigned to 123 snoRNA families in the 63 species including 231 \sno\ genes taken from the five publications.
 
 \subsection{Homology search}
 
-\snostrip\citep{Bartschat:2014} - our snoRNA annotation pipeline - was
+\snostrip \citep{Bartschat:2014} - our snoRNA annotation pipeline - was
 applied to the set of collected snoRNAs and the 147 fungal species in
 an iterative manner. Starting with Pezizomycotina, followed by
 Saccharomycotina, and other lineages towards the root of the
@@ -435,16 +439,16 @@ automatically identified box motifs, correct molecule lengths, and the
 overall fit of each \sno\ sequence in its respective family.  To
 identify falsely annotated box motifs, the conservation of all
 automatically selected boxes was checked by a comparison of the start
-positions within the \sno\ family alignment. Motifs with start
-positions that are not conserved \JH{what is the criteria for beeing
-  conserved or not?} were corrected.
+positions within the \sno\ family alignment. Motifs that have \SB{unconserved} start
+positions were re-adjusted to fit the \sno\ family specific box pattern and and box position.
+\JH{what is the criteria for beeing
+  conserved or not?} 
 % If this was not feasible due to non-canonical box motifs at the
 % supposed positions, either the box annotation was deleted (prime
 % boxes) or the whole \sno\ candidate was rejected.  since disrupted
 % box motifs imply non-functional mature \sno s.
-Too large or too short sequences were adjusted according to box
-motifs, sequence and structure conservation. \JH{autmoatically or
-  manually?}
+Sequences that were too large or too short were automatically adjusted according to box
+motifs, sequence and structure conservation. 
 
 \subsection{Box motifs, sequence and structure}
 
