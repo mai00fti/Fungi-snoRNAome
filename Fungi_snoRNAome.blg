@@ -1,8 +1,49 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Fungi_snoRNAome.aux
-I couldn't open style file m.bst
----line 96 of file Fungi_snoRNAome.aux
- : \bibstyle{m
- :            }
-I'm skipping whatever remains of this command
-I found no style file---while reading file Fungi_snoRNAome.aux
-(There were 2 error messages)
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Fungi_snoRNAome.aux
+The style file: m.bst
+Database file #1: Fungi_snoRNAome.bib
+Warning--I didn't find a database entry for "•"
+Warning--empty pages in Massenet:1998
+You've used 18 entries,
+            2426 wiz_defined-function locations,
+            685 strings with 8015 characters,
+and the built_in function-call counts, 14369 in all, are:
+= -- 1274
+> -- 255
+< -- 0
++ -- 126
+- -- 64
+* -- 1116
+:= -- 1709
+add.period$ -- 72
+call.type$ -- 18
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 1490
+empty$ -- 1515
+format.name$ -- 83
+if$ -- 3180
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 206
+newline$ -- 113
+num.names$ -- 20
+pop$ -- 312
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 118
+stack$ -- 0
+substring$ -- 1839
+swap$ -- 427
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 116
+width$ -- 20
+write$ -- 237
+(There were 2 warnings)

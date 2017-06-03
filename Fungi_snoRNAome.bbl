@@ -1,0 +1,125 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Bartschat:2014}
+Bartschat S, Kehr S, Tafer H, Stadler PF, Hertel J.
+\newblock \texttt{snoStrip}: a {snoRNA} annotation pipeline.
+\newblock Bioinformatics 30, 2014:115--6.
+\newblock \doi{10.1093/bioinformatics/btt604}.
+
+\bibitem{Liu:2009}
+Liu N, et~al.
+\newblock {SnoRNAs from the filamentous fungus \emph{Neurospora crassa}:
+  structural, functional and evolutionary insights.}
+\newblock BMC Genomics 10, 2009:515.
+\newblock \doi{10.1186/1471-2164-10-515}.
+
+\bibitem{Joechl:2008}
+J{\"o}chl C, et~al.
+\newblock {Small ncRNA transcriptome analysis from \emph{Aspergillus fumigatus}
+  suggests a novel mechanism for regulation of protein synthesis.}
+\newblock Nucleic Acids Res 36, 2008:2677--89.
+\newblock \doi{10.1093/nar/gkn123}.
+
+\bibitem{Mitrovich:2010}
+Mitrovich QM, Tuch BB, De~La~Vega FM, Guthrie C, Johnson AD.
+\newblock {Evolution of yeast noncoding {RNAs} reveals an alternative mechanism
+  for widespread intron loss.}
+\newblock Science 330, 2010:838--41.
+\newblock \doi{10.1126/science.1194554}.
+
+\bibitem{Piekna-Przybylska:2007}
+Piekna-Przybylska D, Decatur WA, Fournier MJ.
+\newblock {New bioinformatic tools for analysis of nucleotide modifications in
+  eukaryotic {rRNA}.}
+\newblock RNA 13, 2007:305--12.
+\newblock \doi{10.1261/rna.373107}.
+
+\bibitem{Li:2005}
+Li SG, Zhou H, Luo YP, Zhang P, Qu LH.
+\newblock {Identification and functional analysis of 20 Box H/ACA small
+  nucleolar RNAs (snoRNAs) from} \emph{Schizosaccharomyces pombe}.
+\newblock J Biol Chem 280, 2005:16446--55.
+\newblock \doi{10.1074/jbc.M500326200}.
+
+\bibitem{Hofacker:1994}
+Hofacker IL, Fontana W, Stadler PF, Bonhoeffer LS, Tacker M, Schuster P.
+\newblock {Fast Folding and Comparison of RNA Secondary Structures ({The Vienna
+  RNA Package})}.
+\newblock Monatshefte f Chemie 2, 1994:167--188.
+\newblock \doi{10.1007/BF00818163}.
+
+\bibitem{Hertel:2015}
+Hertel J, Stadler PF.
+\newblock {The Expansion of Animal MicroRNA Families Revisited}.
+\newblock Life (Basel) 5, 2015:905--20.
+\newblock \doi{10.3390/life5010905}.
+
+\bibitem{Kehr:2014}
+Kehr S, Bartschat S, Tafer H, Stadler PF, Hertel J.
+\newblock {Matching of Soulmates: coevolution of snoRNAs and their targets}.
+\newblock Mol Biol Evol 31, 2014:455--67.
+\newblock \doi{10.1093/molbev/mst209}.
+
+\bibitem{Canzler:2017}
+Canzler S, Stadler PF, Hertel J.
+\newblock {Evolution of Fungal U3 snoRNAs: Structural Variation and Introns}.
+\newblock Non-Coding RNA 3, 2017.
+\newblock ISSN 2311-553X.
+\newblock \doi{10.3390/ncrna3010003}.
+
+\bibitem{Fayet-Lebaron:2009}
+Fayet-Lebaron E, Atzorn V, Henry Y, Kiss T.
+\newblock {18S rRNA processing requires base pairings of snR30 {H/ACA snoRNA}
+  to eukaryote-specific 18S sequences.}
+\newblock EMBO J 28, 2009:1260--70.
+\newblock \doi{10.1038/emboj.2009.79}.
+
+\bibitem{Kishore:2013}
+Kishore S, Gruber AR, Jedlinski DJ, Syed AP, Jorjani H, Zavolan M.
+\newblock {Insights into snoRNA biogenesis and processing from PAR-CLIP of
+  snoRNA core proteins and small RNA sequencing.}
+\newblock Genome Biol 14, 2013:R45.
+\newblock \doi{10.1186/gb-2013-14-5-r45}.
+
+\bibitem{Gardner:2010}
+Gardner PP, Bateman A, Poole AM.
+\newblock {SnoPatrol: how many snoRNA genes are there?}
+\newblock J Biol 9, 2010:4.
+\newblock \doi{10.1186/jbiol211}.
+
+\bibitem{Machnicka:2013}
+Machnicka MA, et~al.
+\newblock \texttt{MODOMICS}: a database of {RNA} modification pathways--2013
+  update.
+\newblock Nucleic Acids Res 41, 2013:D262--7.
+\newblock \doi{10.1093/nar/gks1007}.
+
+\bibitem{Massenet:1998}
+Massenet S, Mougin A, Branlant C.
+\newblock {Post-transcriptional Modifications in the U Small Nuclear RNAs}.
+\newblock In H~Grosjean, R~Benne, editors, \emph{Modification and Editing of
+  RNA}. ASM Press, 1998.
+
+\bibitem{Lowe:1999}
+Lowe TM, Eddy SR.
+\newblock A computational screen for methylation guide {snoRNAs} in yeast.
+\newblock Science 283, 1999:1168--71.
+
+\bibitem{Xue:2012}
+Xue S, Barna M.
+\newblock Specialized ribosomes: a new frontier in gene regulation and
+  organismal biology.
+\newblock Nat Rev Mol Cell Biol 13, 2012:355--69.
+\newblock \doi{10.1038/nrm3359}.
+
+\bibitem{Jorjani:2016}
+Jorjani H, et~al.
+\newblock An updated human {snoRNAome}.
+\newblock Nucleic Acids Res 44, 2016:5068--82.
+\newblock \doi{10.1093/nar/gkw386}.
+
+\end{thebibliography}

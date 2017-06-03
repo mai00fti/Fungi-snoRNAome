@@ -234,7 +234,7 @@
 
 \begin{frontmatter}
 
-\title{The Fungi snoRNAome}
+\title{The Fungal snoRNAome}
 
 \author[LEI]{Sebastian Canzler}
 \ead{sebastian@bioinf.uni-leipzig.de}
@@ -319,25 +319,42 @@
 
 \section{Introduction}
 
-Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs) that guide the modification of single nucleotides in other RNA molecules.
-Localized in the nucleolus of eukaryotic (and some archaean) cells they associate with at least four proteins in a small nucleolar ribonucleoprotein (snoRNP) complex.
-The target RNA molecule is hold in the correct position by base pairing to short unpaired region(s) within the snoRNA. 
-These regions are referred to as antisense elements (ASE). 
-At a specific position, the target is then modified.
-Ribosomal RNAs (rRNAs) and small nuclear RNAs (snRNAs) constitute the main class of targets.
-However, several snoRNAs have been shown to target residues in \JH{other (small) RNAs \cite{•}}.
-There are two distinct classes of snoRNAs: box C/D and box H/ACA snoRNAs. 
-They are distinguished by their secondary structure, sequence features and the modification they guide. 
-Box C/D snoRNAs form a stem-loop structure with a rather long loop which is stabilized by the associated proteins.
-They guide the 3'OH-methylation of nucleotides.
-Box H/ACA snoRNAs, on the other hand, are longer, fold into a thermodynamically more stable double stem-loop structure. 
-These genes guide pseudouridylation of uracil residues in the target RNA.
-In addition, there are chimeric snoRNAs that share features of both classes, are much longer and/or are described to have different functions \JH{REFS!}. 
-Like other small ncRNAs, snoRNAs are functional due to their secondary structure \emph{and} characteristic (short) regions in their nucleotide sequence. 
-In consequence, selective pressure acts on these short sequence motifs (boxes and ASEs) and the preservation of the stem-loop(s) during evolution. 
-This led to a low conservation of the \emph{overall} sequence, an increased number of compensatory mutations in structured regions and high sequence conservation at the protein and target RNA binding sites.
-The annotation and classification of snoRNAs according to sequence homology only, e.g. by using \texttt{NCBI-blast}\cite{•} is therefore not feasible. 
-Our recently  introduced computational annotation pipeline \snostrip\cite{Bartschat:2014} is specifically designed to take care of all specific characteristics of snoRNAs.
+Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs) that
+guide the chemical modification of single nucleotides in other RNA
+molecules.  Localized in the nucleolus of eukaryotic (and some archaean)
+cells, they associate with at least four proteins to form the small
+nucleolar ribonucleoprotein (snoRNP) complex \cite{****}.  The target RNA
+molecule is held in the correct position by base pairing to short unpaired
+region(s) within the snoRNA usally referred to as the antisense elements
+(ASE). The base pairing completely specifies the target nucleotide. Known
+modification targets mostly are located in ribosomal RNAs (rRNAs) and small
+nuclear RNAs (snRNAs), although some snoRNAs \TODO{* other RNAs* } are also
+among the targets \cite{****}.
+
+There are two distinct classes of snoRNAs: box C/D and box H/ACA snoRNAs.
+They are distinguished by their secondary structure, sequence features, and
+the modification that they guide \cite{****}.  Box C/D snoRNAs form a
+stem-loop structure with a rather long loop which is stabilized by the
+associated proteins and guide the 3'OH-methylation of nucleotides.  Box
+H/ACA snoRNAs are longer, fold into a thermodynamically more stable double
+stem-loop structure, and guide pseudouridylation of uracil residues in the
+target RNA.  In addition to these two classes, there are chimeric snoRNAs
+that share features of both classes, are much longer and/or are described
+to have different functions \cite{****}. Similar to other small ncRNAs,
+snoRNAs require both specific secondary structures and characteristic
+sequence motifs to perform their function. These features are therefore
+preserved by evolution and are clearly recognizable by comparative methods
+\cite{****}. While sequence motifs involved in protein binding are common
+to all members of each of the the two classes, the ASEs are conserved only
+among members snoRNA families with the same target. Overall, therefore,
+snoRNA sequences evolve rapidly, making them hard to identify by purely
+sequence-base methods such as \texttt{blast}. 
+
+To overcome this limitation, we introduced a computational annotation
+pipeline \snostrip \cite{Bartschat:2014} that is specifically designed to
+track all specific characteristics of snoRNAs.
+
+
 It can be used to relibaly annotate the snoRNA complement in a group of species based on an initial set of confirmed snoRNA genes of a related organism. 
 
 Here, we analysed a large set of fungal species with genomes that are available in decent quality for their snoRNA abundance. 
@@ -510,10 +527,11 @@ position of selected organisms are provided in parentheses.
 \section*{Acknowledgments}
 
 This work was funded in part by the European Union FP-7 project QUANTOMICS
-(no.\ 222664). MMML-seq project of the International Cancer Genome 
-Consortium (ICGC) funded by German Federal Ministry of Education and Research. 
-LIFE -- Leipzig Research Center for Civilization Diseases 
-is funded by the State of Saxony and the European Union.
+(no.\ 222664), the MMML-seq project of the International Cancer Genome
+Consortium (ICGC) funded by German Federal Ministry of Education and
+Research, the CRC 1052 ``Obesity'' \TODO{ and ...}. LIFE -- Leipzig
+Research Center for Civilization Diseases is funded by the State of Saxony
+and the European Union.
 
 \bibliographystyle{m}
 \bibliography{Fungi_snoRNAome}
