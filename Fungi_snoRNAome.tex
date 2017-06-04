@@ -376,74 +376,52 @@ Genome sequences from 147 fungal species were downloaded from Ensembl
 Genomes \cite{Kersey:2016}, JGI \cite{Nordberg:2014}, Broad Institute
 (Fungal Genome Initiative) , and Candida Genome Database
 \cite{Skrzypek:2017}.  An \ncbi-based taxonomic tree displaying the
-relationship, genome source, and version for all fungal organisms in
-this evolutionary survey is shown in the supplementary Figures S1.
-%A simplified version of that showing the important fungal lineages is provided in Figure \ref{fig:simplified_tree}. 
-
-%\begin{figure}[b]
-%  \centering
-%  \includegraphics[width=0.9\textwidth]{simplified_ncbi_tree.eps}
-%  \caption[Taxonomic tree of major fungal lineages.]{Simplified \ncbi-derived taxonomic tree displaying major fungal lineages.}
-%  \label{fig:simplified_tree}
-%\end{figure}
-
-For 63 out of the 147 species, snoRNA sequences were already retrieved in 
-%at the \snostrip\
-%webserver\footnote{\url{http://snostrip.bioinf.uni-leipzig.de/}}.
-%This data is based on 
-a previous \snostrip\ study \cite{Bartschat:2014}
-that started with experimentally detected snoRNAs extracted from five
+relationship, genome source, and version for all fungal organisms in this
+evolutionary survey is shown in the supplementary Figures S1.  For 63 out
+of the 147 species, snoRNA sequences were already retrieved in a previous
+study, mostly as test of \snostrip\ \cite{Bartschat:2014}.  In this earlier
+work, we started with experimentally detected snoRNAs extracted from five
 surveys for \Ncr\ \citep{Liu:2009}, \Afu\ \citep{Joechl:2008}, \Calb\
-\citep{Mitrovich:2010}, \Sce\ \citep{Piekna-Przybylska:2007}, and
-\Spo\ \citep{Li:2005}. An overview of the exerimentally verified \snos\ and the
-corresponding publications can be seen in supplementary Table S2.  An
-entire mapping of the species-specific \sno\ names as they were used in
-the original publications and the internal \snostrip\ names is shown
-in supplementary Tables S3. 
-%\JH{Is the following a result from the
-%previous study \cite{Bartschat:2014} or from this one? This does not
-%feel like a methods paragraph.} Note that annotated \afu\ \cd\
-%AM921943 is treated as a \haca.  It shows two separated, perfect
-%hairpins and comprises convincing box motifs while it clearly lacks
-%characteristics of \cd.  In addition, \afu\ \cd s AM921919 and
-%AM921934 are treated as a single \sno. Both sequences map to the same
-%genomic location. Though, AM921934 comprises three point-mutations
-%compared to AM921919. 
-%Budding yeast \sno\ sequences have been
-%downloaded from the
-%\texttt{UMass}-database\footnote{http://people.biochem.umass.edu/fournierlab/snornadb/main.php}.
-%All other \sno s have been taken from the corresponding
-%publication. 
-In total, our starting set of snoRNAs comprises 3564
-snoRNA sequences assigned to 123 snoRNA families in the 63 species including 231 \sno\ genes taken from the five publications.
+\citep{Mitrovich:2010}, \Sce\ \citep{Piekna-Przybylska:2007}, and \Spo\
+\citep{Li:2005}. An overview of the exerimentally verified \snos\ and the
+corresponding publications is compiled in Supplementary Table S2. The
+nomenclature of snoRNAs is consistent across different species. A
+dictionary relating the species-specific, traditional \sno\ names as they
+were used in the original publications and the internal snoRNA family
+designations used by \snostrip\ is included as Supplementary Table S3.
+Here we use the results of \cite{Bartschat:2014} as our starting point.
+The inital set comprises 3564 snoRNA sequences assigned to 123 snoRNA
+families in the 63 species. It includes 231 experimentally validated \sno\
+genes taken from the five publications.
 
 \subsection{Homology search}
 
-\snostrip \citep{Bartschat:2014} - our snoRNA annotation pipeline - was
-applied to the set of collected snoRNAs and the 147 fungal species in
-an iterative manner. Starting with Pezizomycotina, followed by
-Saccharomycotina, and other lineages towards the root of the
-phylogenetic tree. Each time new (plausible) homologous snoRNAs were
-detected, the procedure was repeated to decrease the number of false
-negatives until no novel homologs were found anymore.
+The \snostrip\ pipeline \citep{Bartschat:2014}pipeline was applied to the
+set of collected snoRNAs and the 147 fungal species in an iterative
+manner. Starting with Pezizomycotina, followed by Saccharomycotina, and
+other lineages towards the root of the phylogenetic tree. Each time new
+(plausible) homologous snoRNAs were detected, the procedure was repeated to
+decrease the number of false negatives until no novel homologs were found
+anymore.
 
 \subsection{Data curation}
 
-The \snostrip\ retrieved homologs were curated regarding the
-automatically identified box motifs, correct molecule lengths, and the
-overall fit of each \sno\ sequence in its respective family.  To
-identify falsely annotated box motifs, the conservation of all
-automatically selected boxes was checked by a comparison of the start
-positions within the \sno\ family alignment. Motifs that have \SB{unconserved} start
-positions were re-adjusted to fit the \sno\ family specific box pattern and and box position.
-\JH{what is the criteria for beeing
-  conserved or not?} 
+The candidate snoRNAs identified by \snostrip\ were curated regarding the
+automatically identified box motifs, plausible lengths, and the overall fit
+of each \sno\ sequence in its respective family.  To identify incorrectly
+annotated box motifs, the conservation of all predicted boxes was compared
+to the start positions within the \sno\ family alignment. Motifs that did
+not show box motifs with sufficient conservation levels were re-adjusted to
+fit the \sno\ family specific box pattern and and box position.  \JH{what
+  is the criteria for beeing conserved or not?}
 % If this was not feasible due to non-canonical box motifs at the
 % supposed positions, either the box annotation was deleted (prime
 % boxes) or the whole \sno\ candidate was rejected.  since disrupted
 % box motifs imply non-functional mature \sno s.
-Sequences that were too large or too short were automatically adjusted according to box
-motifs, sequence and structure conservation. 
+Candidate sequences that were too large or too short were automatically
+adjusted according to identifiable box motifs and tested for sequence and
+structure conservation.
+\TODO{Again, specify the criteria} 
 
 \subsection{Box motifs, sequence and structure}
 
@@ -477,85 +455,59 @@ association are considered orphan. SnoRNAs that are assigned to the
 same family but show variance in their associated target are
 investigated manually for a potential target switch.
 
-
 \subsection{Lineage specific conservation of target interactions}
 To study the conservation of interactions, the targets for each
 individual snoRNA sequence are initially predicted and subsequently
 their conservation in other species is evaluated. To formally
 investigate the conservation, the Interaction Conservation Index (ICI)
-was developed by \cite{Kehr:2014}. Briefly, the conservation of the
+was developed by \cite{Kehr:2014}. In brief, the conservation of the
 modification and the conservation in a specific snoRNA family are
 calculated as follows:
-
 \begin{equation}
   \begin{split}
-    ICI_{mod}\:(t,s) & = \frac{1}{|O(s)|} * \left( \sum_{k\in O(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right) 
+    ICI_{mod}\:(t,s) & = \frac{1}{|O(s)|} \left( \sum_{k\in O(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right) \\
+    ICI_{sno}\:(t,s) & = \frac{1}{|O(s)|} \left( \sum_{k\in O(t,s)} \frac{\varepsilon(t,s,k)}{\hat\varepsilon(s,k)} \right)
   \end{split}
 \end{equation}
-
-\begin{equation}
-  \begin{split}
-    ICI_{sno}\:(t,s) & = \frac{1}{|O(s)|} * \left( \sum_{k\in O(t,s)} \frac{\varepsilon(t,s,k)}{\hat\varepsilon(s,k)} \right)
-  \end{split}
-\end{equation}
-
-Where
-%\begin{equation}
-$ \varepsilon(t,s,k) = \min_{x\in X(t,s,k)} E_{\textrm{mfe}}[x,y_{t,k}] $
-%\end{equation}
-is scored on family level searching for the best interaction,
-i.e. with the lowest minimum free energy, between a snoRNA $x$ of
-family $s$ and the target $t$ in species $k$.
-
-Averaging over all predictions of target $t$ in
-species $k$
+Here, $ \varepsilon(t,s,k) = \min_{x\in X(t,s,k)}
+E_{\textrm{mfe}}[x,y_{t,k}] $ is the most negative interaction minimum free
+energy between a snoRNA $x$ of family $s$ and the target $t$ in species
+$k$. The normalizations 
 \begin{equation}
 \bar\varepsilon(t,k)=\sum_{s\in
-  S(t,k)}\varepsilon(t,s,k)/|S(t,k)|
-\end{equation}
-
-and averaging over all targets $t$ of snoRNA $s$ in species $k$
-\begin{equation}
-\hat\varepsilon(s,k)=\sum_{t\in
+  S(t,k)}\varepsilon(t,s,k)/|S(t,k)| \qquad 
+ \hat\varepsilon(s,k)=\sum_{t\in
   T(s,k)}\varepsilon(t,s,k)/|T(s,k)|
 \end{equation}
+are obtained by averaging over all all predictions of target $t$ in species
+$k$ or all targets $t$ of snoRNA $s$ in species $k$, respectively.  There
+normalized parameters are then summed over all species $k\in O(t,s)$ in
+which a prediction of target $t$ is found for snoRNA family $s$ normalized
+w.r.t.\ the number of species $|O(s)|$ in which the snoRNA family $s$ is
+present. This approach is particularly suitable for modification sites that
+are present in a large set of analyzed organisms. In cases where a
+potential target appears to be lineage specific, the ICI score will drop to
+rather low values due to the normalization score $1/O(s)$ that represents
+all organisms sharing a homologous \sno\ of family $s$.
 
-allows the calculation of normalized parameters. These are then
-summarized over all species where a prediction of $t$ is found for
-snoRNA family $s$ in species $k$ ($k\in O(t,s) $) and normalized over
-all species where snoRNA family $s$ is present ($|O(s)|$).
-
-
-This approach is especially suitable for modification sites that are
-present in a large set of analyzed organisms. In cases where a
-potential target appears to be lineage specific, the ICI score will
-drop to rather low values due to the normalization score $1/O(s)$ that
-represents all organisms sharing a homologous \sno\ of family $s$.
-
-To appropriately investigate alternative or additional targets that
-merely appear in a particular subset of organisms, the ICI score
-calculation has to be adapted to take the particular phylogenetic
-distribution of a target interaction into account. Therefore, the
-normalization is restricted to the smallest phylogenetic or taxonomic
-subtree that harbours all organisms that share prediction of target
-$t$ in snoRNA family $s$.  Assume the overall taxonomic tree is
-represented by a tree $T=(V,E)$ with root $\gamma$. The minimal
-subtree $U_\tau = (V_\tau, E_\tau)$ with root $\tau$ shares the node
-set
-$V_\tau = \{\ v\ |\ \forall (v,u)\ ,\ u \in V_\tau\ :\ LCA_T(v,u) \in
-V_\tau\ \}$ where $LCA_T(v,u)$ is the lowest common ancestor in tree
+To appropriately investigate alternative or additional targets that merely
+appear in a particular subset of organisms, the ICI score calculation has
+to be adapted to take the particular phylogenetic distribution of a target
+interaction into account. Therefore, the normalization is restricted to the
+smallest phylogenetic or taxonomic subtree that harbours all organisms that
+share prediction of target $t$ in snoRNA family $s$.  Assume the overall
+taxonomic tree is represented by a tree $T=(V,E)$ with root $\gamma$. The
+minimal subtree $U_\tau = (V_\tau, E_\tau)$ with root $\tau$ shares the
+node set $V_\tau = \{\ v\ |\ \forall (v,u)\ ,\ u \in V_\tau\ :\ LCA_T(v,u)
+\in V_\tau\ \}$ where $LCA_T(v,u)$ is the lowest common ancestor in tree
 $T$ of both nodes $v$ and $u$. More precisely, the $LCA$ is the lowest
-node, i.e., the farthest node from the root, that has both $v$ and $u$
-as descendants.  Hence, the ICI scores in a particular subtree rooted
-at $\tau$ can be calculated as follows:
+node, i.e., the farthest node from the root, that has both $v$ and $u$ as
+descendants.  Hence, the ICI scores in a particular subtree rooted at
+$\tau$ can be calculated as follows:
 \begin{equation}
   \begin{split}
     ICI_{mod,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|} * \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right)
-  \end{split}
-\end{equation}
-
-\begin{equation}
-  \begin{split}
+    \\
     ICI_{sno,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|} * \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\hat\varepsilon(s,k)} \right)
   \end{split}
 \end{equation}
@@ -565,17 +517,16 @@ $O_\tau(s) = \{\ k\ |\ \exists t\ :\ X(t,s,k) \ne \emptyset\ \&\ v_k
 subtree $\tau$ and share at least one snoRNA of family $s$. $v_k$ is
 the leaf that denotes organism $k$.
 
-\vspace{5mm}
-\par
-In this work, \sno\ families are mostly denoted with their internal
-\snostrip\ name. Original names are given in parentheses in cases
-where previously annotated \snos\ are present, e.g., the internal
-\snostrip\ name CD\_22 maps the experimentally detected \sce\ sequence
-snR62. A complete mapping of \snostrip\ derived \sno\ names with their
-species specific names is provided in the supplement.  A similar
-notion is chosen when target positions are described. In most cases,
-the alignment position is given and the sequence specific position of
-selected organisms are provided in parentheses.
+Since there is at present no generally accepted nomenclature of snoRNA
+families that respects homology across species, we use the internal
+\snostrip\ family designations throughout and give traditional names in
+parentheses where possible. For instance, \snostrip\ family CD\_22 contains
+the experimentally detected gene snR62 from \sce. A complete set of
+correspondences is given in the dictionary included as Supplementary Table
+S3. Similarly, we pragmatically identify target positions with their
+position in the multiple sequence alignments of the target RNAs
+\TODO{Are the alignments included? refer to them!} Coordinates for
+reference sequences from selected organisms are given in parentheses.
 
 % --------------------------------------------------------------------------- %
 
@@ -590,131 +541,15 @@ selected organisms are provided in parentheses.
 
 \section*{Acknowledgments}
 
-<<<<<<< HEAD
 This work was funded in part by the European Union FP-7 project QUANTOMICS
 (no.\ 222664), the MMML-seq project of the International Cancer Genome
 Consortium (ICGC) funded by German Federal Ministry of Education and
 Research, the CRC 1052 ``Obesity'' \TODO{ and ...}. LIFE -- Leipzig
 Research Center for Civilization Diseases is funded by the State of Saxony
 and the European Union.
-=======
-This work was funded in part by the European Union FP-7 project
-QUANTOMICS (no.\ 222664). MMML-seq project of the International Cancer
-Genome Consortium (ICGC) funded by German Federal Ministry of
-Education and Research.  LIFE -- Leipzig Research Center for
-Civilization Diseases is funded by the State of Saxony and the
-European Union.
->>>>>>> 2e043458cf9138c4628e91cb6a3a42f90e68c792
 
 \bibliographystyle{m}
 \bibliography{Fungi_snoRNAome}
-
-
-%\begin{appendix}
-%% use caption format Sxx 
-%\captionsetup{labelformat=simplesupp}
-%\setcounter{table}{0}
-%\setcounter{figure}{0}
-
-% --------------------------------------------------------------------------- %
-
-%\section*{SUPPLEMENT}
-%
-%\section{Supplementary Figures}
-%
-%\begin{figure}
-%  \centering
-%%  \includegraphics[width=\textwidth]{organisms.sorted.upper.half.eps}
-%  \caption[Taxonomic Tree of Analyzed Fungi - Part 1]{NCBI-based
-%    taxonomic tree of analyzed fungal organisms. NCBI identifier,
-%    genome source, and genome version are given after the organism
-%    name. All species of the Pezizomycotina lineage are shown in the
-%    second part of the figure.}
-%  \label{fig:complete_taxonomic_tree_upper_half}
-%\end{figure}
-%
-%\begin{figure}
-%  \centering
-%%  \includegraphics[width=\textwidth]{organisms.sorted.lower.half.eps}
-%  \caption[Taxonomic Tree of Analyzed Fungi - Part 2]{Taxonomic tree
-%    of the analyzed Pezizomycotina species. Further explanations as above.}
-%  \label{fig:complete_taxonomic_tree_lower_half}
-%\end{figure}
-%
-%\section{Supplementary Tables}
-%
-%\begin{table}[t!]
-%  \caption[Data sources for the fungal snoRNA set.]{\small Summary of
-%    publications which provided experimentally detected \snos\
-%    that were taken as query sequences in the \emph{\snostrip} pipeline.
-%    Please note that the original publication by \citet{Joechl:2008}
-%    exclusively contains \cd s. Details see text.
-%  }
-%  \centering
-%  \scriptsize
-%%  \begin{rndtableWhite}{|c|l|c|c|l|}
-%%\header{}&\header{organism}&\header{\cd}&\header{\haca}&\header{publication}\\
-%%\hline
-%%\header{}&\emph{N.crassa}&55&20&\citet{Liu:2009}\\
-%%\header{}&\emph{A.fumigatus}&25&1&\citet{Joechl:2008}\\
-%%\header{}&\emph{C.albicans}&40&-&\citet{Mitrovich:2010}\\
-%%\raisebox{3ex}[-3ex]{\header{\rotatebox{90}{Fungi}}}&\emph{S.cerevisiae}&43&29&\citet{Piekna-Przybylska:2007}\\
-%%\header{}&\emph{S.pombe}&-&20&\citet{Li:2005}\\
-%%\hline
-%%\header{}&\hsa&269&108&\citet{Lestrade:2006}\\
-%%\header{}&\gga&128&69&\citet{Shao:2009}\\
-%%\raisebox{1ex}[-1ex]{\header{\rotatebox{90}{Metazoa}}}&\oan&141&66&\citet{Schmitz:2008}\\
-%%\end{rndtableWhite}
-%\label{tab:original_snornas}
-%\end{table}
-%
-%\begin{table}[h]
-%\vspace{-0.05cm}
-%\caption[Mapping of experimentally detected \haca s.]{\small Mapping of
-%  experimentally detected \haca s. $^*$ The previously as \cd\
-%  classified sequence AM921943 in \Afu\ \citep{Joechl:2008} was mapped to the \haca\
-%  family HACA\_21.}
-%\centering
-%\scriptsize
-%%\begin{rndtableWhite}{|c|c|c|c||c|c|c|c|}
-%%\header{\snostrip\ name}&\header{\sce}&\header{\spo}&\header{\ncr}&\header{\snostrip\ name}&\header{\sce}&\header{\spo}&\header{\ncr}\\
-%%\input{tables/haca_snoRNA_mapping_part1.tex}
-%%\end{rndtableWhite}
-%\label{tab:haca_snoRNA_mapping}
-%\end{table}
-%
-%
-%\begin{table}
-%\caption[Mapping of experimentally detected \cd s.]{\small Mapping of
-%  experimentally detected \cd s.}
-%\centering
-%\scriptsize
-%%\begin{rndtableWhite}{|c|c|c|c|c|c|}
-%%\header{\snostrip\ name}&\header{\sce}&\header{\spo}&\header{\calb}&\header{\afu}&\header{\ncr}\\
-%%%\input{tables/cd_snoRNA_mapping_part1.tex}
-%%\end{rndtableWhite}
-%\label{tab:cd_snoRNA_mapping}
-%\end{table}
-%
-%\addtocounter{table}{-1}
-%
-%\begin{table}
-%\caption[]{\small (Continued.)}
-%\centering
-%\scriptsize
-%%\begin{rndtableWhite}{|c|c|c|c|c|c|}
-%%\header{\snostrip\ name}&\header{\sce}&\header{\spo}&\header{\calb}&\header{\afu}&\header{\ncr}\\
-%%%\input{tables/cd_snoRNA_mapping_part2.tex}
-%%\end{rndtableWhite}
-%\end{table}
-%
-%\section{Supplementary Methods} 
-%
-%
-%\section{Conservation of Protein-Coding Splice Sites}
-%
-%
-%\end{appendix}
 
 \end{document}
 
