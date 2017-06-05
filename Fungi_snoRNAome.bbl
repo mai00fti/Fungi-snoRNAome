@@ -4,11 +4,95 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem{Clouet_d'Orval:2001}
+Clouet~d'Orval B, Bortolin ML, Gaspin C, Bachellerie JP.
+\newblock Box c/d rna guides for the ribose methylation of archaeal trnas. the
+  trnatrp intron guides the formation of two ribose-methylated nucleosides in
+  the mature trnatrp.
+\newblock Nucleic Acids Res 29, 2001:4518--29.
+
+\bibitem{Dennis:2001}
+Dennis PP, Omer A, Lowe T.
+\newblock A guided tour: small rna function in archaea.
+\newblock Mol Microbiol 40, 2001:509--19.
+
+\bibitem{Uliel:2004}
+Uliel S, Liang XH, Unger R, Michaeli S.
+\newblock Small nucleolar rnas that guide modification in trypanosomatids:
+  repertoire, targets, genome organisation, and unique functions.
+\newblock Int J Parasitol 34, 2004:445--54.
+\newblock \doi{10.1016/j.ijpara.2003.10.014}.
+
+\bibitem{Cavaillé:2000}
+Cavaillé J, et~al.
+\newblock Identification of brain-specific and imprinted small nucleolar rna
+  genes exhibiting an unusual genomic organization.
+\newblock Proc Natl Acad Sci U S A 97, 2000:14311--6.
+\newblock \doi{10.1073/pnas.250426397}.
+
+\bibitem{Kishore:2006}
+Kishore S, Stamm S.
+\newblock Regulation of alternative splicing by snornas.
+\newblock Cold Spring Harb Symp Quant Biol 71, 2006:329--34.
+\newblock \doi{10.1101/sqb.2006.71.024}.
+
+\bibitem{Kiss:2002}
+Kiss T.
+\newblock Small nucleolar rnas: an abundant group of noncoding rnas with
+  diverse cellular functions.
+\newblock Cell 109, 2002:145--8.
+
+\bibitem{Matera:2007}
+Matera AG, Terns RM, Terns MP.
+\newblock Non-coding rnas: lessons from the small nuclear and small nucleolar
+  rnas.
+\newblock Nat Rev Mol Cell Biol 8, 2007:209--20.
+\newblock \doi{10.1038/nrm2124}.
+
+\bibitem{Bratkovi:2011}
+Bratkovi? T, Rogelj B.
+\newblock Biology and applications of small nucleolar rnas.
+\newblock Cell Mol Life Sci 68, 2011:3843--51.
+\newblock \doi{10.1007/s00018-011-0762-y}.
+
+\bibitem{Darzacq:2002}
+Darzacq X, Jády BE, Verheggen C, Kiss AM, Bertrand E, Kiss T.
+\newblock Cajal body-specific small nuclear rnas: a novel class of
+  2'-o-methylation and pseudouridylation guide rnas.
+\newblock EMBO J 21, 2002:2746--56.
+\newblock \doi{10.1093/emboj/21.11.2746}.
+
+\bibitem{Altschul:1990}
+Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ.
+\newblock Basic local alignment search tool.
+\newblock J Mol Biol 215, 1990:403--10.
+\newblock \doi{10.1016/S0022-2836(05)80360-2}.
+
 \bibitem{Bartschat:2014}
 Bartschat S, Kehr S, Tafer H, Stadler PF, Hertel J.
 \newblock \texttt{snoStrip}: a {snoRNA} annotation pipeline.
 \newblock Bioinformatics 30, 2014:115--6.
 \newblock \doi{10.1093/bioinformatics/btt604}.
+
+\bibitem{Kersey:2016}
+Kersey PJ, et~al.
+\newblock Ensembl genomes 2016: more genomes, more complexity.
+\newblock Nucleic Acids Res 44, 2016:D574--80.
+\newblock \doi{10.1093/nar/gkv1209}.
+
+\bibitem{Nordberg:2014}
+Nordberg H, et~al.
+\newblock The genome portal of the department of energy joint genome institute:
+  2014 updates.
+\newblock Nucleic Acids Res 42, 2014:D26--31.
+\newblock \doi{10.1093/nar/gkt1069}.
+
+\bibitem{Skrzypek:2017}
+Skrzypek MS, Binkley J, Binkley G, Miyasato SR, Simison M, Sherlock G.
+\newblock The candida genome database (cgd): incorporation of assembly 22,
+  systematic identifiers and visualization of high throughput sequencing data.
+\newblock Nucleic Acids Res 45, 2017:D592--D596.
+\newblock \doi{10.1093/nar/gkw924}.
 
 \bibitem{Liu:2009}
 Liu N, et~al.
@@ -70,13 +154,6 @@ Canzler S, Stadler PF, Hertel J.
 \newblock Non-Coding RNA 3, 2017.
 \newblock ISSN 2311-553X.
 \newblock \doi{10.3390/ncrna3010003}.
-
-\bibitem{Fayet-Lebaron:2009}
-Fayet-Lebaron E, Atzorn V, Henry Y, Kiss T.
-\newblock {18S rRNA processing requires base pairings of snR30 {H/ACA snoRNA}
-  to eukaryote-specific 18S sequences.}
-\newblock EMBO J 28, 2009:1260--70.
-\newblock \doi{10.1038/emboj.2009.79}.
 
 \bibitem{Kishore:2013}
 Kishore S, Gruber AR, Jedlinski DJ, Syed AP, Jorjani H, Zavolan M.
