@@ -3,48 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Fungi_snoRNAome.aux
 The style file: m.bst
 Database file #1: Fungi_snoRNAome.bib
-Warning--I didn't find a database entry for "****"
-Warning--I didn't find a database entry for "***"
-Warning--empty pages in Massenet:1998
-You've used 30 entries,
+You've used 51 entries,
             2426 wiz_defined-function locations,
-            786 strings with 11091 characters,
-and the built_in function-call counts, 24069 in all, are:
-= -- 2150
-> -- 407
+            925 strings with 15765 characters,
+and the built_in function-call counts, 40346 in all, are:
+= -- 3610
+> -- 667
 < -- 0
-+ -- 202
-- -- 102
-* -- 1878
-:= -- 2851
-add.period$ -- 117
-call.type$ -- 30
-change.case$ -- 32
++ -- 332
+- -- 167
+* -- 3122
+:= -- 4762
+add.period$ -- 193
+call.type$ -- 51
+change.case$ -- 53
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 2492
-empty$ -- 2548
-format.name$ -- 132
-if$ -- 5337
+cite$ -- 51
+duplicate$ -- 4171
+empty$ -- 4279
+format.name$ -- 218
+if$ -- 8969
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 340
-newline$ -- 182
-num.names$ -- 32
-pop$ -- 507
+int.to.str$ -- 51
+missing$ -- 574
+newline$ -- 300
+num.names$ -- 53
+pop$ -- 850
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 195
+skip$ -- 343
 stack$ -- 0
-substring$ -- 3159
-swap$ -- 704
+substring$ -- 5318
+swap$ -- 1193
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 190
-width$ -- 32
-write$ -- 387
-(There were 3 warnings)
+warning$ -- 0
+while$ -- 320
+width$ -- 53
+write$ -- 645

@@ -4,6 +4,30 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem{Reichow:2007}
+Reichow SL, Hamma T, Ferré-D'Amaré AR, Varani G.
+\newblock The structure and function of small nucleolar ribonucleoproteins.
+\newblock Nucleic Acids Res 35, 2007:1452--64.
+\newblock \doi{10.1093/nar/gkl1172}.
+
+\bibitem{Decatur:2002}
+Decatur WA, Fournier MJ.
+\newblock rrna modifications and ribosome function.
+\newblock Trends Biochem Sci 27, 2002:344--51.
+
+\bibitem{Darzacq:2002}
+Darzacq X, Jády BE, Verheggen C, Kiss AM, Bertrand E, Kiss T.
+\newblock Cajal body-specific small nuclear rnas: a novel class of
+  2'-o-methylation and pseudouridylation guide rnas.
+\newblock EMBO J 21, 2002:2746--56.
+\newblock \doi{10.1093/emboj/21.11.2746}.
+
+\bibitem{Bratkovi:2011}
+Bratkovi? T, Rogelj B.
+\newblock Biology and applications of small nucleolar rnas.
+\newblock Cell Mol Life Sci 68, 2011:3843--51.
+\newblock \doi{10.1007/s00018-011-0762-y}.
+
 \bibitem{Clouet_d'Orval:2001}
 Clouet~d'Orval B, Bortolin ML, Gaspin C, Bachellerie JP.
 \newblock Box c/d rna guides for the ribose methylation of archaeal trnas. the
@@ -36,6 +60,17 @@ Kishore S, Stamm S.
 \newblock Cold Spring Harb Symp Quant Biol 71, 2006:329--34.
 \newblock \doi{10.1101/sqb.2006.71.024}.
 
+\bibitem{Maxwell:1995}
+Maxwell ES, Fournier MJ.
+\newblock The small nucleolar rnas.
+\newblock Annu Rev Biochem 64, 1995:897--934.
+\newblock \doi{10.1146/annurev.bi.64.070195.004341}.
+
+\bibitem{Tollervey:1997}
+Tollervey D, Kiss T.
+\newblock Function and synthesis of small nucleolar rnas.
+\newblock Curr Opin Cell Biol 9, 1997:337--42.
+
 \bibitem{Kiss:2002}
 Kiss T.
 \newblock Small nucleolar rnas: an abundant group of noncoding rnas with
@@ -49,18 +84,18 @@ Matera AG, Terns RM, Terns MP.
 \newblock Nat Rev Mol Cell Biol 8, 2007:209--20.
 \newblock \doi{10.1038/nrm2124}.
 
-\bibitem{Bratkovi:2011}
-Bratkovi? T, Rogelj B.
-\newblock Biology and applications of small nucleolar rnas.
-\newblock Cell Mol Life Sci 68, 2011:3843--51.
-\newblock \doi{10.1007/s00018-011-0762-y}.
+\bibitem{Balakin:1996}
+Balakin AG, Smith L, Fournier MJ.
+\newblock The rna world of the nucleolus: two major families of small rnas
+  defined by different box elements with related functions.
+\newblock Cell 86, 1996:823--34.
 
-\bibitem{Darzacq:2002}
-Darzacq X, Jády BE, Verheggen C, Kiss AM, Bertrand E, Kiss T.
-\newblock Cajal body-specific small nuclear rnas: a novel class of
-  2'-o-methylation and pseudouridylation guide rnas.
-\newblock EMBO J 21, 2002:2746--56.
-\newblock \doi{10.1093/emboj/21.11.2746}.
+\bibitem{Ganot:1997}
+Ganot P, Caizergues-Ferrer M, Kiss T.
+\newblock The family of box aca small nucleolar rnas is defined by an
+  evolutionarily conserved secondary structure and ubiquitous sequence elements
+  essential for rna accumulation.
+\newblock Genes Dev 11, 1997:941--56.
 
 \bibitem{Altschul:1990}
 Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ.
@@ -73,6 +108,12 @@ Bartschat S, Kehr S, Tafer H, Stadler PF, Hertel J.
 \newblock \texttt{snoStrip}: a {snoRNA} annotation pipeline.
 \newblock Bioinformatics 30, 2014:115--6.
 \newblock \doi{10.1093/bioinformatics/btt604}.
+
+\bibitem{Nawrocki:2015}
+Nawrocki EP, et~al.
+\newblock Rfam 12.0: updates to the rna families database.
+\newblock Nucleic Acids Res 43, 2015:D130--7.
+\newblock \doi{10.1093/nar/gku1063}.
 
 \bibitem{Kersey:2016}
 Kersey PJ, et~al.
@@ -142,6 +183,18 @@ Hertel J, Stadler PF.
 \newblock Life (Basel) 5, 2015:905--20.
 \newblock \doi{10.3390/life5010905}.
 
+\bibitem{Kehr:2011}
+Kehr S, Bartschat S, Stadler PF, Tafer H.
+\newblock Plexy: efficient target prediction for box c/d snornas.
+\newblock Bioinformatics 27, 2011:279--80.
+\newblock \doi{10.1093/bioinformatics/btq642}.
+
+\bibitem{Tafer:2010}
+Tafer H, Kehr S, Hertel J, Hofacker IL, Stadler PF.
+\newblock Rnasnoop: efficient target prediction for h/aca snornas.
+\newblock Bioinformatics 26, 2010:610--6.
+\newblock \doi{10.1093/bioinformatics/btp680}.
+
 \bibitem{Kehr:2014}
 Kehr S, Bartschat S, Tafer H, Stadler PF, Hertel J.
 \newblock {Matching of Soulmates: coevolution of snoRNAs and their targets}.
@@ -154,6 +207,47 @@ Canzler S, Stadler PF, Hertel J.
 \newblock Non-Coding RNA 3, 2017.
 \newblock ISSN 2311-553X.
 \newblock \doi{10.3390/ncrna3010003}.
+
+\bibitem{Xia:1997}
+Xia L, Watkins NJ, Maxwell ES.
+\newblock Identification of specific nucleotide sequences and structural
+  elements required for intronic u14 snorna processing.
+\newblock RNA 3, 1997:17--26.
+
+\bibitem{Watkins:2000}
+Watkins NJ, et~al.
+\newblock A common core rnp structure shared between the small nucleoar box c/d
+  rnps and the spliceosomal u4 snrnp.
+\newblock Cell 103, 2000:457--66.
+
+\bibitem{Cahill:2002}
+Cahill NM, et~al.
+\newblock Site-specific cross-linking analyses reveal an asymmetric protein
+  distribution for a box c/d snornp.
+\newblock EMBO J 21, 2002:3816--28.
+\newblock \doi{10.1093/emboj/cdf376}.
+
+\bibitem{Watkins:2002}
+Watkins NJ, Dickmanns A, Lührmann R.
+\newblock Conserved stem ii of the box c/d motif is essential for nucleolar
+  localization and is required, along with the 15.5k protein, for the
+  hierarchical assembly of the box c/d snornp.
+\newblock Mol Cell Biol 22, 2002:8342--52.
+
+\bibitem{Kiss-László:1998}
+Kiss-László Z, Henry Y, Kiss T.
+\newblock Sequence and structural elements of methylation guide snornas
+  essential for site-specific ribose methylation of pre-rrna.
+\newblock EMBO J 17, 1998:797--807.
+\newblock \doi{10.1093/emboj/17.3.797}.
+
+\bibitem{Normand:2006}
+Normand C, Capeyrou R, Quevillon-Cheruel S, Mougin A, Henry Y,
+  Caizergues-Ferrer M.
+\newblock Analysis of the binding of the n-terminal conserved domain of yeast
+  cbf5p to a box h/aca snorna.
+\newblock RNA 12, 2006:1868--82.
+\newblock \doi{10.1261/rna.141206}.
 
 \bibitem{Kishore:2013}
 Kishore S, Gruber AR, Jedlinski DJ, Syed AP, Jorjani H, Zavolan M.
@@ -168,6 +262,25 @@ Gardner PP, Bateman A, Poole AM.
 \newblock J Biol 9, 2010:4.
 \newblock \doi{10.1186/jbiol211}.
 
+\bibitem{Schattner:2004}
+Schattner P, Decatur WA, Davis CA, Ares M Jr, Fournier MJ, Lowe TM.
+\newblock Genome-wide searching for pseudouridylation guide snornas: analysis
+  of the saccharomyces cerevisiae genome.
+\newblock Nucleic Acids Res 32, 2004:4281--96.
+\newblock \doi{10.1093/nar/gkh768}.
+
+\bibitem{Davis:2006}
+Davis CA, Ares M Jr.
+\newblock Accumulation of unstable promoter-associated transcripts upon loss of
+  the nuclear exosome subunit rrp6p in saccharomyces cerevisiae.
+\newblock Proc Natl Acad Sci U S A 103, 2006:3262--7.
+\newblock \doi{10.1073/pnas.0507783103}.
+
+\bibitem{Lowe:1999}
+Lowe TM, Eddy SR.
+\newblock A computational screen for methylation guide {snoRNAs} in yeast.
+\newblock Science 283, 1999:1168--71.
+
 \bibitem{Machnicka:2013}
 Machnicka MA, et~al.
 \newblock \texttt{MODOMICS}: a database of {RNA} modification pathways--2013
@@ -177,14 +290,15 @@ Machnicka MA, et~al.
 
 \bibitem{Massenet:1998}
 Massenet S, Mougin A, Branlant C.
-\newblock {Post-transcriptional Modifications in the U Small Nuclear RNAs}.
+\newblock Post-transcriptional modifications in the {U} small nuclear {RNAs}.
 \newblock In H~Grosjean, R~Benne, editors, \emph{Modification and Editing of
-  RNA}. ASM Press, 1998.
+  RNA}. ASM Press, 1998, 201--227.
 
-\bibitem{Lowe:1999}
-Lowe TM, Eddy SR.
-\newblock A computational screen for methylation guide {snoRNAs} in yeast.
-\newblock Science 283, 1999:1168--71.
+\bibitem{Badis:2003}
+Badis G, Fromont-Racine M, Jacquier A.
+\newblock A snorna that guides the two most conserved pseudouridine
+  modifications within rrna confers a growth advantage in yeast.
+\newblock RNA 9, 2003:771--9.
 
 \bibitem{Xue:2012}
 Xue S, Barna M.
@@ -193,10 +307,30 @@ Xue S, Barna M.
 \newblock Nat Rev Mol Cell Biol 13, 2012:355--69.
 \newblock \doi{10.1038/nrm3359}.
 
+\bibitem{Wu:2011}
+Wu G, Xiao M, Yang C, Yu YT.
+\newblock U2 snrna is inducibly pseudouridylated at novel sites by pus7p and
+  snr81 rnp.
+\newblock EMBO J 30, 2011:79--89.
+\newblock \doi{10.1038/emboj.2010.316}.
+
+\bibitem{Kapushesky:2012}
+Kapushesky M, et~al.
+\newblock Gene expression atlas update--a value-added database of microarray
+  and sequencing-based functional genomics experiments.
+\newblock Nucleic Acids Res 40, 2012:D1077--81.
+\newblock \doi{10.1093/nar/gkr913}.
+
 \bibitem{Jorjani:2016}
 Jorjani H, et~al.
 \newblock An updated human {snoRNAome}.
 \newblock Nucleic Acids Res 44, 2016:5068--82.
 \newblock \doi{10.1093/nar/gkw386}.
+
+\bibitem{Cantara:2011}
+Cantara WA, et~al.
+\newblock The rna modification database, rnamdb: 2011 update.
+\newblock Nucleic Acids Res 39, 2011:D195--201.
+\newblock \doi{10.1093/nar/gkq1028}.
 
 \end{thebibliography}
