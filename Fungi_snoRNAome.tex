@@ -284,25 +284,22 @@
 
 
 \begin{abstract}
-%  Large-scale RNA sequencing has revealed a large number of long mRNA-like
-%  transcripts (lncRNAs) that do not code for proteins. The evolutionary
-%  history of these lncRNAs has been notoriously hard to study
-%  systematically due to their low level of sequence conservation that
-%  precludes comprehensive homology-based surveys and makes them nearly
-%  impossible to align. An increasing number of special cases, however, has
-%  been shown to be at least as old as the vertebrate lineage. Here we use
-%  the conservation of splice sites to trace the evolution of lncRNAs. We
-%  show that more than $85$\,\% of the human GENCODE lncRNAs were
-%  already present at the divergence of placental mammals and many hundreds
-%  of these RNAs date back even further. Nevertheless, we observe a fast
-%  turnover of intron/exon structures. We conclude that lncRNA genes are
-%  evolutionary ancient components of vertebrate genomes that show an
-%  unexpected and unprecedented evolutionary plasticity. We offer a public
-%  web service (\url{http://splicemap.bioinf.uni-leipzig.de}) that allows to
-%  retrieve sets of orthologous splice sites and to produce overview maps of
-%  evolutionarily conserved splice sites for visualization and further
-%  analysis. 
-  
+\SB{Small nucleolar RNAs (snoRNAs) are essential players in the rRNA
+  biogenesis through their involvement in the nucleolytic processing of
+  the precursor and the subsequent guidance of nucleoside
+  modifications. Within the kingdom of fungi, several species-specific
+  surveys explore their snoRNA repertoire. However, the wide range of
+  the snoRNA landscape spanning all major fungal lineages has not been
+  mapped so far, mainly because of missing tools for automatized \sno\
+  detection and functional analysis. Here, we report a comprehensive
+  inventory of fungal \sno s with an in-depth investigation of their
+  evolutionary history including innovations, deletions, and target
+  switches. This large-scale analysis, incorporating more than 120
+  \sno\ families with more than 7700 individual \sno\ sequences, shows
+  apparently that the shape of the landscape is subject to consistent
+  re-arrangements and adaptations, e.g., through lineage-specific
+  targets and redundant guiding functions.}
+
   An electronic supplement containing the data sets used and produced in
   this study is available at
   \url{http://www.bioinf.uni-leipzig.de/publications/supplements/17-001}. 
@@ -319,52 +316,62 @@
 
 \section{Introduction}
 
-Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs) that
-guide the chemical modification of single nucleotides in other RNA
-molecules.  Localized in the nucleolus of eukaryotic (and some archaean)
-cells, they associate with at least four proteins to form the small
-nucleolar ribonucleoprotein (snoRNP) complex \cite{****}.  The target RNA
-molecule is held in the correct position by base pairing to short unpaired
-region(s) within the snoRNA usally referred to as the antisense elements
-(ASE). The base pairing completely specifies the target nucleotide. Known
-modification targets mostly are located in ribosomal RNAs (rRNAs) and small
-nuclear RNAs (snRNAs), although some snoRNAs \TODO{* other RNAs* } are also
-among the targets \cite{Clouet_d'Orval:2001, Dennis:2001, Uliel:2004,
-  Cavaillé:2000, Kishore:2006, Kiss:2002, Matera:2007, Bratkovi:2011}.
+Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs)
+that guide the chemical modification of single nucleotides in other
+RNA molecules.  Localized in the nucleolus of eukaryotic (and some
+archaean) cells, they associate with at least four proteins to form
+the small nucleolar ribonucleoprotein (snoRNP) complex
+\cite{Reichow:2007}.  The target RNA molecule is held in the correct
+position by base pairing to short unpaired region(s) within the snoRNA
+usually referred to as the antisense elements (ASE). The base pairing
+completely specifies the target nucleotide. \SB{Known modifications
+are mostly located in ribosomal RNAs (rRNAs) and small nuclear RNAs
+(snRNAs) \cite{Decatur:2002, Darzacq:2002, Bratkovi:2011}, although
+some snoRNAs have been shown to target residues in other RNA molecules
+such as transfer RNAs \cite{Clouet_d'Orval:2001, Dennis:2001}, spliced
+leader RNAs \cite{Uliel:2004}, or brain-specific messenger RNAs
+\cite{Cavaillé:2000, Kishore:2006}. Furthermore, \sno s are known to
+be involved in the nucleolytic processing of rRNA precursors, the
+synthesis of telomeric DNA, genomic imprinting, and alternative
+splicing \cite{Maxwell:1995, Tollervey:1997, Kiss:2002, Matera:2007}.}
 
-There are two distinct classes of snoRNAs: box C/D and box H/ACA snoRNAs.
-They are distinguished by their secondary structure, sequence features, and
-the modification that they guide \cite{****}.  Box C/D snoRNAs form a
-stem-loop structure with a rather long loop which is stabilized by the
-associated proteins and guide the 3'OH-methylation of nucleotides.  Box
-H/ACA snoRNAs are longer, fold into a thermodynamically more stable double
-stem-loop structure, and guide pseudouridylation of uracil residues in the
-target RNA.  In addition to these two classes, there are chimeric snoRNAs
-that share features of both classes, are much longer and/or are described
-to have different functions \cite{Darzacq:2002}. Similar to other small
-ncRNAs, snoRNAs require both specific secondary structures and
-characteristic sequence motifs to perform their function. These features
-are therefore preserved by evolution and are clearly recognizable by
-comparative methods \cite{****}. While sequence motifs involved in protein
-binding are common to all members of each of the the two classes, the ASEs
-are conserved only among members snoRNA families with the same
-target. Overall, therefore, snoRNA sequences evolve rapidly, making them
-hard to identify by purely sequence-base methods such as \texttt{blast}
-\cite{Altschul:1990}.
+There are two distinct classes of snoRNAs: box C/D and box H/ACA
+snoRNAs.  They are distinguished by their secondary structure,
+sequence features, and the modification that they guide
+\cite{Balakin:1996,Tollervey:1997}.  Box C/D snoRNAs form a stem-loop
+structure with a rather long loop which is stabilized by the
+associated proteins and guide the 2'-O-methylation of ribose groups.
+Box H/ACA snoRNAs are longer, fold into a thermodynamically more
+stable double stem-loop structure, and guide pseudouridylation of
+uracil residues in the target RNA.  In addition to these two classes,
+there are chimeric snoRNAs that share features of both classes, are
+much longer and/or are described to have different functions
+\cite{Darzacq:2002}. Similar to other small ncRNAs, snoRNAs require
+both specific secondary structures and characteristic sequence motifs
+to perform their function. These features are therefore preserved by
+evolution and are clearly recognizable by comparative methods
+\cite{Ganot:1997,Tollervey:1997}. While sequence motifs involved in
+protein binding are common to all members of each of the the two
+classes, the ASEs are conserved only among members of snoRNA families
+with the same target. Overall, therefore, snoRNA sequences evolve
+rapidly, making them hard to identify by purely sequence-base methods
+such as \texttt{blast} \cite{Altschul:1990}.
 
 To overcome this limitation, we introduced a computational annotation
-pipeline \snostrip \cite{Bartschat:2014} that is specifically designed to
-track all specific characteristics of snoRNAs. Here we use this approach to
-analyse a large set of fungal species with genomes that are available in
-decent quality for their snoRNA abundance.  We started with experimentally
-verified snoRNAs in five fungi.  Further, we studied the evolutionary
-conservation of those snoRNAs and the co-evolution of snoRNAs and their
-targets. We provide a comprehensive set of fungal snoRNAs, their detailed
-description with respect to genomic location, box motifs and position,
-potential/confirmed target information (including observed target
-switches), family assignment and a suggestion of the evolutionary history
-of individual snoRNA families.  All data can be viewed in and downloaded
-from our electronic supplement.
+pipeline \snostrip\ \cite{Bartschat:2014} that is specifically
+designed to track all specific characteristics of snoRNAs. Here we use
+this approach to analyze a large set of fungal species with genomes
+that are available in decent quality for their snoRNA abundance.  We
+started with experimentally verified snoRNAs in five fungi.  Further,
+we studied the evolutionary conservation of those snoRNAs and the
+co-evolution of snoRNAs and their targets. We provide a comprehensive
+set of fungal snoRNAs, their detailed description with respect to
+genomic location, box motifs and position, potential/confirmed target
+information (including observed target switches), family assignment
+and a suggestion of the evolutionary history of individual snoRNA
+families.  All data can be viewed in and downloaded from our
+electronic supplement. \SB{Manually curated snoRNA family alignments will
+be submitted to \texttt{Rfam} \cite{Nawrocki:2015}.}
 
 % --------------------------------------------------------------------------- %
 
@@ -376,52 +383,63 @@ Genome sequences from 147 fungal species were downloaded from Ensembl
 Genomes \cite{Kersey:2016}, JGI \cite{Nordberg:2014}, Broad Institute
 (Fungal Genome Initiative) , and Candida Genome Database
 \cite{Skrzypek:2017}.  An \ncbi-based taxonomic tree displaying the
-relationship, genome source, and version for all fungal organisms in this
-evolutionary survey is shown in the supplementary Figures S1.  For 63 out
-of the 147 species, snoRNA sequences were already retrieved in a previous
-study, mostly as test of \snostrip\ \cite{Bartschat:2014}.  In this earlier
-work, we started with experimentally detected snoRNAs extracted from five
-surveys for \Ncr\ \citep{Liu:2009}, \Afu\ \citep{Joechl:2008}, \Calb\
-\citep{Mitrovich:2010}, \Sce\ \citep{Piekna-Przybylska:2007}, and \Spo\
-\citep{Li:2005}. An overview of the exerimentally verified \snos\ and the
-corresponding publications is compiled in Supplementary Table S2. The
-nomenclature of snoRNAs is consistent across different species. A
-dictionary relating the species-specific, traditional \sno\ names as they
-were used in the original publications and the internal snoRNA family
-designations used by \snostrip\ is included as Supplementary Table S3.
-Here we use the results of \cite{Bartschat:2014} as our starting point.
-The inital set comprises 3564 snoRNA sequences assigned to 123 snoRNA
-families in the 63 species. It includes 231 experimentally validated \sno\
-genes taken from the five publications.
+relationship, genome source, and version for all fungal organisms in
+this evolutionary survey is shown in the supplementary Figures S1.
+For 63 out of the 147 species, most snoRNA sequences were already
+retrieved in a previous study, mostly as test of \snostrip\
+\cite{Bartschat:2014}.  In this earlier work, we started with
+experimentally detected snoRNAs extracted from five surveys for \Ncr\
+\cite{Liu:2009}, \Afu\ \cite{Joechl:2008}, \Calb\
+\cite{Mitrovich:2010}, \Sce\ \cite{Piekna-Przybylska:2007}, and \Spo\
+\cite{Li:2005}. An overview of the experimentally verified \snos\ and
+the corresponding publications is compiled in Supplementary Table
+S2. The nomenclature of snoRNAs is consistent across different
+species. A dictionary relating the species-specific, traditional \sno\
+names as they were used in the original publications and the internal
+snoRNA family designations used by \snostrip\ is included as
+Supplementary Table S3.  Here we use the results of
+\cite{Bartschat:2014} as our starting point.  The initial set comprises
+3564 snoRNA sequences assigned to 123 snoRNA families in the 63
+species. It includes 231 experimentally validated \sno\ genes taken
+from the five publications.
 
 \subsection{Homology search}
 
-The \snostrip\ pipeline \citep{Bartschat:2014}pipeline was applied to the
-set of collected snoRNAs and the 147 fungal species in an iterative
-manner. Starting with Pezizomycotina, followed by Saccharomycotina, and
-other lineages towards the root of the phylogenetic tree. Each time new
-(plausible) homologous snoRNAs were detected, the procedure was repeated to
-decrease the number of false negatives until no novel homologs were found
-anymore.
+The \snostrip\ pipeline \cite{Bartschat:2014} was applied to the set
+of collected snoRNAs and the 147 fungal species in an iterative
+manner. Starting with Pezizomycotina, followed by Saccharomycotina,
+and other lineages towards the root of the phylogenetic tree. Each
+time new (plausible) homologous snoRNAs were detected, the procedure
+was repeated to decrease the number of false negatives until no novel
+homologs were found anymore.
 
 \subsection{Data curation}
 
-The candidate snoRNAs identified by \snostrip\ were curated regarding the
-automatically identified box motifs, plausible lengths, and the overall fit
-of each \sno\ sequence in its respective family.  To identify incorrectly
-annotated box motifs, the conservation of all predicted boxes was compared
-to the start positions within the \sno\ family alignment. Motifs that did
-not show box motifs with sufficient conservation levels were re-adjusted to
-fit the \sno\ family specific box pattern and and box position.  \JH{what
-  is the criteria for beeing conserved or not?}
+The candidate snoRNAs identified by \snostrip\ were curated regarding
+the automatically identified box motifs, plausible lengths, and the
+overall fit of each \sno\ sequence in its respective family. \SB{ To
+  identify incorrectly annotated box motifs, the conservation of all
+  predicted boxes was checked by a comparison of the start positions
+  within the \sno\ family alignment. Motifs that start at unconserved
+  positions are most probably false annotations and were re-adjusted
+  to fit the \sno\ family specific box pattern and and box position.
+  Sequences, where re-adjusted C- or D-boxes did not agree with
+  canonical box motif pattern, were removed from further analysis.}
+% \JH{what is the criteria for beeing conserved or not?}
 % If this was not feasible due to non-canonical box motifs at the
 % supposed positions, either the box annotation was deleted (prime
 % boxes) or the whole \sno\ candidate was rejected.  since disrupted
 % box motifs imply non-functional mature \sno s.
-Candidate sequences that were too large or too short were automatically
-adjusted according to identifiable box motifs and tested for sequence and
-structure conservation.
-\TODO{Again, specify the criteria} 
+
+\SB{Too large or too short candidate sequences were mainly caused by
+  misannotated box motifs since \snostrip\ cuts \sno\ genes based on
+  their box motif positions. For these candidates, box motifs were
+  analyzed with respect to their conserved start positions.
+  Subsequently, sequences with re-adjusted box motifs were
+  automatically trimmed or enlarged.}
+% adjusted according to
+%identifiable box motifs and tested for sequence and structure
+%conservation.}
 
 \subsection{Box motifs, sequence and structure}
 
@@ -448,12 +466,13 @@ distribution.
 
 Target prediction is part of the \snostrip\ pipeline. There, the
 computational tools \plexy\ and \snoop\ are employed to predict
-targets for \cd s and \haca s, respectively.  SnoRNAs are investigated
-for single or double guide potential based on these predictions and/or
-confirmed target interactions. SnoRNAs that remain without target
-association are considered orphan. SnoRNAs that are assigned to the
-same family but show variance in their associated target are
-investigated manually for a potential target switch.
+targets for \cd s and \haca s, respectively \cite{Kehr:2011,
+  Tafer:2010}.  SnoRNAs are investigated for single or double guide
+potential based on these predictions and/or confirmed target
+interactions. SnoRNAs that remain without target association are
+considered orphan. SnoRNAs that are assigned to the same family but
+show variance in their associated target are investigated manually for
+a potential target switch.
 
 \subsection{Lineage specific conservation of target interactions}
 To study the conservation of interactions, the targets for each
@@ -474,36 +493,41 @@ E_{\textrm{mfe}}[x,y_{t,k}] $ is the most negative interaction minimum free
 energy between a snoRNA $x$ of family $s$ and the target $t$ in species
 $k$. The normalizations 
 \begin{equation}
+\begin{split}
 \bar\varepsilon(t,k)=\sum_{s\in
-  S(t,k)}\varepsilon(t,s,k)/|S(t,k)| \qquad 
+  S(t,k)}\varepsilon(t,s,k)/|S(t,k)| \\
  \hat\varepsilon(s,k)=\sum_{t\in
   T(s,k)}\varepsilon(t,s,k)/|T(s,k)|
+\end{split}
 \end{equation}
-are obtained by averaging over all all predictions of target $t$ in species
-$k$ or all targets $t$ of snoRNA $s$ in species $k$, respectively.  There
-normalized parameters are then summed over all species $k\in O(t,s)$ in
-which a prediction of target $t$ is found for snoRNA family $s$ normalized
-w.r.t.\ the number of species $|O(s)|$ in which the snoRNA family $s$ is
-present. This approach is particularly suitable for modification sites that
-are present in a large set of analyzed organisms. In cases where a
-potential target appears to be lineage specific, the ICI score will drop to
-rather low values due to the normalization score $1/O(s)$ that represents
-all organisms sharing a homologous \sno\ of family $s$.
+are obtained by averaging over all all predictions of target $t$ in
+species $k$ or all targets $t$ of snoRNA $s$ in species $k$,
+respectively.  There normalized parameters are then summed over all
+species $k\in O(t,s)$ in which a prediction of target $t$ is found for
+snoRNA family $s$ normalized w.r.t.\ the number of species $|O(s)|$ in
+which the snoRNA family $s$ is present. This approach is particularly
+suitable for modification sites that are present in a large set of
+analyzed organisms. In cases where a potential target appears to be
+lineage specific, the ICI score will drop to rather low values due to
+the normalization score $1/O(s)$ that represents all organisms sharing
+a homologous \sno\ of family $s$.
 
-To appropriately investigate alternative or additional targets that merely
-appear in a particular subset of organisms, the ICI score calculation has
-to be adapted to take the particular phylogenetic distribution of a target
-interaction into account. Therefore, the normalization is restricted to the
-smallest phylogenetic or taxonomic subtree that harbours all organisms that
-share prediction of target $t$ in snoRNA family $s$.  Assume the overall
-taxonomic tree is represented by a tree $T=(V,E)$ with root $\gamma$. The
-minimal subtree $U_\tau = (V_\tau, E_\tau)$ with root $\tau$ shares the
-node set $V_\tau = \{\ v\ |\ \forall (v,u)\ ,\ u \in V_\tau\ :\ LCA_T(v,u)
-\in V_\tau\ \}$ where $LCA_T(v,u)$ is the lowest common ancestor in tree
+To appropriately investigate alternative or additional targets that
+merely appear in a particular subset of organisms, the ICI score
+calculation has to be adapted to take the particular phylogenetic
+distribution of a target interaction into account. Therefore, the
+normalization is restricted to the smallest phylogenetic or taxonomic
+subtree that harbors all organisms that share prediction of target
+$t$ in snoRNA family $s$.  Assume the overall taxonomic tree is
+represented by a tree $T=(V,E)$ with root $\gamma$. The minimal
+subtree $U_\tau = (V_\tau, E_\tau)$ with root $\tau$ shares the node
+set
+$V_\tau = \{\ v\ |\ \forall (v,u)\ ,\ u \in V_\tau\ :\ LCA_T(v,u) \in
+V_\tau\ \}$ where $LCA_T(v,u)$ is the lowest common ancestor in tree
 $T$ of both nodes $v$ and $u$. More precisely, the $LCA$ is the lowest
-node, i.e., the farthest node from the root, that has both $v$ and $u$ as
-descendants.  Hence, the ICI scores in a particular subtree rooted at
-$\tau$ can be calculated as follows:
+node, i.e., the farthest node from the root, that has both $v$ and $u$
+as descendants.  Hence, the ICI scores in a particular subtree rooted
+at $\tau$ can be calculated as follows:
 \begin{equation}
   \begin{split}
     ICI_{mod,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|} * \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right)
@@ -517,16 +541,16 @@ $O_\tau(s) = \{\ k\ |\ \exists t\ :\ X(t,s,k) \ne \emptyset\ \&\ v_k
 subtree $\tau$ and share at least one snoRNA of family $s$. $v_k$ is
 the leaf that denotes organism $k$.
 
-Since there is at present no generally accepted nomenclature of snoRNA
-families that respects homology across species, we use the internal
-\snostrip\ family designations throughout and give traditional names in
-parentheses where possible. For instance, \snostrip\ family CD\_22 contains
-the experimentally detected gene snR62 from \sce. A complete set of
-correspondences is given in the dictionary included as Supplementary Table
-S3. Similarly, we pragmatically identify target positions with their
-position in the multiple sequence alignments of the target RNAs
-\TODO{Are the alignments included? refer to them!} Coordinates for
-reference sequences from selected organisms are given in parentheses.
+%Since there is at present no generally accepted nomenclature of snoRNA
+%families that respects homology across species, we use the internal
+%\snostrip\ family designations throughout and give traditional names in
+%parentheses where possible. For instance, \snostrip\ family CD\_22 contains
+%the experimentally detected gene snR62 from \sce. A complete set of
+%correspondences is given in the dictionary included as Supplementary Table
+%S3. Similarly, we pragmatically identify target positions with their
+%position in the multiple sequence alignments of the target RNAs
+%\TODO{Are the alignments included? refer to them!} Coordinates for
+%reference sequences from selected organisms are given in parentheses.
 
 % --------------------------------------------------------------------------- %
 
@@ -541,12 +565,13 @@ reference sequences from selected organisms are given in parentheses.
 
 \section*{Acknowledgments}
 
-This work was funded in part by the European Union FP-7 project QUANTOMICS
-(no.\ 222664), the MMML-seq project of the International Cancer Genome
-Consortium (ICGC) funded by German Federal Ministry of Education and
-Research, the CRC 1052 ``Obesity'' \TODO{ and ...}. LIFE -- Leipzig
-Research Center for Civilization Diseases is funded by the State of Saxony
-and the European Union.
+This work was funded in part by the European Union FP-7 project
+QUANTOMICS (no.\ 222664), the MMML-seq project of the International
+Cancer Genome Consortium (ICGC) funded by German Federal Ministry of
+Education and Research, the CRC 1052 ``Obesity'', and by the Deutsche
+Forschungsgemeinschaft (Project DFG STA 850/15-1). \TODO{more??}. LIFE
+-- Leipzig Research Center for Civilization Diseases is funded by the
+State of Saxony and the European Union.
 
 \bibliographystyle{m}
 \bibliography{Fungi_snoRNAome}

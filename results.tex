@@ -1,99 +1,104 @@
-\TODO{I understand the previous paragraph in Fungi\_snoRNAome.tex is
-  outdated and should be replaced by the following:} 
-\newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
-\PFS{There is at present no generally accepted nomenclature of snoRNA
-  families across different fungal species. In the following we will use
-  established gene names to designate snoRNA families where possible. In
-  cases where homologs have different names in different species we use the
-  perference order \emph{S.\ cerevisiae}, \emph{N.\ crassa}, \emph{A.\
-    fumigatus}, \emph{C.\ albicans}, and \emph{S.\ pombe}. To simplify
-  cross-referncing with machine readable data we also list the \snostrip\
-  family designations in parentheses.  A complete dictionary of
-  nomenclature correspondences can be found in Supplementary Table S3.
-  Similarly, we pragmatically identify target positions with their position
-  in the multiple sequence alignments of the target RNAs \TODO{Are the
-    alignments included? refer to them!}  Coordinates for reference
-  sequences from selected organisms are given in parentheses.}
+
+\SB{There is at present no generally accepted nomenclature of snoRNA
+families across different fungal species. In the following we will use
+established gene names to designate snoRNA families where possible. In
+cases where homologs have different names in different species we use
+the preferred order \emph{S.\ cerevisiae}, \emph{N.\ crassa},
+\emph{A.\ fumigatus}, \emph{C.\ albicans}, and \emph{S.\ pombe}. To
+simplify cross-referencing with machine readable data we also list the
+\snostrip\ family designations in parentheses.  A complete dictionary
+of nomenclature correspondences can be found in Supplementary Table
+S3.  Similarly, we pragmatically identify target positions with their
+position in the multiple sequence alignments of the target
+RNAs. Coordinates for reference sequences from selected organisms are
+given in parentheses.  Single sequence target RNAs and target RNA
+alignments are provided in Supplementary Table S4.}
 
 \subsection{Expanded fungi snoRNA complement}
 
-We used \snostrip\ to search for additional homologs of the initial set of
-67 \cd\ and 56 \haca\ families in 147 fungal species. The U3 \sno\ family
-is considered separately due to its special function and characteristics
-and published elsewhere \cite{Canzler:2017}. All \snostrip\ candidates were
-carefully cross-checked in all species to reduce the number of false
-negatives and to exclude potentially incorrect annotations.  In total we
-found 5595 \cd\ and 2331 \haca\ sequences, expanding the collection of
-annotated fungal snoRNAs by more than 120\%. The data substantially
-increase both the phylogenetic scope and the resolution of the snoRNA
-annotation.
+We used \snostrip\ to search for additional homologs of the initial
+set of 67 \cd\ and 56 \haca\ families in 147 fungal species. The U3
+\sno\ family is considered separately due to its special function and
+characteristics and published elsewhere \cite{Canzler:2017}. All
+\snostrip\ candidates were carefully cross-checked in all species to
+reduce the number of false negatives and to exclude potentially
+incorrect annotations.  In total we found 5595 \cd\ and 2331 \haca\
+sequences, expanding the collection of annotated fungal snoRNAs by
+more than 120\%. The data substantially increase both the phylogenetic
+scope and the resolution of the snoRNA annotation.
 
 \subsection{Characteristics of fungal snoRNAs}
 
-\paragraph{\textbf{Box motifs}} Sequence motifs were extracted from all
-\snostrip-annotated \sno s. The complete collection is available for
-download from Supplement section S5. In general, these motifs are
-consistent with the published rules \TODO{insert refs here} for canonical
-\sno\ box motifs known from both yeast and animals: 
+\paragraph{\textbf{Box motifs}} Sequence motifs were extracted from
+all \snostrip-annotated \sno s. The complete collection is available
+for download from Supplement section S5. In general, these motifs are
+consistent with the published rules \cite{Xia:1997, Watkins:2000,
+  Cahill:2002, Watkins:2002} for canonical \sno\ box motifs known from
+both yeast and animals:
 
-Box C (\texttt{RUGAUGA}) and D (\texttt{CUGA}) match the consensus sequence
-motifs almost perfectly. Box C shows an initial purine (\texttt{R}) in 92\%
-of all cases.  The first \texttt{GA} dinucleotide is absolutely conserved.
-The 5' nucleotide (\texttt{C}) of box D is substituted in 4.2\% of the
-cases, usually by \texttt{A}. The remaining positions are nearly perfectly
-conserved ($\ge$99.7\%). As expected from yeast and other animal snoRNAs
-the situation is different for the prime box motifs.  In box C', merely the
-first \texttt{UG} dinucleotide and, to a lesser extent, the trailing
-\texttt{GA} di-nucleotide are highly conserved.  This might indicate a role
-in the binding of snoRNP associated proteins.  In box D', variations of the
-canonical nucleotides occur quite frequently (between 15\% and 45\%) in
-each position.
+Box C (\texttt{RUGAUGA}) and D (\texttt{CUGA}) match the consensus
+sequence motifs almost perfectly. Box C shows an initial purine
+(\texttt{R}) in 92\% of all cases.  The first \texttt{GA} dinucleotide
+is absolutely conserved.  The 5' nucleotide (\texttt{C}) of box D is
+substituted in 4.2\% of the cases, usually by \texttt{A}. The
+remaining positions are nearly perfectly conserved ($\ge$99.7\%). As
+expected from yeast and other animal snoRNAs the situation is
+different for the prime box motifs \cite{
+  Cahill:2002,Kiss-László:1998}.  In box C', merely the first
+\texttt{UG} dinucleotide and, to a lesser extent, the trailing
+\texttt{GA} dinucleotide are highly conserved.  This might indicate a
+role in the binding of snoRNP associated proteins.  In box D',
+variations of the canonical nucleotides occur quite frequently
+(between 15\% and 45\%) in each position.
 
-In \haca s, we observe that the sequence of box ACA is highly conserved
-with rare variations in its middle position. The adenine residues of box H
-(\texttt{ANANNA}) are highly conserved at the 1$^{st}$ and 3$^{rd}$
-position, while the trailing adenine (6$^{th}$ position) is more
-variable. The 2$^{nd}$ position of this motif is a guanine in nearly 80\%
-of the \haca s, whereas the 4$^{th}$ and 5$^{th}$ \texttt{N} position do
-not show a significantly overrepresented nucleotide.
+In \haca s, we observe that the sequence of box ACA is highly
+conserved with rare variations in its middle position. The adenine
+residues of box H (\texttt{ANANNA}) are highly conserved at the
+1$^{st}$ and 3$^{rd}$ position, while the trailing adenine (6$^{th}$
+position) is more variable. The 2$^{nd}$ position of this motif is a
+guanine in nearly 80\% of the \haca s, whereas the 4$^{th}$ and
+5$^{th}$ \texttt{N} position do not show a significantly
+overrepresented nucleotide. Again, these results are in accordance
+with previously published motif constraints \cite{Normand:2006}.
 
-\paragraph{\textbf{Sequence length}} Consistent with the published \cd\
-length, 90\% of the novel \snostrip-annotated \sno s are 80-135nt in
-length, with a median of 93nt (see supplementary Figure S5.2).  Family
-Nc\_CD\_53 (\ncr, CD\_53 in \snostrip) is the only exception since its
-members share sequences with lengths between 200 and 300nt.  Crucial
-features are the distances between box C and the potential box D' as well
-as between box C' and D since these stretches harbor the target binding
-sites. These regions provide sufficient space to harbor a potential ASE in
-all detected \sno\ candidates, see Figure S5.2.
+\paragraph{\textbf{Sequence length}} Consistent with the published
+\cd\ length, 90\% of the novel \snostrip-annotated \sno s are 80-135nt
+in length, with a median of 93nt (see supplementary Figure S6.2).
+Family Nc\_CD\_53 (\ncr, CD\_53 in \snostrip) is the only exception
+since its members share sequences with lengths between 200 and 300nt.
+Crucial features are the distances between box C and the potential box
+D' as well as between box C' and D since these stretches harbor the
+target binding sites. These regions provide sufficient space to harbor
+a potential ASE in all detected \sno\ candidates, see Figure S6.2.
 
-Box H/ACA snoRNAs are usually longer than box C/D snoRNAs. Their median
-sequence length is 188nt. The shortest sequence comprises 115nt, while 90\%
-of all sequences are between 148 and 266nt.  Both single hairpin sequences
-share a similar length distribution. For boxplots and more details see
-supplement section S5.
+Box H/ACA snoRNAs are usually longer than box C/D snoRNAs. Their
+median sequence length is 188nt. The shortest sequence comprises
+115nt, while 90\% of all sequences are between 148 and 266nt.  Both
+single hairpin sequences share a similar length distribution. For
+boxplots and more details see supplement section S6.
 
 \paragraph{\textbf{Secondary structure}} Due to its specific
-post-transcriptional processing by exonucleases, both trailing ends of \cd
-s are cut not farther than 5 nucleotides away from the C and D boxes,
-respectively \citep{Kishore:2013}. Because of these rather short ends, only
-a small subset of \sno\ sequences were predicted to fold a short closing
-stem (1208 out of 5595).  If we enlarge the trailing ends to 10nt instead,
-a stem could be predicted for nearly 60\% (3317). That fact that more than
-40\% of the box C/D snoRNAs does form a terminal stem even if precursor
-nucleotides are included strongly suggests that the terminal helix is not
-required for their function and snoRNP-associated proteins may be in charge
-of bringing the RNA molecule and the assembled proteins into the correct
+post-transcriptional processing by exonucleases, both trailing ends of
+\cd s are cut not farther than 5 nucleotides away from the C and D
+boxes, respectively \citep{Kishore:2013}. Because of these rather
+short ends, only a small subset of \sno\ sequences were predicted to
+fold a short closing stem (1208 out of 5595).  If we enlarge the
+trailing ends to 10nt instead, a stem could be predicted for nearly
+60\% (3317). That fact that more than 40\% of the box C/D snoRNAs does
+not form a terminal stem even if precursor nucleotides are included
+strongly suggests that the terminal helix is not required for their
+function and snoRNP-associated proteins may be in charge of bringing
+the RNA molecule and the assembled proteins into the correct
 functional conformation.
 
 In contrast, \haca s are required to develop a significant and
 specific secondary structure to function appropriately. Only 15\% (395
-out of 2269) of all box H/ACA snoRNAs were not predicted to fold into a
-stem-loop structure for both hairpins. 
+out of 2269) of all box H/ACA snoRNAs were not predicted to fold into
+a stem-loop structure for both hairpins.
 
-\TODO{can we say something whether the 2nd part is likely non-functional 
-  in the cases where don't get a nice hairpin, e.g. be observing that 
-  the putative ASE is not well conserved?} 
+%\TODO{can we say something whether the 2nd part is likely non-functional 
+%  in the cases where don't get a nice hairpin, e.g. be observing that 
+%  the putative ASE is not well conserved?} 
 
 In general, \sno -specific characteristics like box motifs, lengths,
 and secondary structures are highly comparable between Fungi and
@@ -102,35 +107,36 @@ Metazoa \cite{Kehr:2014}.
 \subsection{Phylogenetic distribution of fungi snoRNAs}
   
 \paragraph{\textbf{Phylogenetic distribution of snoRNAs}}
-A heatmap depicting the distribution of fungal \cd\ families is shown in
-figure \ref{fig:heatmap_CD_snoRNAs}. A similar illustration of \haca\
-families \PFS{with higher resolution} is included as Supplementary Figure
-S6. 
+A heatmap depicting the distribution of fungal \cd\ families is shown
+in figure \ref{fig:heatmap_CD_snoRNAs}. Higher resolution heatmaps of
+both C/D and H/ACA snoRNA families are included in supplement section
+S7.
 
-In general, fungal \sno\ families encompass exactly one \sno\ sequence per
-organism. Exceptions of this rule are given by snoRNA 'clans' CD\_5 and
-CD\_19, which typically have tor or three members per species.  This is
-explained due to several target switches and major rearrangements between
-three different \sno\ families which prompted \snostrip\ to merge the
-previously separate \sno\ familes. We will return to this point below in
-the context of target switches. 
+In general, fungal \sno\ families encompass exactly one \sno\ sequence
+per organism. Exceptions of this rule are given by snoRNA 'clans'
+CD\_5 and CD\_19, which typically have two or three members per
+species.  This is explained due to several target switches and major
+rearrangements between three different \sno\ families which prompted
+\snostrip\ to merge the previously separate \sno\ families. We will
+return to this point below in the context of target switches.
 
 Individual species often encode multiple paralogs of one or several
-families. Good examples are \Ppl, \Asp, and \Nfu. In some cases, paralogs
-persist in larger clades, such as AM921940 (CD\_41) in Leotiomycetes and
-Nc\_CD\_28 (CD\_28) in Sordariomycetes.
+families. Good examples are \Ppl, \Asp, and \Nfu. In some cases,
+paralogs persist in larger clades, such as AM921940 (CD\_41) in
+Leotiomycetes and Nc\_CD\_28 (CD\_28) in Sordariomycetes.
 
 \begin{figure*}
   \vspace{-1cm}
   \centering
   \includegraphics[width=1.05\textwidth]{pics/CD_snoRNAs_collapsed.short_naming.rotated.eps}
-  \caption{A heatmap of
-    \snostrip-detected \cd s is shown on the previous site. Each column represents a specific \sno\
-    family, while each row either represents a certain species or
-    genus. A taxonomic classification is shown on the left hand side. The amount of
-    \sno s detected in a specific species and \sno\ family is encoded in a
-    blue color scheme. Lineage specific families are boxed (A:
-    Saccharomycotina, B: Pezizomycotina, C: Sordariomycetes). %Single
+  \caption{A heatmap of \snostrip-detected \cd s is shown on the
+    previous site. Each column represents a specific \sno\ family,
+    while each row either represents a certain species or genus. A
+    taxonomic classification is shown on the left hand side. The
+    amount of \sno s detected in a specific species and \sno\ family
+    is encoded in a blue color scheme. Lineage specific families are
+    boxed (A: Saccharomycotina, B: Pezizomycotina, C:
+    Sordariomycetes). %Single
 %    \sno\ detections in lineages without any other predictions are either marked with 'X',
  %   '$\star$', or '!', depending on their family-specific functionality. For further details see text.
   }
@@ -143,33 +149,35 @@ attested to carry this \sno\ family, such as Microsporidia,
 Mucoromycotina, Chytridiomycota, or Blastocladiomycota. In addition,
 several families appear to be lineage-specific, e.g., seven in
 Saccharomycotina (see box 'A' in Figure \ref{fig:heatmap_CD_snoRNAs}),
-nine in Peiziomycotina (bo 'B'), and six in Sordariomycetes (box
-'C'). In all cases the originally reported representative of the family 
-maps to these clades. 
+nine in Pezizomycotina (box 'B'), and six in Sordariomycetes (box
+'C'). In all cases the originally reported representative of the
+family maps to these clades.
 
-In contrast to lineage-specific families, lineage-specific losses of \sno s
-are also detectable. Basidiomycota, for example, do not seem to contain
-orthologs of families snR48 (CD\_8), snR190 (CD\_16), or U14 (CD\_37),
-while in Saccharomycotina, no trace is found of \sno s of family AM921940
-(CD\_41). Members of Nc\_CD\_40 (CD\_40) are not detected in
-Eurotiomycetes, while Sordariomycetes are attested to miss homologs of
-families snR39/b (CD\_47) and snR58 (CD\_68). In some other cases, one or
-two representatives are found in lineages where the other species carry no
-detectable homologs. In these cases, only a more detailed analysis of
-target interaction might answer the question whether this single \sno\ is a
-true member of the family or whether it might be an artifact.
+In contrast to lineage-specific families, lineage-specific losses of
+\sno s are also detectable. Basidiomycota, for example, do not seem to
+contain orthologs of families snR48 (CD\_8), snR190 (CD\_16), or U14
+(CD\_37), while in Saccharomycotina, no trace is found of \sno s of
+family AM921940 (CD\_41). Members of Nc\_CD\_40 (CD\_40) are not
+detected in Eurotiomycetes, while Sordariomycetes are attested to miss
+homologs of families snR39/b (CD\_47) and snR58 (CD\_68). In some
+other cases, one or two representatives are found in lineages where
+the other species carry no detectable homologs. In these cases, only a
+more detailed analysis of target interaction might answer the question
+whether this single \sno\ is a true member of the family or whether it
+might be an artifact.
 
-In contrast to the broad distribution of \cd s, only seven \haca\ families
-(out of 50) are detected in early branching fungi and Dikarya. None of
-these are detected in Microsporidia leaving this clade completely without
-any annotated box H/ACA snoRNA. Out data show that \haca s shows
-substantially more lineage specific innovation and deletion events than
-observed in \cd s, see Supplementary Figure S6. In total, 22 out of the 50
-H/ACA families are found only in a small subset of species. Moreover,
-several families are found in two or more lineages but seem to be
-completely lost in others, such as snR42 (HACA\_33), AJ632014 (HACA\_56),
-and snR33 (HACA\_24). They are present in Taphrinomycotina and
-Saccharomycotina but cannot be found in Pezizomycotina.
+In contrast to the broad distribution of \cd s, only seven \haca\
+families (out of 50) are detected in early branching fungi and
+Dikarya. None of these are detected in Microsporidia leaving this
+clade completely without any annotated box H/ACA snoRNA. Our data show
+that \haca s shows substantially more lineage specific innovation and
+deletion events than observed in \cd s, see Supplementary Figure
+S7. In total, 22 out of the 50 H/ACA families are found only in a
+small subset of species. Moreover, several families are found in two
+or more lineages but seem to be completely lost in others, such as
+snR42 (HACA\_33), AJ632014 (HACA\_56), and snR33 (HACA\_24). They are
+present in Taphrinomycotina and Saccharomycotina but cannot be found
+in Pezizomycotina.
 
 \begin{figure*}
   \centering
@@ -184,10 +192,10 @@ Saccharomycotina but cannot be found in Pezizomycotina.
 \end{figure*}
 
 Another noticeable observation is that not a single \haca\ is found in
-\Ptt\ (marked with an asterisk in the supplement figure). This stands
-in sharp contrast to C/D \sno\ sequence, where \ptt\ orthologs are
-found in nearly all families that are present in the \ptt-containing
-Dothideomycetes lineage.
+\Ptt\ (marked with an asterisk in the Supplementary Figure S7.2). This
+stands in sharp contrast to C/D \sno\ sequence, where \ptt\ orthologs
+are found in nearly all families that are present in the
+\ptt-containing Dothideomycetes lineage.
 
 \subsection{Evolutionary event in snoRNA history}
 
@@ -195,14 +203,14 @@ With the help of the \epope\ software, we identified the last common
 ancestor of each individual snoRNA family and found the most
 parsimonious estimate for the number of paralogs at the inner nodes of
 the tree.  We deduced gain and loss event of individual paralogs of
-each snoRNA family and summarized this information for all analysed
+each snoRNA family and summarized this information for all analyzed
 snoRNA families to retrieve a full picture of the evolution of snoRNAs
 in fungi.
 
 Relative innovation and deletion events mapped to the pre-ordered
 nodes of the NCBI-derived taxonomic tree up to species level are shown
 in Figure \ref{fig:relative_innovation_deletion_event}, see
-supplementary Figure S7.1 for a version with absolute values.  We
+supplementary Figure S8.1 for a version with absolute values.  We
 observe a large amount of \sno\ families that emerged at each major
 branch point along the backbone of the taxonomic tree. A total of 34
 \cd\ families could be traced to the root of fungi, indicating an even
@@ -217,21 +225,20 @@ branches leading to the five starting species.
 
 Microsporidia seem to have lost almost the entire snoRNA complement
 that has been present before their split during the evolution.  Only
-two \cd\ families seem to be conserved in this lineage.
-\citet{Gardner:2010} already mentioned the remarkable absence of \sno\ genes
+two \cd\ families seem to be conserved in this lineage.  Gardner
+\emph{et~al.} already mentioned the remarkable absence of \sno\ genes
 in this clade, although all components of the \sno\ machinery are
 clearly present \cite{Gardner:2010}.  We agree with these researchers
 that without further experimental investigations in these fungi we
 cannot state a true loss or a rearrangement of their snoRNA
 repertoire.
 
-Focusing on species level, we is frequently observe that individual 
+Focusing on species level, we is frequently observe that individual
 organisms seem to have lost a large amount of their snoRNAs, i.e. in
 the Basidiomycota lineage.  In particular, \wse\ and several
 Pucciniomycota seem to have lost nearly their entire set of \haca s
 (\wse: 92\%, \rmi: 86\%, or \sli: 86\%). The impact on \cd s is more
-moderate (0.26 \TODO{is the the average number, percentage, or do you mean
-26\%} on average). A potential correlation with significantly
+moderate (26\% on average). A potential correlation with significantly
 smaller genome sizes in Pucciniomycota was not detected (data not
 shown). The previously mentioned loss of the entire \haca\ set in
 \Ptt\ is also clearly visible. Other organisms such as \pan\ and \opi\
@@ -241,7 +248,7 @@ also show an increased loss rate (\pan: 15\% C/D and 13\% H/ACA; \opi:
 \paragraph{\textbf{Novel \emph{Candida albicans} \sno s are lineage-specific}}
 
 Mitrovich \emph{et.~al} identified four novel \sno\ candidates among
-their set fo 40 \sno\ genes that showed no high sequence similiarity
+their set of 40 \sno\ genes that showed no high sequence similarity
 towards already annotated budding yeast sequences
 \cite{Mitrovich:2010}. One of these sequences is found to share a
 homologous target binding region with a known \ncr\ \sno\
@@ -299,29 +306,30 @@ point of view.
   \label{fig:pie_charts}
 \end{figure*}
 
-Among the 68 \cd\ families, the majority (40) are \textit{true} single
-guides.  28 families share a functional D' target and the remaining 12
-families a conserved D box associated binding site. \TODO{this is
-  confusing: how does this add up?}  In addition, 14 \cd\ families are
-\textit{predominantly} single guides, i.e., these families share exactly
-one highly conserved target binding region (three families share a
-conserved D target while 11 families share a functional D' target), whereas
-the other target region is only found to be functional in subset of
-organisms. Eight families harbor two functional target binding regions that
-are conserved throughout all lineages where these families are detected.
-Six families are originally denoted as orphan \sno\ meaning that no
-potential interaction has been published thus far.
+\SB{IS THIS CLEARER NOW??: Among the 68 \cd\ families, the majority
+  (40) are \textit{true} single guides (28 families share a functional
+  D' target; 12 a conserved D target). Another 14 \cd\ families are
+  \textit{predominantly} single guides, i.e., these families share
+  exactly one overly conserved target binding region (three families
+  share a conserved D target while 11 families share a functional D'
+  target), whereas the other target region is only found to be
+  functional in subset of organisms. Another eight families harbor two
+  functional target binding regions that are conserved throughout all
+  lineages where these families are detected.  The remaining six
+  families are originally denoted as orphan \sno\ meaning that no
+  potential interaction has been published thus far.}
 
-In case of \haca s, 23 families are \textit{true} single guides: 8 families
-share a conserved pseudouridylation pocket in hairpin 1 and 15 families
-share a HP2 target. Six families exhibit a lineage specific HP2 target in
-addition to the globally conserved target in HP1. The opposite situation
-can be seen in 3 \haca\ families. 11 families are double guides, and 7
-families are orphan. A summary of the \sno\ classification can be seen in
-Figure \ref{fig:pie_charts}.  Detailed information about each family and
-the \snostrip-assigned target interactions, e.g., alignment position of the
-modification site, ICI scores, and mean minimum free energy values, can be
-found in the supplement (section S9-S18).
+In case of \haca s, 23 families are \textit{true} single guides (8
+families share a conserved pseudouridylation pocket in hairpin 1, 15
+families in hairpin 2). Six families exhibit a lineage specific HP2
+target in addition to the globally conserved target in HP1. The
+opposite situation can be seen in 3 \haca\ families. 11 families are
+double guides, and 7 families are orphan. A summary of the \sno\
+classification can be seen in Figure \ref{fig:pie_charts}.  Detailed
+information about each family and the \snostrip-assigned target
+interactions, e.g., alignment position of the modification site, ICI
+scores, and mean minimum free energy values, can be found in the
+supplement (sections S10-S21).
 
 
 %%%%%
@@ -350,19 +358,19 @@ snR161 (HACA\_39)) or genus-specific (two found in Saccharomyces,
 snR81 (HACA\_26), snR83 (HACA\_30); one found in Schizosaccharomyces,
 AJ632008 (HACA\_46)).
 
-Family snR3 is known \TODO{include reference} to guide three targets in
-both the budding yeast and fission yeast (annotated as AJ632000 in \spo,
-HACA\_3 in \snostrip); HP1 is known to guide modification at position
-25S-3311 (25S-2129 and 25S-2216 in the budding and fission yeast,
-respectively), while there are two targets in HP2; 25S-3449 and 25S-3315
-(\sce\ 25S-2264 and 25S-2133, \spo\ 25S-2351 and 25S-2220). All three
-targets are found to be conserved across Dikarya. In the original
-Neurospora publication \TODO{replace by reference}, however, HP1 is
-annotated to guide the isomerization at position 25S-1200 (25S-401 in
-\Ncr). This guiding capability is not found to be conserved throughout the
-members of this family unlike the yeast annotated target which is also
-convincingly predicted in Neurospora species, even with a lower interaction
-energy.
+Family snR3 is known \cite{Schattner:2004} to guide three targets in
+both the budding yeast and fission yeast (annotated as AJ632000 in
+\spo, HACA\_3 in \snostrip); HP1 is known to guide modification at
+position 25S-3311 (25S-2129 and 25S-2216 in the budding and fission
+yeast, respectively), while there are two targets in HP2; 25S-3449 and
+25S-3315 (\sce\ 25S-2264 and 25S-2133, \spo\ 25S-2351 and
+25S-2220). All three targets are found to be conserved across
+Dikarya. In the original Neurospora publication \cite{Liu:2009},
+however, HP1 is annotated to guide the isomerization at position
+25S-1200 (25S-401 in \Ncr). This guiding capability is not found to be
+conserved throughout the members of this family unlike the yeast
+annotated target which is also convincingly predicted in Neurospora
+species, even with a lower interaction energy.
 
 \paragraph{\textbf{Orphan \sno}}
 Orphan \sno s are sequences without a known target interaction on both
@@ -378,7 +386,7 @@ are mapped to species with verified targets.
 
 A detailed summary of these sequences and their predicted targets with
 respect to evolutionary conservation is shown in supplementary Table
-S13. Highly conserved target interaction that are predicted by
+S14. Highly conserved target interaction that are predicted by
 \snostrip\ are shown in Table \ref{tab:orphan_cd_snoRNAs_short}.
 
 \begin{table}
@@ -424,13 +432,13 @@ S13. Highly conserved target interaction that are predicted by
   \end{center} 
 \end{table}
 
-For both orphan \ncr\ \sno s no unambiguous targets were identified 
-by \snostrip. The best prediction yields an
-ICI$_{sno}$ score of 0.71 for family Nc\_CD\_53 (CD\_53) and is
-loosely found in several Pezizomycotina species (25S-3500, mean mfe:
--11.56). The second family Nc\_CD\_55 (CD\_55) is exclusively found in
-Neurospora preventing a functional analysis of potential targets based
-on conservation aspects.
+For both orphan \ncr\ \sno s no unambiguous targets were identified by
+\snostrip. The best prediction yields an ICI$_{sno}$ score of 0.71 for
+family Nc\_CD\_53 (CD\_53) and is loosely found in several
+Pezizomycotina species (25S-3500, mean mfe: -11.56). The second family
+Nc\_CD\_55 (CD\_55) is exclusively found in Neurospora preventing a
+functional analysis of potential targets based on conservation
+aspects.
 
 In case of both budding yeast \sno s (snR4, snR45), no potential
 target is found across canonical target sequences, although family
@@ -472,8 +480,8 @@ region shows convincing base pairing capabilities to U6-70 (\ncr\
 U6-55) in virtually all identified organisms. The high ICI$_{sno}$
 score of 1.43 and the low mean mfe of -18.10 kcal/mol further promote
 the correctness of this prediction, see Table
-\ref{tab:orphan_cd_snoRNAs_short}. The initially
-annotated D target, on the other hand, is not found to be conserved outside of Neurospora.
+\ref{tab:orphan_cd_snoRNAs_short}. The initially annotated D target,
+on the other hand, is not found to be conserved outside of Neurospora.
 
 \begin{table}
   \caption[Potential targets for orphan \haca s.]{Assigning putative targets to previously
@@ -500,7 +508,7 @@ annotated D target, on the other hand, is not found to be conserved outside of N
 
 Within the initial \haca\ datasets, orphan sequences were published
 for \ncr\ (6 sequences), \afu\ (1), and \spo\ (8).  A detailed summary
-of these sequence can be seen in supplementary Table S18.
+of these sequence can be seen in supplementary Table S20.
 
 By means of \snostrip, eight orphan sequences are found to be
 conserved on sequence level and five of them include budding yeast
@@ -519,8 +527,8 @@ detect a potential common origin. Family AJ632012 (HACA\_54) is
 exclusively found in Schizosaccharomyces, Candida, and
 Debaryomycetaceae. All species with a sufficient LSU sequence are
 competently predicted to guide the pseudouridylation at position
-25S-3439 (\sce 25S-2254). This position is not known to be modified in
-the budding yeast, explaining the missing homologs in this
+25S-3439 (\sce\ 25S-2254). This position is not known to be modified
+in the budding yeast, explaining the missing homologs in this
 clade. Family AJ632016 (HACA\_53), is found across Taphrinomycotina
 and Pezizomycotina and is convincingly predicted to accompany target
 binding at position 18S-1302. However, this position is not known to
@@ -537,10 +545,6 @@ and, further on, about their genuine existence in terms of a viable
 \sno\ molecule as well as its biological necessity remains elusive.
 
 \paragraph{\textbf{Lineage-specific Targets}}
-
-\TODO{Add units kcal/mol consistently. Whenever refererring to 
-known, experimentally validated etc include refernce!}
-
 Quite a few \cd\ families harbor a highly conserved target either at
 their D or D' position. However, in a large amount of cases, it might
 be that these families exhibit additional lineage specific target
@@ -570,38 +574,40 @@ Interesting \cd\ families with a previously annotated functional D'
 targets and lineage specific D targets can be seen in Figure
 \ref{fig:additional_targets}. Detailed information about all \sno\
 families with an additional, lineage specific target are found in
-supplement Table S11.
+Supplementary Table S12.
 
-Family snR87 (CD\_10), for example, with its experimentally verified target
-18S-479 (18S-436; D' target) \TODO{include ref}, is detected in all
-analyzed fungal lineages except for Microsporidia. Besides the functional
-D' region, all Pezizomycotina species, whose large subunit rRNA is
-available, are also predicted to guide an additional target upstream of
-their D box. The target 25S-2066 (\ncr\ 25S-1042) has an ICI$_{sno}$ score
-of 1.21 amongst members in the Pezizomycotina subtree. The mean mfe is
--13.19 kcal/mol.  Family snR53 (CD\_11) was shown to guide the methylation
-at position 18S-894 (18S-796; D' target) in the budding yeast. The
-\snostrip-analysis confirmed the \sno\ and this specific target interaction
-in a wide range of fungi. An additional D' target, U6-62 (\sce\ U6-45), was
+Family snR87 (CD\_10), for example, with its experimentally verified
+target 18S-479 (18S-436; D' target) \cite{Davis:2006}, is detected in
+all analyzed fungal lineages except for Microsporidia. Besides the
+functional D' region, all Pezizomycotina species, whose large subunit
+rRNA is available, are also predicted to guide an additional target
+upstream of their D box. The target 25S-2066 (\ncr\ 25S-1042) has an
+ICI$_{sno}$ score of 1.21 amongst members in the Pezizomycotina
+subtree. The mean mfe is -13.19 kcal/mol.  Family snR53 (CD\_11) was
+shown to guide the methylation at position 18S-894 (18S-796; D'
+target) in the budding yeast \cite{Lowe:1999}. The \snostrip-analysis
+confirmed the \sno\ and this specific target interaction in a wide
+range of fungi. An additional D' target, U6-62 (\sce\ U6-45), was
 originally published in \ncr\ \cite{Liu:2009} based on single sequence
-prediction. This interaction is also convincingly confirmed by \snostrip\
-in all \sno s that were previously found to guide the 18S-894 target,
-except for Saccharomycetaceae, see Figure
-\ref{fig:additional_targets}. Position 45 in U6 snRNA was not found to be
-modified in the budding yeast \cite{Machnicka:2013, Massenet:1998}. Due to
-missing analyses, no such statement can be made in most other fungal
-species. Since the ICI score for the U6 target is only marginal smaller
-than for the 18S target, 0.89 to 0.94, respectively, and the mean mfe value
-is found to be -13.78 kcal/mol (18S-894: -17.34 kcal/mol), it is not unlikely
-that this \sno\ is capable of modifying both targets. Two
-additional targets can be found for the ASE upstream of box D: 25S-1153 and
-25S-1796 (\ncr\ 25S-359 and 25S-790). Both candidates are predicted
-throughout all Pezizomycotina species and, surprisingly, \Tde, a relative
-to the fission yeast. The first interaction is additionally found in \Yli,
-a close relative to the budding yeast. Because of its extraordinary low
-mean minimum free energy of -21.12 kcal/mol, this target is assigned a high
-ICI value of 1.66. The second putative interaction has an ICI score of 0.83
-and a mean mfe of -11.50 kcal/mol.
+prediction. This interaction is also convincingly confirmed by
+\snostrip\ in all \sno s that were previously found to guide the
+18S-894 target, except for Saccharomycetaceae, see Figure
+\ref{fig:additional_targets}. Position 45 in U6 snRNA was not found to
+be modified in the budding yeast \cite{Machnicka:2013,
+  Massenet:1998}. Due to missing analyses, no such statement can be
+made in most other fungal species. Since the ICI score for the U6
+target is only marginal smaller than for the 18S target, 0.89 to 0.94,
+respectively, and the mean mfe value is found to be -13.78 kcal/mol
+(18S-894: -17.34 kcal/mol), it is not unlikely that this \sno\ is
+capable of modifying both targets. Two additional targets can be found
+for the ASE upstream of box D: 25S-1153 and 25S-1796 (\ncr\ 25S-359
+and 25S-790). Both candidates are predicted throughout all
+Pezizomycotina species and, surprisingly, \Tde, a relative to the
+fission yeast. The first interaction is additionally found in \Yli, a
+close relative to the budding yeast. Because of its extraordinary low
+mean minimum free energy of -21.12 kcal/mol, this target is assigned a
+high ICI value of 1.66. The second putative interaction has an ICI
+score of 0.83 and a mean mfe of -11.50 kcal/mol.
 
 A very interesting modification site is 25S-3941 (\sce\ 25S-2724)
 whose actual methylation and the guidance by snR67 (CD\_26) was
@@ -612,25 +618,26 @@ lineages and Chytridiomycota and shares a conserved D' target 25S-3836
 (\sce\ 25S-2619) that is predictable in all Dikarya except for
 Dothideomycetes, Eurotiomycetes, and Leotiomycetes (ICI: 0.86, mean
 mfe: -23.03 kcal/mol). The D target 25S-3941, on the other hand, is
-solely found in Saccharomycotina (ICI: 1.09, mean mfe: -15.34). Family
-snR51 (CD\_6) is found to share this target as a conserved D box
-interaction in Onygenales and in a part of Dothideomycetes (ICI: 0.36,
-mean mfe: -15.46). In a third family, snR54 (CD\_49), the modification
-at 25S-3941 is predicted in Sordariales (ICI: 1.38, mean mfe: -14.14,
-D target).
+solely found in Saccharomycotina (ICI: 1.09, mean mfe: -15.34
+kcal/mol). Family snR51 (CD\_6) is found to share this target as a
+conserved D box interaction in Onygenales and in a part of
+Dothideomycetes (ICI: 0.36, mean mfe: -15.46 kcal/mol). In a third
+family, snR54 (CD\_49), the modification at 25S-3941 is predicted in
+Sordariales (ICI: 1.38, mean mfe: -14.14 kcal/mol, D target).
 
-Similar to the box C/D \sno\ class, several \haca s have a
-functional and highly conserved target guiding region in one hairpin
-and show lineage-specificity in the other, see Figure
+Similar to the box C/D \sno\ class, several \haca s have a functional
+and highly conserved target guiding region in one hairpin and show
+lineage-specificity in the other, see Figure
 \ref{fig:additional_targets}.  A detailed summary can be found in the
-supplement, see Table S16. Some of these functions might already been
+supplement, see Table S18. Some of these functions might already been
 annotated, especially in \sno\ sequences of the budding yeast, see
 families snR189 (HACA\_4) and snR191 (HACA\_42) which are in fact
-officially denoted as double guides in \sce.  HP1 is highly conserved
-in both families and the corresponding target binding capability is at
-least present in Dikarya. In their second hairpin, however, they
-developed two different guiding functions that are predictable in
-separate lineages. Family snR189, for example, is known to guide the
+officially denoted as double guides in \sce\ \cite{Badis:2003,
+  Schattner:2004}.  HP1 is highly conserved in both families and the
+corresponding target binding capability is at least present in
+Dikarya. In their second hairpin, however, they developed two
+different guiding functions that are predictable in separate
+lineages. Family snR189, for example, is known to guide the
 pseudouridylation at 25S-3952 in Saccharomycetaceae while outside of
 this clade the \sno\ is mostly predicted to guide modification at
 18S-633. In snR191, on the other hand, the separation of both target
@@ -655,19 +662,20 @@ hypothetical.
 
 \subsection{Target switches}
 
-Occasionally during evolution, novel guiding interactions are acquired or
-ancestral ones are lost in different species or lineages. It is, however,
-much more uncommon that some target interactions are translocated from one
-snoRNA to another. Therein, the position of the ASE within the snoRNA
-sequence, upstream of box D/D’ or in HP1/HP2, is mostly preserved but it
-happens seldomly that this position is also shifted. Two highly complex
-rearrangements have been automatically detected by \snostrip. Each of these
-two '\sno\ clans' comprise two, three, or even more \sno\ sequences in each
-organism with distinct target interactions. Due to target switches during
-fungal evolution, these previously independent \sno\ sequences became
-connected. Table \ref{tab:sno_clans} summarizes the target interactions
-that are convincingly predicted in the \sno\ clans CD\_5 (containing
-budding yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
+Occasionally during evolution, novel guiding interactions are acquired
+or ancestral ones are lost in different species or lineages. It is,
+however, much more uncommon that some target interactions are
+translocated from one snoRNA to another. Therein, the position of the
+ASE within the snoRNA sequence, upstream of box D/D’ or in HP1/HP2, is
+mostly preserved but it happens seldomly that this position is also
+shifted. Two highly complex rearrangements have been automatically
+detected by \snostrip. Each of these two '\sno\ clans' comprise two,
+three, or even more \sno\ sequences in each organism with distinct
+target interactions. Due to target switches during fungal evolution,
+these previously independent \sno\ sequences became connected. Table
+\ref{tab:sno_clans} summarizes the target interactions that are
+convincingly predicted in the \sno\ clans CD\_5 (containing budding
+yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
 \begin{table}
   \caption{Interaction properties of four LSU modifications of CD\_5
     are shown. Properties for three SSU and two LSU methylations are
@@ -696,7 +704,7 @@ budding yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
 
 In the following, we will focus on the description of the \sno\ clan
 CD\_5. The potential evolutionary history of CD\_19 is illustrated and
-discussed in detail in Supplement Section S8.
+discussed in detail in Supplement Section S9.
 
 \begin{figure*}
   \centering
@@ -711,31 +719,33 @@ discussed in detail in Supplement Section S8.
   \label{fig:CD_5}
 \end{figure*}
 
-\textbf{The \sno\ clan CD\_5} comprises three distinct budding yeast \sno\
-sequences (snR60, snR72, and snR78) which at first sight do not share a
-common evolutionary background. snR60 was verified to guide methylations at
-25S-1898 (single sequence 25S-908, D target) and 25S-1806 (25S-817, D'
-target), snR72 guides the methylation at 25S-1866 (25S-876, D target), and
-snR78 was shown to direct the modification at position 25S-3615 (25S-2421,
-D' target). The methylations at position 25S-1806, 25S-1898, and 25S-3915
-map to known and verified modifications in human large subunit ribosomal
-RNAs and hence, are supposed to be ancient, which in consequence suggest
-the real existence of both the methylations and the guiding snoRNAs at the
-root of fungi.  However, through individual target switches in the cause of
-fungal evolution, the history of these sequences became connected. A
-phylogenetic tree displaying a potential evolutionary history involving
-\sno s that are predicted to guide the above mentioned modifications is
-shown in Figure \ref{fig:CD_5}. Therein, the putative ancient state is
-described to be constituted of two individual \sno\ sequences guiding the
-three ancient methylations.  Parsimonious deletion and innovation events of
-target interactions are marked accordingly. The emergence of the fourth
-modification, 25S-1866, is predicted at the root of Ascomycota, since all
-diverging lineages are either predicted or verified to target this specific
-site. The loss of any of the four guiding functions occurred rather
-frequently in several lineages, e.g., Basidiomycota are supposed to have
-lost the guiding potential for 25S-1806 while different Basidiomycota
-lineages are further predicted to have lost the ability to guide
-methylation at 25S-3615.
+\textbf{The \sno\ clan CD\_5} comprises three distinct budding yeast
+\sno\ sequences (snR60, snR72, and snR78) which at first sight do not
+share a common evolutionary background. snR60 was verified to guide
+methylations at 25S-1898 (single sequence 25S-908, D target) and
+25S-1806 (25S-817, D' target), snR72 guides the methylation at
+25S-1866 (25S-876, D target), and snR78 was shown to direct the
+modification at position 25S-3615 (25S-2421, D' target)
+\cite{Lowe:1999}. The methylations at position 25S-1806, 25S-1898, and
+25S-3915 map to known and verified modifications in human large
+subunit ribosomal RNAs and hence, are supposed to be ancient, which in
+consequence suggest the real existence of both the methylations and
+the guiding snoRNAs at the root of fungi.  However, through individual
+target switches in the cause of fungal evolution, the history of these
+sequences became connected. A phylogenetic tree displaying a potential
+evolutionary history involving \sno s that are predicted to guide the
+above mentioned modifications is shown in Figure
+\ref{fig:CD_5}. Therein, the putative ancient state is described to be
+constituted of two individual \sno\ sequences guiding the three
+ancient methylations.  Parsimonious deletion and innovation events of
+target interactions are marked accordingly. The emergence of the
+fourth modification, 25S-1866, is predicted at the root of Ascomycota,
+since all diverging lineages are either predicted or verified to
+target this specific site. The loss of any of the four guiding
+functions occurred rather frequently in several lineages, e.g.,
+Basidiomycota are supposed to have lost the guiding potential for
+25S-1806 while different Basidiomycota lineages are further predicted
+to have lost the ability to guide methylation at 25S-3615.
 
 \begin{figure*}
   \centering
@@ -759,80 +769,76 @@ methylation at 25S-3615.
 \label{fig:CD_5_cluster_history}
 \end{figure*}
 
-In addition to gain and loss events, target interactions resposible for
-these four modifications switched between different \sno s several times
-during fungal evolution. The target site within the \sno\ (D' or D target)
-are mostly preserved. Within the Taphrinomycotina lineage, including the
-fission yeast, target guiding functions at 25S-1806 (D' target) and
-25S-1866 (D target) are incorporated into one \sno\ sequence after the
-original guidance of 25S-1898 (D target) was lost.
+In addition to gain and loss events, target interactions responsible
+for these four modifications switched between different \sno s several
+times during fungal evolution. The target site within the \sno\ (D' or
+D target) are mostly preserved. Within the Taphrinomycotina lineage,
+including the fission yeast, target guiding functions at 25S-1806 (D'
+target) and 25S-1866 (D target) are incorporated into one \sno\
+sequence after the original guidance of 25S-1898 (D target) was lost
+in this family.
+% \TODO{At least in \spo\, 25S-1898 is predicted to be guided by CD\_26...}
 
-At the root of Ascomycota, a polycistronic \sno\ transcript is arranged
-including the \sno\ sequences of snR77 (CD\_24), snR76 (CD\_12), snR75
-(CD\_7), snR74 (CD\_21), and snR73 (CD\_31) in 5'-3' direction, see Figure
-\ref{fig:CD_5_cluster_history}.  All these \sno\ families are already
-present at the root of Dikarya, distributed over large distances or
-different chromosomes. After the formation of this cluster, the precise
-order and the length of approximately 1.5kb is highly conserved throughout
-all Ascomycota.
+At the root of Ascomycota, a polycistronic \sno\ transcript is
+arranged including the \sno\ sequences of snR77 (CD\_24), snR76
+(CD\_12), snR75 (CD\_7), snR74 (CD\_21), and snR73 (CD\_31) in 5'-3'
+direction, see Figure \ref{fig:CD_5_cluster_history}.  All these \sno\
+families are already present at the root of Dikarya, distributed over
+large distances or different chromosomes. After the formation of this
+cluster, the precise order and the length of approximately 1.5kb is
+highly conserved throughout all Ascomycota.
 
-Maybe a \sno\ of clan CD\_5 guiding methylation at 25S-3615 was already
-present at the 5' end of this cluster when it emerged. However, there are
-several possibilities how the \sno\ cluster evolved after the innovation of
-guiding function for 25S-1866.  One hypothesis (Blue stars in Figure
-\ref{fig:CD_5_cluster_history}) is the initial incorporation of 25S-1866
-into the \sno\ that already guides 25S-3615, creating a double guide \sno
-at the 5' end of the polycistronic transcript. In Taphrinomycotina, the
-loss of guiding function for 25S-3915 and 25S-1898 might have caused the
-rearrangement of the 25S-1806 and 25S-1866 and the exclusion from the \sno\
-cluster. At the root of Saccharomycotina, the double guide \sno\ might have
-split up leaving a single guide at the 5' end (25S-3615) and a novel single
-guide at the 3' end of the cluster (25S-1866). The original formation is
-solely conserved in \Yli. In another hypothesis, evolution might have taken
-the other way round (green stars in Figure
-\ref{fig:CD_5_cluster_history}). Assuming that the innovation of 25S-1866
-led to a novel single guide \sno\ located at the 3' end of the \sno\
-cluster, as seen in Saccharomycetaceae, \yli\ would be the only organism in
-Saccharomycotina where a rearrangement is detected. As a consequence, the
-previously single guide sequences are reorganized into a double guide
-sequence with guiding ability for 25S-3615 as D' target and 25S-1866 as D
-target. This novel double guide is now located at the 5' end of the
-cluster.  Coincidentally, the same reorganization happened at the root of
-Pezizomycotina, where the first \sno\ of the cluster is found to guide
-modifications at position 25S-3615 (D') and 25S-1866 (D). Proteins that are
-located up- and downstream of the previously described \sno\ cluster are
-not found to be conserved throughout major fungal lineages.
+Maybe a \sno\ of clan CD\_5 guiding methylation at 25S-3615 was
+already present at the 5' end of this cluster when it
+emerged. However, there are several possibilities how the \sno\
+cluster evolved after the innovation of guiding function for 25S-1866.
+One hypothesis (Blue stars in Figure \ref{fig:CD_5_cluster_history})
+is the initial incorporation of 25S-1866 into the \sno\ that already
+guides 25S-3615, creating a double guide \sno at the 5' end of the
+polycistronic transcript. In Taphrinomycotina, the loss of guiding
+function for 25S-3915 and 25S-1898 might have caused the rearrangement
+of the 25S-1806 and 25S-1866 and the exclusion from the \sno\
+cluster. At the root of Saccharomycotina, the double guide \sno\ might
+have split up leaving a single guide at the 5' end (25S-3615) and a
+novel single guide at the 3' end of the cluster (25S-1866). The
+original formation is solely conserved in \Yli. In another hypothesis,
+evolution might have taken the other way round (green stars in Figure
+\ref{fig:CD_5_cluster_history}). Assuming that the innovation of
+25S-1866 led to a novel single guide \sno\ located at the 3' end of
+the \sno\ cluster, as seen in Saccharomycetaceae, \yli\ would be the
+only organism in Saccharomycotina where a rearrangement is
+detected. As a consequence, the previously single guide sequences are
+reorganized into a double guide sequence with guiding ability for
+25S-3615 as D' target and 25S-1866 as D target. This novel double
+guide is now located at the 5' end of the cluster.  Coincidentally,
+the same reorganization happened at the root of Pezizomycotina, where
+the first \sno\ of the cluster is found to guide modifications at
+position 25S-3615 (D') and 25S-1866 (D). Proteins that are located up-
+and downstream of the previously described \sno\ cluster are not found
+to be conserved throughout major fungal lineages.
 
 A further interesting observation is the potential duplication of
 target interaction for 25S-1898 at the root of Pezizomycotina. This
 ability is inserted into family snR67 (CD\_26) as a D' target in the
 lineages Dothideomycetes, Eurotiomycetes, and Leotiomycetes
-(ICI$_{Pezizomycotina}$: 1.13, mean mfe: -18.79). Neurospora species
-are also predicted to guide this methylation with its Nc\_CD\_26
-(CD\_26) \sno \cite{Liu:2009}. In reverse the original D' target of
-snR67, 25S-3836, was abolished in these organisms and is not found to
-be restored in any other \sno\ family.  Please also confer Figure
-\ref{fig:additional_targets} for more detailed information of family
-CD\_26. The invention of redundant guides would explain the findings
-that in some of these species the original target site of 25S-1898
-vanished in CD\_5 \sno s, e.g., in Capnodiales, some Aspergillus
-organisms, or Onygenales. Families CD\_5 and CD\_26 are not merged due
-to a switch of the ASE (from D in CD\_5 to D' in CD\_26).  
+(ICI$_{Pezizomycotina}$: 1.13, mean mfe: -18.79 kcal/mol). Neurospora
+species are also predicted to guide this methylation with its
+Nc\_CD\_26 (CD\_26) \sno \cite{Liu:2009}. In reverse the original D'
+target of snR67, 25S-3836, was abolished in these organisms and is not
+found to be restored in any other \sno\ family.  Please also confer
+Figure \ref{fig:additional_targets} for more detailed information of
+family CD\_26. The invention of redundant guides would explain the
+findings that in some of these species the original target site of
+25S-1898 vanished in CD\_5 \sno s, e.g., in Capnodiales, some
+Aspergillus organisms, or Onygenales. Families CD\_5 and CD\_26 are
+not merged due to a switch of the ASE (from D in CD\_5 to D' in
+CD\_26).
 
-\SB{Think
-  about this: Interestingly, in lineages where the original target
-  25S-3836 of CD\_26 is lost, there is no functional connection to the
-  orginal snoRNA family anymore. This means organisms of such lineages
-  have no functional target sitem either D or D' in common with
-  organisms of other lineages in this particular family. They show
-  clear sequence homology, meaning that they probably descend from one
-  another. evolution of a new snoRNA family due to target shift??}
-\TODO{Maybe move this to the discussion/conclusion section?}
 
 \paragraph{\textbf{Multiple Target Interactions}}
-In some cases, \sno\ families are not only convincingly
-predicted to guide one specific target modification but two or even
-more with the same ASE.
+In some cases, \sno\ families are not only convincingly predicted to
+guide one specific target modification but two or even more with the
+same ASE.
 \begin{table}
   \caption{Summary of multiple target predictions of families 
     snR40 (CD\_43) and snR70 (CD\_61) that are guided with the same ASE.}
@@ -855,24 +861,26 @@ more with the same ASE.
     \end{footnotesize}
   \end{center}
 \end{table}
-An outstanding example is given \cd\ family snR40 (CD\_43). It is predicted
-and experimentally validated \TODO{ref} to guide methylation at position
-18S-1400 (18S-1271) with its D' target binding region. This interaction is
-predicted in 67 out of 90 \sno s and provides an ICI score of 0.95 with a
-mean interaction energy of -12.96 kcal/mol. However, an even better target
-is predicted at position 18S-614 (18S-562) with an ICI score of 1.61 and a
-mean mfe of -21.69. This interaction is found in 71 organisms. All 67 \sno
-s predicted to guide the first target are also predicted to guide the
+An outstanding example is given by \cd\ family snR40 (CD\_43). It is
+predicted and experimentally validated \cite{Lowe:1999} to guide
+methylation at position 18S-1400 (18S-1271) with its D' target binding
+region. This interaction is predicted in 67 out of 90 \sno s and
+provides an ICI score of 0.95 with a mean interaction energy of -12.96
+kcal/mol. However, an even better target is predicted at position
+18S-614 (18S-562) with an ICI score of 1.61 and a mean mfe of
+-21.69. This interaction is found in 71 organisms. All 67 \sno s
+predicted to guide the first target are also predicted to guide the
 latter one, in a vast majority of cases even with a better binding
-energy. But since the genuine modification is neither reported in \sce,
-\ncr, or human, this prediction, albeit its overly convincing nature,
-remains hypothetical.
+energy. But since the genuine modification is neither reported in
+\sce, \ncr, nor human, this prediction, albeit its overly convincing
+nature, remains hypothetical.
 
 An even more impressive example is the D' ASE. of the snR70 (CD\_61)
 family.  No less than five potential targets are predicted with an ICI
-score above 1.0, a mean mfe below -11.30 and more than 80 single sequence
-predictions. Details are shown in Table
-\ref{tab:redundant_predictions}. This time, the most persuasive prediction
-is experimentally confirmed, whereas the other predicted positions so far
-have not been shown to be chemically modified.
+score above 1.0, a mean mfe below -11.30 kcal/mol and more than 80
+single sequence predictions. Details are shown in Table
+\ref{tab:redundant_predictions}. This time, the most persuasive
+prediction is experimentally confirmed \cite{Lowe:1999}, whereas the
+other predicted positions so far have not been shown to be chemically
+modified.
 
