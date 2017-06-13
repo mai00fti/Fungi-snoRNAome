@@ -29,7 +29,7 @@
 \renewcommand\floatpagefraction{.95}
 \renewcommand\dbltopfraction{.95}
 \renewcommand\dblfloatpagefraction{.95}
-%\newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
+\newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
 %\newcommand{\DOM}[1]{\begingroup\color{green}#1\endgroup}
 \newcommand{\JH}[1]{\begingroup\color{purple}#1\endgroup}
 %\newcommand{\KR}[1]{\begingroup\color{magenta}#1\endgroup}
@@ -238,44 +238,46 @@
 
 \author[LEI]{Sebastian Canzler\corref{cor1}}
 \ead{sebastian@bioinf.uni-leipzig.de}
-%\author[LEI]{Stephanie Kehr}
-%\ead{steffi@bioinf.uni-leipzig.de}
 \author[LEI,IZBI,MPI,IZI,RTH,TBI,SFI]{Peter F.\ Stadler}
 \ead{studla@bioinf.uni-leipzig.de}
 \author[UFZ]{Jana Hertel}
-\ead{jana.hertel@ufz.de}  % KR: new E-Mail address
+\ead{jana.hertel@ufz.de}  
 
 \address[LEI]{Bioinformatics Group, Department of Computer Science,
-              University Leipzig,
-              H{\"a}rtelstra{\ss}e 16-18, D-04107 Leipzig, Germany
-             }
+  Leipzig University,
+  H{\"a}rtelstra{\ss}e 16-18, D-04107 Leipzig, Germany
+}
 \address[IZBI]{Interdisciplinary Center for Bioinformatics,
-              University Leipzig,
-              H{\"a}rtelstra{\ss}e 16-18, D-04107 Leipzig, Germany
-             }
-\address[UFZ]{Young Investigators Group Bioinformatics and Transcriptomics, Department Proteomics, 
-              Helmholtz Centre for Environmental Research -- UFZ, 
-              Permoserstra{\ss}e 15,
-              D-04318 Leipzig, Germany
-             }
-\address[IZI]{Department of Diagnostics, Fraunhofer Institute for Cell Therapy and Immunology -- IZI,
-              Perlickstra{\ss}e 1, 
-              D-04103 Leipzig, Germany
-             }
+  German Centre for Integrative Biodiversity Research (iDiv)
+  Halle-Jena-Leipzig, Competence Center for Scalable Data Services
+  and Solutions, and Leipzig Research Center for Civilization Diseases,
+  Leipzig University
+}
+\address[UFZ]{Young Investigators Group Bioinformatics and Transcriptomics, 
+  Department Proteomics, 
+  Helmholtz Centre for Environmental Research -- UFZ, 
+  Permoserstra{\ss}e 15,
+  D-04318 Leipzig, Germany
+}
+\address[IZI]{Department of Diagnostics, 
+  Fraunhofer Institute for Cell Therapy and Immunology -- IZI,
+  Perlickstra{\ss}e 1, 
+  D-04103 Leipzig, Germany
+}
 \address[MPI]{Max Planck Institute for Mathematics in the Sciences,
-              Inselstra{\ss}e 22, D-04103 Leipzig, Germany
-             }
+  Inselstra{\ss}e 22, D-04103 Leipzig, Germany
+}
 \address[TBI]{Department of Theoretical Chemistry,
-              University of Vienna,
-              W{\"a}hringerstra{\ss}e 17, A-1090 Wien, Austria
-             }
+  University of Vienna,
+  W{\"a}hringerstra{\ss}e 17, A-1090 Wien, Austria
+}
 \address[RTH]{Center for non-coding RNA in Technology and Health,
-              University of Copenhagen, Gr{\o}nneg{\aa}rdsvej 3, 
-              DK-1870 Frederiksberg C, Denmark
-             }
+  University of Copenhagen, Gr{\o}nneg{\aa}rdsvej 3, 
+  DK-1870 Frederiksberg C, Denmark
+}
 \address[SFI]{Santa Fe Institute, 1399 Hyde Park Rd., Santa Fe, NM 87501,
-              USA\\[1em]
-             }
+  USA\\[1em]
+}
 
 %\cortext[jfa]{Joint first authors}
 \cortext[cor1]{Corresponding author}
@@ -284,21 +286,20 @@
 
 
 \begin{abstract}
-\SB{Small nucleolar RNAs (snoRNAs) are essential players in the rRNA
-  biogenesis through their involvement in the nucleolytic processing of
-  the precursor and the subsequent guidance of nucleoside
-  modifications. Within the kingdom of fungi, several species-specific
-  surveys explore their snoRNA repertoire. However, the wide range of
-  the snoRNA landscape spanning all major fungal lineages has not been
-  mapped so far, mainly because of missing tools for automatized \sno\
-  detection and functional analysis. Here, we report a comprehensive
-  inventory of fungal \sno s with an in-depth investigation of their
-  evolutionary history including innovations, deletions, and target
-  switches. This large-scale analysis, incorporating more than 120
-  \sno\ families with more than 7700 individual \sno\ sequences, shows
-  apparently that the shape of the landscape is subject to consistent
-  re-arrangements and adaptations, e.g., through lineage-specific
-  targets and redundant guiding functions.}
+  Small nucleolar RNAs (snoRNAs) are essential players in the rRNA
+  biogenesis due to their involvement in the nucleolytic processing of the
+  precursor and the subsequent guidance of nucleoside modifications. Within
+  the kingdom Fungi, several species-specific surveys have explored their
+  snoRNA repertoire. However, the wide range of the snoRNA landscape
+  spanning all major fungal lineages has not been mapped so far, mainly
+  because of missing tools for automatized \sno\ detection and functional
+  analysis. Here, we report a comprehensive inventory of fungal {\sno}s
+  together with an in-depth investigation of their evolutionary history
+  including innovations, deletions, and target switches. This large-scale
+  analysis, incorporating more than 120 \sno\ families with more than 7700
+  individual \sno\ sequences, shows that the {\sno} landscape is subject
+  to ongoing re-arrangements and adaptations, e.g., through
+  lineage-specific targets and redundant guiding functions.
 
   An electronic supplement containing the data sets used and produced in
   this study is available at
@@ -316,24 +317,24 @@
 
 \section{Introduction}
 
-Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs)
-that guide the chemical modification of single nucleotides in other
-RNA molecules.  Localized in the nucleolus of eukaryotic (and some
-archaean) cells, they associate with at least four proteins to form
-the small nucleolar ribonucleoprotein (snoRNP) complex
-\cite{Reichow:2007}.  The target RNA molecule is held in the correct
-position by base pairing to short unpaired region(s) within the snoRNA
-usually referred to as the antisense elements (ASE). The base pairing
-completely specifies the target nucleotide. \SB{Known modifications
-are mostly located in ribosomal RNAs (rRNAs) and small nuclear RNAs
-(snRNAs) \cite{Decatur:2002, Darzacq:2002, Bratkovi:2011}, although
-some snoRNAs have been shown to target residues in other RNA molecules
-such as transfer RNAs \cite{Clouet_d'Orval:2001, Dennis:2001}, spliced
-leader RNAs \cite{Uliel:2004}, or brain-specific messenger RNAs
-\cite{Cavaillé:2000, Kishore:2006}. Furthermore, \sno s are known to
-be involved in the nucleolytic processing of rRNA precursors, the
-synthesis of telomeric DNA, genomic imprinting, and alternative
-splicing \cite{Maxwell:1995, Tollervey:1997, Kiss:2002, Matera:2007}.}
+Small nucleolar RNAs (snoRNAs) are non-protein-coding RNAs (ncRNAs) that
+guide the chemical modification of single nucleotides in other RNA
+molecules.  Localized in the nucleolus of eukaryotic (and some archaean)
+cells, they associate with at least four proteins to form the small
+nucleolar ribonucleoprotein (snoRNP) complex \cite{Reichow:2007}.  The
+target RNA molecule is held in the correct position by base pairing to
+short unpaired region(s) within the snoRNA usually referred to as the
+antisense elements (ASE). The base pairing completely specifies the target
+nucleotide. Known modifications are mostly located in ribosomal RNAs
+(rRNAs) and small nuclear RNAs (snRNAs)
+\cite{Decatur:2002,Darzacq:2002,Bratkovi:2011}, although some snoRNAs have
+been shown to target residues in other RNA molecules such as transfer RNAs
+\cite{Clouet_d'Orval:2001,Dennis:2001}, spliced leader RNAs
+\cite{Uliel:2004}, or brain-specific messenger RNAs \cite{Cavaillé:2000,
+  Kishore:2006}. Furthermore, {\sno}s are known to be involved in the
+nucleolytic processing of rRNA precursors, the synthesis of telomeric DNA,
+genomic imprinting, and alternative splicing
+\cite{Maxwell:1995,Tollervey:1997,Kiss:2002,Matera:2007}.
 
 There are two distinct classes of snoRNAs: box C/D and box H/ACA
 snoRNAs.  They are distinguished by their secondary structure,
@@ -358,20 +359,19 @@ rapidly, making them hard to identify by purely sequence-base methods
 such as \texttt{blast} \cite{Altschul:1990}.
 
 To overcome this limitation, we introduced a computational annotation
-pipeline \snostrip\ \cite{Bartschat:2014} that is specifically
-designed to track all specific characteristics of snoRNAs. Here we use
-this approach to analyze a large set of fungal species with genomes
-that are available in decent quality for their snoRNA abundance.  We
-started with experimentally verified snoRNAs in five fungi.  Further,
-we studied the evolutionary conservation of those snoRNAs and the
-co-evolution of snoRNAs and their targets. We provide a comprehensive
-set of fungal snoRNAs, their detailed description with respect to
-genomic location, box motifs and position, potential/confirmed target
-information (including observed target switches), family assignment
-and a suggestion of the evolutionary history of individual snoRNA
-families.  All data can be viewed in and downloaded from our
-electronic supplement. \SB{Manually curated snoRNA family alignments will
-be submitted to \texttt{Rfam} \cite{Nawrocki:2015}.}
+pipeline \snostrip\ \cite{Bartschat:2014} that is specifically designed to
+track all specific characteristics of snoRNAs. Here we use this approach to
+analyze a large set of fungal species with genomes that are available in
+decent quality for their snoRNA abundance.  We started with experimentally
+verified snoRNAs in five fungi.  Further, we studied the evolutionary
+conservation of those snoRNAs and the co-evolution of snoRNAs and their
+targets. We provide a comprehensive set of fungal snoRNAs, their detailed
+description with respect to genomic location, box motifs and position,
+potential/confirmed target information (including observed target
+switches), family assignment and a suggestion of the evolutionary history
+of individual snoRNA families.  All data can be viewed in and downloaded
+from our electronic supplement. Manually curated snoRNA family alignments
+will be submitted to the \texttt{Rfam} database \cite{Nawrocki:2015}.
 
 % --------------------------------------------------------------------------- %
 
@@ -415,31 +415,22 @@ homologs were found anymore.
 
 \subsection{Data curation}
 
-The candidate snoRNAs identified by \snostrip\ were curated regarding
-the automatically identified box motifs, plausible lengths, and the
-overall fit of each \sno\ sequence in its respective family. \SB{ To
-  identify incorrectly annotated box motifs, the conservation of all
-  predicted boxes was checked by a comparison of the start positions
-  within the \sno\ family alignment. Motifs that start at unconserved
-  positions are most probably false annotations and were re-adjusted
-  to fit the \sno\ family specific box pattern and and box position.
-  Sequences, where re-adjusted C- or D-boxes did not agree with
-  canonical box motif pattern, were removed from further analysis.}
-% \JH{what is the criteria for beeing conserved or not?}
-% If this was not feasible due to non-canonical box motifs at the
-% supposed positions, either the box annotation was deleted (prime
-% boxes) or the whole \sno\ candidate was rejected.  since disrupted
-% box motifs imply non-functional mature \sno s.
-
-\SB{Too large or too short candidate sequences were mainly caused by
-  misannotated box motifs since \snostrip\ cuts \sno\ genes based on
-  their box motif positions. For these candidates, box motifs were
-  analyzed with respect to their conserved start positions.
-  Subsequently, sequences with re-adjusted box motifs were
-  automatically trimmed or enlarged.}
-% adjusted according to
-%identifiable box motifs and tested for sequence and structure
-%conservation.}
+The candidate snoRNAs identified by \snostrip\ were curated regarding the
+automatically identified box motifs, plausible lengths, and the overall fit
+of each \sno\ sequence in its respective family. To identify incorrectly
+annotated box motifs, the conservation of all predicted boxes was checked
+by a comparison of the start positions within the \sno\ family
+alignment. Motifs that start at unconserved positions are most probably
+false annotations and were re-adjusted to fit the \sno\ family specific box
+pattern and and box position.  Sequences, where re-adjusted C- or D-boxes
+did not agree with canonical box motif pattern, were removed from further
+analysis.
+\PFS{Candidates sequences that are either too long or too short were mostly
+  the consequence of} misannotated box motifs because \snostrip\ cuts \sno\
+genes based on their box motif positions. For these candidates, box motifs
+were analyzed with respect to their conserved start positions.
+Subsequently, sequences with re-adjusted box motifs were automatically
+trimmed or enlarged.
 
 \subsection{Box motifs, sequence and structure}
 
@@ -530,9 +521,9 @@ as descendants.  Hence, the ICI scores in a particular subtree rooted
 at $\tau$ can be calculated as follows:
 \begin{equation}
   \begin{split}
-    ICI_{mod,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|} * \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right)
+    ICI_{mod,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|}  \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right)
     \\
-    ICI_{sno,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|} * \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\hat\varepsilon(s,k)} \right)
+    ICI_{sno,\tau}\:(t,s) & = \frac{1}{|O_\tau(s)|}  \left( \sum_{k\in O_\tau(t,s)} \frac{\varepsilon(t,s,k)}{\hat\varepsilon(s,k)} \right)
   \end{split}
 \end{equation}
 where
@@ -541,16 +532,6 @@ $O_\tau(s) = \{\ k\ |\ \exists t\ :\ X(t,s,k) \ne \emptyset\ \&\ v_k
 subtree $\tau$ and share at least one snoRNA of family $s$. $v_k$ is
 the leaf that denotes organism $k$.
 
-%Since there is at present no generally accepted nomenclature of snoRNA
-%families that respects homology across species, we use the internal
-%\snostrip\ family designations throughout and give traditional names in
-%parentheses where possible. For instance, \snostrip\ family CD\_22 contains
-%the experimentally detected gene snR62 from \sce. A complete set of
-%correspondences is given in the dictionary included as Supplementary Table
-%S3. Similarly, we pragmatically identify target positions with their
-%position in the multiple sequence alignments of the target RNAs
-%\TODO{Are the alignments included? refer to them!} Coordinates for
-%reference sequences from selected organisms are given in parentheses.
 
 % --------------------------------------------------------------------------- %
 
@@ -565,13 +546,13 @@ the leaf that denotes organism $k$.
 
 \section*{Acknowledgments}
 
-This work was funded in part by the European Union FP-7 project
-QUANTOMICS (no.\ 222664), the MMML-seq project of the International
-Cancer Genome Consortium (ICGC) funded by German Federal Ministry of
-Education and Research, the CRC 1052 ``Obesity'', and by the Deutsche
-Forschungsgemeinschaft (Project DFG STA 850/15-1). \TODO{more??}. LIFE
--- Leipzig Research Center for Civilization Diseases is funded by the
-State of Saxony and the European Union.
+This work was funded in part by the European Union FP-7 project QUANTOMICS
+(no.\ 222664), the MMML-seq project of the International Cancer Genome
+Consortium (ICGC) funded by German Federal Ministry of Education and
+Research, the CRC 1052 ``Obesity'', and by the Deutsche
+Forschungsgemeinschaft (Project DFG STA 850/15-1). LIFE -- Leipzig Research
+Center for Civilization Diseases is funded by the State of Saxony and the
+European Union.
 
 \bibliographystyle{m}
 \bibliography{Fungi_snoRNAome}
