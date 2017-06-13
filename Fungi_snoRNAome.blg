@@ -1,28 +1,28 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Fungi_snoRNAome.aux
 The style file: m.bst
 Database file #1: Fungi_snoRNAome.bib
 You've used 51 entries,
             2426 wiz_defined-function locations,
-            925 strings with 15765 characters,
-and the built_in function-call counts, 40346 in all, are:
-= -- 3610
+            925 strings with 15892 characters,
+and the built_in function-call counts, 40643 in all, are:
+= -- 3643
 > -- 667
 < -- 0
 + -- 332
 - -- 167
-* -- 3122
-:= -- 4762
+* -- 3155
+:= -- 4795
 add.period$ -- 193
 call.type$ -- 51
 change.case$ -- 53
 chr.to.int$ -- 0
 cite$ -- 51
-duplicate$ -- 4171
-empty$ -- 4279
+duplicate$ -- 4204
+empty$ -- 4312
 format.name$ -- 218
-if$ -- 8969
+if$ -- 9035
 int.to.chr$ -- 0
 int.to.str$ -- 51
 missing$ -- 574
@@ -34,7 +34,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 343
 stack$ -- 0
-substring$ -- 5318
+substring$ -- 5384
 swap$ -- 1193
 text.length$ -- 0
 text.prefix$ -- 0
