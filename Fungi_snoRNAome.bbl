@@ -111,7 +111,7 @@ Bartschat S, Kehr S, Tafer H, Stadler PF, Hertel J.
 
 \bibitem{Nawrocki:2015}
 Nawrocki EP, et~al.
-\newblock {Rfam} 12.0: updates to the rna families database.
+\newblock {Rfam} 12.0: updates to the {RNA} families database.
 \newblock Nucleic Acids Res 43, 2015:D130--7.
 \newblock \doi{10.1093/nar/gku1063}.
 
@@ -236,7 +236,7 @@ Watkins NJ, Dickmanns A, L{\"u}hrmann R.
 
 \bibitem{Kiss-László:1998}
 {Kiss-L{\'a}szl{\'o}} Z, Henry Y, Kiss T.
-\newblock Sequence and structural elements of methylation guide snornas
+\newblock Sequence and structural elements of methylation guide {snoRNAs}
   essential for site-specific ribose methylation of {pre-rRNA}.
 \newblock EMBO J 17, 1998:797--807.
 \newblock \doi{10.1093/emboj/17.3.797}.
@@ -272,7 +272,7 @@ Schattner P, Decatur WA, Davis CA, Ares M Jr, Fournier MJ, Lowe TM.
 \bibitem{Davis:2006}
 Davis CA, Ares M Jr.
 \newblock Accumulation of unstable promoter-associated transcripts upon loss of
-  the nuclear exosome subunit rrp6p in \emph{Saccharomyces cerevisiae}.
+  the nuclear exosome subunit {Rrp6p} in \emph{Saccharomyces cerevisiae}.
 \newblock Proc Natl Acad Sci U S A 103, 2006:3262--7.
 \newblock \doi{10.1073/pnas.0507783103}.
 
@@ -297,7 +297,7 @@ Massenet S, Mougin A, Branlant C.
 \bibitem{Badis:2003}
 Badis G, Fromont-Racine M, Jacquier A.
 \newblock A {snoRNA} that guides the two most conserved pseudouridine
-  modifications within rrna confers a growth advantage in yeast.
+  modifications within {rRNA} confers a growth advantage in yeast.
 \newblock RNA 9, 2003:771--9.
 
 \bibitem{Xue:2012}
@@ -309,8 +309,8 @@ Xue S, Barna M.
 
 \bibitem{Wu:2011}
 Wu G, Xiao M, Yang C, Yu YT.
-\newblock {U2 snRNA} is inducibly pseudouridylated at novel sites by pus7p and
-  {snR81 RNP}.
+\newblock {U2 snRNA} is inducibly pseudouridylated at novel sites by {Pus7p}
+  and {snR81 RNP}.
 \newblock EMBO J 30, 2011:79--89.
 \newblock \doi{10.1038/emboj.2010.316}.
 
