@@ -224,6 +224,7 @@
 \hyphenation{lncRNAs}
 \hyphenation{lincRNA}
 \hyphenation{lincRNAs}
+\hyphenation{di-nucleo-tide}
 
 
 \journal{Preprint}
@@ -349,7 +350,7 @@ there are chimeric snoRNAs that share features of both classes, are
 much longer and/or are described to have different functions
 \cite{Darzacq:2002}. Similar to other small ncRNAs, snoRNAs require
 both specific secondary structures and characteristic sequence motifs
-to perform their function. These features are therefore preserved by
+to perform their function. These features are therefore preserved during
 evolution and are clearly recognizable by comparative methods
 \cite{Ganot:1997,Tollervey:1997}. While sequence motifs involved in
 protein binding are common to all members of each of the the two
@@ -423,10 +424,10 @@ by a comparison of the start positions within the \sno\ family
 alignment. Motifs that start at unconserved positions are most probably
 false annotations and were re-adjusted to fit the \sno\ family-specific box
 pattern and and box position.  Sequences, where re-adjusted C- or D-boxes
-did not agree with canonical box motif pattern, were removed from further
+did not agree with the canonical box motif pattern, were removed from further
 analysis.
-\PFS{Candidates sequences that are either too long or too short were mostly
-  the consequence of} misannotated box motifs because \snostrip\ cuts \sno\
+Candidates sequences that are either too long or too short were mostly
+  the consequence of misannotated box motifs because \snostrip\ cuts \sno\
 genes based on their box motif positions. For these candidates, box motifs
 were analyzed with respect to their conserved start positions.
 Subsequently, sequences with re-adjusted box motifs were automatically
@@ -470,9 +471,9 @@ To study the conservation of interactions, the targets for each
 individual snoRNA sequence are initially predicted and subsequently
 their conservation in other species is evaluated. To formally
 investigate the conservation, the Interaction Conservation Index (ICI)
-was developed by \cite{Kehr:2014}. In brief, the conservation of the
-modification and the conservation in a specific snoRNA family are
-calculated as follows:
+was developed by Kehr \emph{et al.} \cite{Kehr:2014}. In brief, the
+conservation of the modification and the conservation in a specific
+snoRNA family are calculated as follows:
 \begin{equation}
   \begin{split}
     ICI_{mod}\:(t,s) & = \frac{1}{|O(s)|} \left( \sum_{k\in O(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right) \\
@@ -491,17 +492,17 @@ $k$. The normalizations
   T(s,k)}\varepsilon(t,s,k)/|T(s,k)|
 \end{split}
 \end{equation}
-are obtained by averaging over all all predictions of target $t$ in
+are obtained by averaging over all predictions of target $t$ in
 species $k$ or all targets $t$ of snoRNA $s$ in species $k$,
-respectively.  There normalized parameters are then summed over all
+respectively.  Their normalized parameters are then summed up over all
 species $k\in O(t,s)$ in which a prediction of target $t$ is found for
-snoRNA family $s$ normalized w.r.t.\ the number of species $|O(s)|$ in
-which the snoRNA family $s$ is present. This approach is particularly
-suitable for modification sites that are present in a large set of
-analyzed organisms. In cases where a potential target appears to be
-lineage-specific, the ICI score will drop to rather low values due to
-the normalization score $1/O(s)$ that represents all organisms sharing
-a homologous \sno\ of family $s$.
+snoRNA family $s$. The sum is then normalized w.r.t.\ the number of
+species $|O(s)|$ in which the snoRNA family $s$ is present. This
+approach is particularly suitable for modification sites that are
+present in a large set of analyzed organisms. In cases where a
+potential target appears to be lineage-specific, the ICI score will
+drop to rather low values due to the normalization score $1/O(s)$ that
+represents all organisms sharing a homologous \sno\ of family $s$.
 
 To appropriately investigate alternative or additional targets that
 merely appear in a particular subset of organisms, the ICI score

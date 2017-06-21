@@ -24,7 +24,7 @@ reduce the number of false negatives and to exclude potentially
 incorrect annotations.  In total we found 5595 \cd\ and 2331 \haca\
 sequences, expanding the collection of annotated fungal snoRNAs by
 more than 120\%. The data substantially increase both the phylogenetic
-scope and the resolution of the snoRNA annotation.
+depth and the resolution of the snoRNA annotation.
 
 \subsection{Characteristics of fungal snoRNAs}
 
@@ -83,7 +83,7 @@ boxes, respectively \citep{Kishore:2013}. Because of these rather
 short ends, only a small subset of \sno\ sequences were predicted to
 fold a short closing stem (1208 out of 5595).  If we enlarge the
 trailing ends to 10nt instead, a stem could be predicted for nearly
-60\% (3317). That fact that more than 40\% of the box C/D snoRNAs does
+60\% (3317). The fact that more than 40\% of the box C/D snoRNAs do
 not form a terminal stem even if precursor nucleotides are included
 strongly suggests that the terminal helix is not required for their
 function and snoRNP-associated proteins may be in charge of bringing
@@ -149,14 +149,13 @@ Mucoromycotina, Chytridiomycota, or Blastocladiomycota. In addition,
 several families appear to be lineage-specific, e.g., seven in
 Saccharomycotina (see box 'A' in Figure \ref{fig:heatmap_CD_snoRNAs}),
 nine in Pezizomycotina (box 'B'), and six in Sordariomycetes (box
-'C'). In all cases the originally reported representative of the
-family maps to these clades.
+'C').
 
-In contrast to lineage-specific families, lineage-specific losses of
-\sno s are also detectable. Basidiomycota, for example, do not seem to
-contain orthologs of families snR48 (CD\_8), snR190 (CD\_16), or U14
-(CD\_37), while in Saccharomycotina, no trace is found of \sno s of
-family AM921940 (CD\_41). Members of Nc\_CD\_40 (CD\_40) are not
+In contrast to lineage-specific families, the absence of \sno s in
+certain clades is also traceable. Basidiomycota, for example, do not
+seem to contain orthologs of families snR48 (CD\_8), snR190 (CD\_16),
+or U14 (CD\_37), while in Saccharomycotina, no trace is found of \sno
+s of family AM921940 (CD\_41). Members of Nc\_CD\_40 (CD\_40) are not
 detected in Eurotiomycetes, while Sordariomycetes are attested to miss
 homologs of families snR39/b (CD\_47) and snR58 (CD\_68). In some
 other cases, one or two representatives are found in lineages where
@@ -169,7 +168,7 @@ In contrast to the broad distribution of \cd s, only seven \haca\
 families (out of 50) are detected in early branching fungi and
 Dikarya. None of these are detected in Microsporidia leaving this
 clade completely without any annotated box H/ACA snoRNA. Our data show
-that \haca s shows substantially more lineage-specific innovation and
+that \haca s show substantially more lineage-specific innovation and
 deletion events than observed in \cd s, see Supplementary Figure
 S7. In total, 22 out of the 50 H/ACA families are found only in a
 small subset of species. Moreover, several families are found in two
@@ -196,12 +195,12 @@ stands in sharp contrast to C/D \sno\ sequence, where \ptt\ orthologs
 are found in nearly all families that are present in the
 \ptt-containing Dothideomycetes lineage.
 
-\subsection{Evolutionary event in snoRNA history}
+\subsection{Evolutionary events in snoRNA history}
 
 With the help of the \epope\ software, we identified the last common
 ancestor of each individual snoRNA family and found the most
 parsimonious estimate for the number of paralogs at the inner nodes of
-the tree.  We deduced gain and loss event of individual paralogs of
+the tree.  We deduced potential gain and loss events of individual paralogs of
 each snoRNA family and summarized this information for all analyzed
 snoRNA families to retrieve a full picture of the evolution of snoRNAs
 in fungi.
@@ -232,7 +231,7 @@ that without further experimental investigations in these fungi we
 cannot state a true loss or a rearrangement of their snoRNA
 repertoire.
 
-Focusing on species level, we is frequently observe that individual
+Focusing on species level, we frequently observe that individual
 organisms seem to have lost a large amount of their snoRNAs, i.e. in
 the Basidiomycota lineage.  In particular, \wse\ and several
 Pucciniomycota seem to have lost nearly their entire set of \haca s
@@ -247,28 +246,28 @@ also show an increased loss rate (\pan: 15\% C/D and 13\% H/ACA; \opi:
 \paragraph{\textbf{Novel \emph{Candida albicans} \sno s are lineage-specific}}
 
 Mitrovich \emph{et.~al} identified four novel \sno\ candidates among
-their set of 40 \sno\ genes that showed no high sequence similarity
+their set of 40 \sno\ genes in \calb\ that showed no high sequence similarity
 towards already annotated budding yeast sequences
 \cite{Mitrovich:2010}. One of these sequences is found to share a
 homologous target binding region with a known \ncr\ \sno\
 (Nc\_CD\_39). Families LSU-C2809 and LSU-G1431 in
 \cite{Mitrovich:2010} (\snostrip: CD\_69 and CD\_71) are exclusively
 present in Saccharomycotina except for Saccharomycetaceae. They are
-also found to share an extraordinary conserved target-interaction with
+also found to share an extraordinarily conserved target-interaction with
 ICI scores of 1.813 (25S-4055; \calb:~25S-3118) and 1.289 (25S-2490;
 \calb:~25S-1740), respectively. The remaining family LSU-G364 (CD\_72)
 is merely found in two closely related species: \cdu\ and \ctr.
 
-\paragraph{\textbf{Fission Yeast Specific \sno s}}
+\paragraph{\textbf{Fission Yeast specific \sno s}}
 
 Similar to \calb, several \sno s published in the fission yeast
-\cite{Li:2005} are found to be lineage or even species-specific. In
+\cite{Li:2005} are found to be lineage- or even species-specific. In
 the original publication, 12 sequences have not been mapped to budding
 yeast \sno s and 7 of them have no predicted target interaction. By
-means of \snostrip, AJ632008 in \cite{Li:2005} (HACA\_46) and AJ632011
+means of \snostrip, AJ632008 (HACA\_46) and AJ632011
 (HACA\_47) have been detected to be functional homologs to snR86
 (HACA\_36) and snR5 (HACA\_27), respectively. The first one includes a
-switch from a HP1 target in \spo\ to a HP2 target in \sce, while the
+switch of the ASE from the first (\spo) to the second hairpin (\sce), while the
 latter two families share far too little sequence similarity to be
 denoted as homologous sequences. Families AJ632018 (HACA\_9), AJ632010
 (HACA\_48), AJ632016 (HACA\_53), and AJ632012 (HACA\_54) are found to
@@ -308,21 +307,21 @@ point of view.
 Among the 68 \cd\ families, the majority (40) are \textit{true} single
 guides (of these, 28 families share a functional D' target and 12 a
 conserved D target). Another 14 \cd\ families are \textit{predominantly}
-single guides, i.e., these families share exactly one \PFS{strongly}
+single guides, i.e., these families share exactly one strongly
 conserved target binding region (three families share a conserved D target
 while 11 families share a functional D' target), while the other target
 region is only found to be functional in a restricted subset of taxa. Only
 eight families harbor two functional target binding regions that are
 conserved throughout all the lineages in which the \sno\ families are
-present. The remaining six families are orphans, i.e., no potential
+present. The remaining six families stay orphan, i.e., no potential
 interaction has been published so far.
 
 In case of {\haca}s, 23 families are \textit{true} single guides (8
-families share a conserved pseudouridylation pocket in hairpin 1, 15
-families in hairpin 2). Six families exhibit a lineage-specific HP2 target
+families share a conserved pseudouridylation pocket in HP1, 15
+families in HP2). Six families exhibit a lineage-specific HP2 target
 in addition to the globally conserved target in HP1. The opposite situation
 can be seen in 3 \haca\ families. 11 families are double guides, and 7
-families are orphan. A summary of the \sno\ classification can be seen in
+families remain orphan. A summary of the \sno\ classification can be seen in
 Figure \ref{fig:pie_charts}.  Detailed information about each family and
 the \snostrip-assigned target interactions, e.g., alignment position of the
 modification site, ICI scores, and mean minimum free energy values, can be
@@ -332,7 +331,7 @@ found in the supplement (sections S10-S21).
 %% DOUBLE GUIDE SNORNAS
 %%%%%
 Only a minority of \cd s is found to contain two overly conserved
-target regions upstream of box D and D'. However, except for '\sno\
+target regions upstream of box D and D'. However, except for the '\sno\
 clans' CD\_5 and CD\_19, none of the remaining six families is
 traceable amongst all major fungal lineages. Two families, Nc\_CD\_17
 (CD\_17) and AM921920 (CD\_35), are found in Pezizomycotina while
@@ -686,13 +685,13 @@ yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
   \hline
   &25S-1806&0.79&-16.46&23.08\%\\
   &25S-1866&0.90&-19.49&24.61\%\\
-  \raisebox{1ex}[3ex]{\rotatebox{90}{CD\_5}}&25S-1898&1.20&-25.80&25.38\%\\
+  \raisebox{-0.5ex}[0ex]{\rotatebox{90}{CD\_5}}&25S-1898&1.20&-25.80&25.38\%\\
   &25S-3615&1.00&-18.48&25.77\%\\
   \hline
   &18S-462&1.52&-20.62&34.49\%\\
   &18S-602&1.11&-15.30&34.18\%\\
-  \raisebox{-2ex}[3ex]{\rotatebox{90}{CD\_19}}&18S-1580&1.75&-20.76&34.49\%\\
-  &25S-2574&0.48&-22.85&9.49\%\\
+  &18S-1580&1.75&-20.76&34.49\%\\
+  \raisebox{0ex}[0ex]{\rotatebox{90}{CD\_19}}&25S-2574&0.48&-22.85&9.49\%\\
   &25S-4143&0.28&-15.49&7.59\%\\
   \end{tabular}
   \end{scriptsize}
