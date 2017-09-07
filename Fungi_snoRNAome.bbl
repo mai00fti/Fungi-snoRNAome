@@ -300,6 +300,13 @@ Badis G, Fromont-Racine M, Jacquier A.
   modifications within {rRNA} confers a growth advantage in yeast.
 \newblock RNA 9, 2003:771--9.
 
+\bibitem{Eggenhofer:2013}
+Eggenhofer F, Hofacker IL, H{\"o}ner Zu~Siederdissen C.
+\newblock {CMCompare} webserver: comparing {RNA} families via covariance
+  models.
+\newblock Nucleic Acids Res 41, 2013:W499--503.
+\newblock \doi{10.1093/nar/gkt329}.
+
 \bibitem{Xue:2012}
 Xue S, Barna M.
 \newblock Specialized ribosomes: a new frontier in gene regulation and

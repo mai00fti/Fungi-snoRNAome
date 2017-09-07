@@ -30,7 +30,7 @@ depth and the resolution of the snoRNA annotation.
 
 \paragraph{\textbf{Box motifs}} Sequence motifs were extracted from
 all \snostrip-annotated \sno s. The complete collection is available
-for download from Supplement section S5. In general, these motifs are
+for download from supplement section S5. In general, these motifs are
 consistent with the published rules \cite{Xia:1997, Watkins:2000,
   Cahill:2002, Watkins:2002} for canonical \sno\ box motifs known from
 both yeast and animals:
@@ -705,7 +705,7 @@ yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
 
 In the following, we will focus on the description of the \sno\ clan
 CD\_5. The potential evolutionary history of CD\_19 is illustrated and
-discussed in detail in Supplement Section S9.
+discussed in detail in supplement section S9.
 
 \begin{figure*}
   \centering
@@ -885,3 +885,47 @@ prediction is experimentally confirmed \cite{Lowe:1999}, whereas the
 other predicted positions so far have not been shown to be chemically
 modified.
 
+\SB{
+\subsection{Data Validation}
+The \rfam\ database is by far the most comprehensive source for
+high-quality non-coding RNAs. Since our extensive collection of \sno\
+families should be submitted to \rfam, we cross-checked our results
+with the previous \rfam -annotated \sno s. The current \rfam\ (version
+12.3) covers 755 snoRNA models. 116 of them contain at least one
+fungal \sno\ of our 147 investigated organisms. In total, these 116
+models contain 1621 \sno\ sequences found in our set of organisms, 457
+of which are in seed alignments indicating their high confidence. When
+comparing with the set of 7852 \snostrip -detected \sno s, the vast
+majority of \rfam -annotated sequences is also identified with our
+annotation pipeline (1586 \sno\ genes). 441 sequences are located in
+seed alignments. In total, \snostrip\ was not able to annotate merely
+69 \sno\ sequences, due to a rather technical obstacle. The
+overwhelming majority of these missing genes contains box motifs with
+two or more mutations compared to the consensus sequence. This
+prohibited our pipeline to include the \sno s in our dataset although
+their sheer detection by means of \blast\ or \infernal\ was straight
+forward.
+
+In principal, in 32 \snostrip -annotated \sno\ families we were not
+able to identify any of its \sno\ sequences within \rfam\ even though
+each family contains at least one experimentally verified starting
+sequence. This mainly concerns \ncr\ sequences, were 64 out of 75
+originally published \sno\ sequences are not contained in \rfam.
+
+On 18 occasions, \snostrip\ was able to automatically combine \sno\
+sequences of two different \rfam\ models into one \sno\ family. These
+models contain a distinct set of organism but share the same target
+guiding functionality. For example, family CD\_12 (\sce: snR76)
+combines sequences of the \rfam\ models RF01209 and RF01514, that
+consists of Saccharomycetales and Pezizomycotina species,
+respectively. Both models were scored with \texttt{CMcompare} against
+all \rfam\ \sno\ models to validate the conflation made by \snostrip\
+\cite{Eggenhofer:2013}. For both models, the assigned pairwise score
+to one another was ranked at the top spot suggesting a true
+sequence/structure-based similarity between these two models. A table
+listing all 18 \sno\ families can be seen in section S10 of the
+supplement.
+
+\TODO{ Highlight the major benefit for \rfam\ since we provide a huge
+  amount of new \sno\ sequences, but also several families, that are
+  not incorporated yet. --> Discussion?}  }
