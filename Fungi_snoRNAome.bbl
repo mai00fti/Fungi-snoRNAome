@@ -307,6 +307,53 @@ Eggenhofer F, Hofacker IL, H{\"o}ner Zu~Siederdissen C.
 \newblock Nucleic Acids Res 41, 2013:W499--503.
 \newblock \doi{10.1093/nar/gkt329}.
 
+\bibitem{Ingolia:2009}
+Ingolia NT, Ghaemmaghami S, Newman JR, Weissman JS.
+\newblock Genome-wide analysis in vivo of translation with nucleotide
+  resolution using ribosome profiling.
+\newblock Science 324, 2009:218--23.
+\newblock \doi{10.1126/science.1168978}.
+
+\bibitem{Ingolia:2012}
+Ingolia NT, Brar GA, Rouskin S, McGeachy AM, Weissman JS.
+\newblock The ribosome profiling strategy for monitoring translation in vivo by
+  deep sequencing of ribosome-protected {mRNA} fragments.
+\newblock Nat Protoc 7, 2012:1534--50.
+
+\bibitem{Ingolia:2014}
+Ingolia NT, et~al.
+\newblock Ribosome profiling reveals pervasive translation outside of annotated
+  protein-coding genes.
+\newblock Cell Rep 8, 2014:1365--79.
+\newblock \doi{10.1016/j.celrep.2014.07.045}.
+
+\bibitem{Ji:2016}
+Ji Z, Song R, Huang H, Regev A, Struhl K.
+\newblock {Transcriptome-scale} {RNase-footprinting} of {RNA-protein}
+  complexes.
+\newblock Nat Biotechnol 34, 2016:410--3.
+\newblock \doi{10.1038/nbt.3441}.
+
+\bibitem{Duncan:2014}
+Duncan CD, Mata J.
+\newblock The translational landscape of fission-yeast meiosis and sporulation.
+\newblock Nat Struct Mol Biol 21, 2014:641--7.
+\newblock \doi{10.1038/nsmb.2843}.
+
+\bibitem{Muzzey:2014}
+Muzzey D, Sherlock G, Weissman JS.
+\newblock Extensive and coordinated control of allele-specific expression by
+  both transcription and translation in candida albicans.
+\newblock Genome Res 24, 2014:963--73.
+\newblock \doi{10.1101/gr.166322.113}.
+
+\bibitem{Gilmore:2015}
+Gilmore SA, Voorhies M, Gebhart D, Sil A.
+\newblock Genome-wide reprogramming of transcript architecture by temperature
+  specifies the developmental states of the human pathogen histoplasma.
+\newblock PLoS Genet 11, 2015:e1005395.
+\newblock \doi{10.1371/journal.pgen.1005395}.
+
 \bibitem{Xue:2012}
 Xue S, Barna M.
 \newblock Specialized ribosomes: a new frontier in gene regulation and

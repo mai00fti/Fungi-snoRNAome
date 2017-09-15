@@ -17,14 +17,16 @@ RNA alignments are provided in Supplementary Table S4.
 
 We used \snostrip\ to search for additional homologs of the initial
 set of 67 \cd\ and 56 \haca\ families in 147 fungal species. The U3
-\sno\ family is considered separately due to its special function and
-characteristics and published elsewhere \cite{Canzler:2017}. All
+\sno\ family is published separately due to its special function,
+various splice variants and characteristics \cite{Canzler:2017}. All
 \snostrip\ candidates were carefully cross-checked in all species to
 reduce the number of false negatives and to exclude potentially
-incorrect annotations.  In total we found 5595 \cd\ and 2331 \haca\
+incorrect annotations.  In total we found 5593 \cd\ and 2255 \haca\
 sequences, expanding the collection of annotated fungal snoRNAs by
-more than 120\%. The data substantially increase both the phylogenetic
-depth and the resolution of the snoRNA annotation.
+more than \SB{200\% compared to our previous \sno\ set
+  \cite{Bartschat:2014} and over 450\% compared to \rfam -annotated
+  \sno s}. The data substantially increase both the phylogenetic depth
+and the resolution of the snoRNA annotation.
 
 \subsection{Characteristics of fungal snoRNAs}
 
@@ -81,7 +83,7 @@ post-transcriptional processing by exonucleases, both trailing ends of
 \cd s are cut not farther than 5 nucleotides away from the C and D
 boxes, respectively \citep{Kishore:2013}. Because of these rather
 short ends, only a small subset of \sno\ sequences were predicted to
-fold a short closing stem (1208 out of 5595).  If we enlarge the
+fold a short closing stem (1208 out of 5593).  If we enlarge the
 trailing ends to 10nt instead, a stem could be predicted for nearly
 60\% (3317). The fact that more than 40\% of the box C/D snoRNAs do
 not form a terminal stem even if precursor nucleotides are included
@@ -92,7 +94,7 @@ functional conformation.
 
 In contrast, \haca s are required to develop a significant and
 specific secondary structure to function appropriately. Only 15\% (395
-out of 2269) of all box H/ACA snoRNAs were not predicted to fold into
+out of 2255) of all box H/ACA snoRNAs were not predicted to fold into
 a stem-loop structure for both hairpins.
 
 %\TODO{can we say something whether the 2nd part is likely non-functional 
@@ -305,7 +307,7 @@ point of view.
 \end{figure*}
 
 Among the 68 \cd\ families, the majority (40) are \textit{true} single
-guides (of these, 28 families share a functional D' target and 12 a
+guides \SB{meaning that these families share one conserved target region only} (of these, 28 families share a functional D' target and 12 a
 conserved D target). Another 14 \cd\ families are \textit{predominantly}
 single guides, i.e., these families share exactly one strongly
 conserved target binding region (three families share a conserved D target
@@ -887,7 +889,8 @@ modified.
 
 \SB{
 \subsection{Data Validation}
-The \rfam\ database is by far the most comprehensive source for
+\paragraph{\textbf{Comparison to \rfam}}
+The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive source for
 high-quality non-coding RNAs. Since our extensive collection of \sno\
 families should be submitted to \rfam, we cross-checked our results
 with the previous \rfam -annotated \sno s. The current \rfam\ (version
@@ -929,3 +932,79 @@ supplement.
 \TODO{ Highlight the major benefit for \rfam\ since we provide a huge
   amount of new \sno\ sequences, but also several families, that are
   not incorporated yet. --> Discussion?}  }
+
+
+\paragraph{\textbf{Ribosome footprinting}}
+\SB{ In general, Ribo-seq or ribosome profiling combines ribosome
+  footprinting with deep sequencing \cite{Ingolia:2009,
+    Ingolia:2012}. This technique is widely used to study translation
+  \textit{in vivo}, although not all detected events correspond to
+  ribosome-protected mRNA fragments and hence translated regions.  As
+  a byproduct, other non-ribosomal RNA-protein complexes are also
+  present including, for example, transfer RNAs, spliceosomal RNAs,
+  and snoRNAs \cite{Ingolia:2014, Ji:2016}.
+
+  Here, we used available Ribo-seq reads in four different fungal
+  organisms to verify our set of predicted \sno s. This includes \Sce\
+  \cite{Ingolia:2009}, \Spo\ \cite{Duncan:2014}, \Calb\
+  \cite{Muzzey:2014}, and \Aca\ \cite{Gilmore:2015}. Since all of our
+  \sno s in \sce\ were already annotated and experimentally validated
+  before, the comparison with Ribo-seq data serves as a litmus test.
+
+  Besides raw sequence reads, we also looked at the localization of
+  these reads when overlapping with our \snostrip\
+  annotation. Non-ribosomal protein-associated RNAs show a highly
+  localized read pattern in contrast to mRNAs where one would expect a
+  rather uniformly distributed pattern with a clearly visible 3nt
+  periodicity. To take the circumstances into consideration, we
+  calculated the Percentage of Maximum Entropy (PME) to measure the
+  uniformity of read distribution in our \sno -annotated regions with
+  the help of the \texttt{Rfoot} tool \cite{Ji:2016}. 
+  %A PME-score of 0
+  %would describe a read distribution where all reads are located at the
+  %exact same position whereas a score of 1 equals an absolute uniform
+  %distribution.
+
+  When looking at \sce, all annotated \sno s show overlapping Ribo-seq
+  reads in at least 4 of the 14 libraries provided by
+  \cite{Ingolia:2009}, while we find evidence in all datasets for 52
+  \sno s. 65 \sno s are classified as 'non-coding' based on their
+  PME-score. The complete results can be seen in section S11 in the
+  supplement.  In case of \spo, 61 of 62 \sno\ are present in at least
+  one of the three short read archives, whereas we find overlapping
+  reads for 46 \sno s in all datasets. Based on their PME-score 49
+  annotated genes are found to be 'non-coding'. For \aca\ and \calb\,
+  all \snostrip -annotated sequences have Ribo-seq overlapping reads
+  in at least one experiment, while 60 (of 62) and 45 (of 67) are
+  present in all datasets, repsectively. In \aca are all \sno\ genes
+  attested to be 'non-coding' by \texttt{Rfoot} whereas in \calb two
+  sequences lack this sort of confirmation.
+
+  Please note that the vast majority of \sno s that are not classified
+  as 'non-coding' through their PME-score, have too few reads such that
+  these genes are not considered for the \texttt{Rfoot} analysis.
+
+  In general, the comparison with available Ribo-seq data clearly
+  substantiates the \snostrip -annotated \sno ome and adds an
+  additional layer of reliablity to our dataset.
+
+
+
+%RESULTS:
+%sce 52 in all
+%       74 in at least one
+%       74 snornas
+%
+%cal 45 in all
+%     67 in at least one
+%     67 snornas
+%
+%acp 60 in all
+%       62 in at least one
+%       62 snornas
+%
+%spo 46 in all
+%       61 in at least one
+%       62 snornas
+}
+
