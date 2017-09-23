@@ -23,7 +23,7 @@ various splice variants and characteristics \cite{Canzler:2017}. All
 reduce the number of false negatives and to exclude potentially
 incorrect annotations.  In total we found 5593 \cd\ and 2255 \haca\
 sequences, expanding the collection of annotated fungal snoRNAs by
-more than \SB{200\% compared to our previous \sno\ set
+more than \NEW{200\% compared to the previously available \sno\ set
   \cite{Bartschat:2014} and over 450\% compared to \rfam -annotated
   \sno s}. The data substantially increase both the phylogenetic depth
 and the resolution of the snoRNA annotation.
@@ -307,16 +307,17 @@ point of view.
 \end{figure*}
 
 Among the 68 \cd\ families, the majority (40) are \textit{true} single
-guides \SB{meaning that these families share one conserved target region only} (of these, 28 families share a functional D' target and 12 a
+guides \NEW{meaning that these families share one conserved target region
+  only} (of these, 28 families share a functional D' target and 12 a
 conserved D target). Another 14 \cd\ families are \textit{predominantly}
-single guides, i.e., these families share exactly one strongly
-conserved target binding region (three families share a conserved D target
-while 11 families share a functional D' target), while the other target
-region is only found to be functional in a restricted subset of taxa. Only
-eight families harbor two functional target binding regions that are
-conserved throughout all the lineages in which the \sno\ families are
-present. The remaining six families stay orphan, i.e., no potential
-interaction has been published so far.
+single guides, i.e., these families share exactly one strongly conserved
+target binding region (three families share a conserved D target while 11
+families share a functional D' target), while the other target region is
+only found to be functional in a restricted subset of taxa. Only eight
+families harbor two functional target binding regions that are conserved
+throughout all the lineages in which the \sno\ families are present. The
+remaining six families stay orphan, i.e., no potential interaction has been
+published so far.
 
 In case of {\haca}s, 23 families are \textit{true} single guides (8
 families share a conserved pseudouridylation pocket in HP1, 15
@@ -887,51 +888,52 @@ prediction is experimentally confirmed \cite{Lowe:1999}, whereas the
 other predicted positions so far have not been shown to be chemically
 modified.
 
-\SB{
+\NEW{
 \subsection{Data Validation}
 \paragraph{\textbf{Comparison to \rfam}}
-The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive source for
-high-quality non-coding RNAs. Since our extensive collection of \sno\
-families should be submitted to \rfam, we cross-checked our results
-with the previous \rfam -annotated \sno s. The current \rfam\ (version
-12.3) covers 755 snoRNA models. 116 of them contain at least one
-fungal \sno\ of our 147 investigated organisms. In total, these 116
-models contain 1621 \sno\ sequences found in our set of organisms, 457
-of which are in seed alignments indicating their high confidence. When
-comparing with the set of 7852 \snostrip -detected \sno s, the vast
-majority of \rfam -annotated sequences is also identified with our
-annotation pipeline (1586 \sno\ genes). 441 sequences are located in
-seed alignments. In total, \snostrip\ was not able to annotate merely
-69 \sno\ sequences, due to a rather technical obstacle. The
-overwhelming majority of these missing genes contains box motifs with
-two or more mutations compared to the consensus sequence. This
-prohibited our pipeline to include the \sno s in our dataset although
-their sheer detection by means of \blast\ or \infernal\ was straight
-forward.
+The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive
+source \PFS{of well-curated data on} non-coding RNAs. The extensive
+collection of \sno\ families \PFS{reported here is intended to be
+  integrated into \rfam.  We therefore carefully compared} our results with
+the previous \rfam -annotated \sno s. The current \rfam\ (version 12.3)
+covers 755 snoRNA models. 116 \PFS{families} contain at least one fungal
+\sno\ from the 147 organisms investigated here. In total, these 116 models
+contain 1621 \sno\ sequences found in our set of organisms, 457 of which
+are included in the \rfam\ seed alignments, identifying them as very high
+confidence sequences, typically with direct experimental support. \PFS{The
+  7852 \snostrip -detected \sno s emcompass the overwhelming majority of
+  \rfam -annotated sequences (1586 of 1621 \sno\ genes),} and 441 sequences
+are located in seed alignments. \PFS{Most of the 69 \rfam\ \sno\ sequence not
+  recognized by \snostrip\ have} box motifs with two or more mutations
+compared to the consensus sequence. \PFS{This prevents \snostrip\ from
+  including these sequences} into to data set even though their detection
+by means of \blast\ or \infernal\ was straightforward.
 
-In principal, in 32 \snostrip -annotated \sno\ families we were not
-able to identify any of its \sno\ sequences within \rfam\ even though
-each family contains at least one experimentally verified starting
-sequence. This mainly concerns \ncr\ sequences, were 64 out of 75
-originally published \sno\ sequences are not contained in \rfam.
+\PFS{Conversely, 32 of the \snostrip -annotated \sno\ families had no
+  representative in \rfam, even though they harbour} at least one
+experimentally verified \PFS{\sno\ that served as the starting point for
+  homology search in this study. Most of these are attested for \ncr, where
+  64 of the 75 \sno{}s published in \cite{***} have not found their way
+  into \rfam.}
 
-On 18 occasions, \snostrip\ was able to automatically combine \sno\
-sequences of two different \rfam\ models into one \sno\ family. These
-models contain a distinct set of organism but share the same target
-guiding functionality. For example, family CD\_12 (\sce: snR76)
-combines sequences of the \rfam\ models RF01209 and RF01514, that
-consists of Saccharomycetales and Pezizomycotina species,
-respectively. Both models were scored with \texttt{CMcompare} against
-all \rfam\ \sno\ models to validate the conflation made by \snostrip\
-\cite{Eggenhofer:2013}. For both models, the assigned pairwise score
-to one another was ranked at the top spot suggesting a true
-sequence/structure-based similarity between these two models. A table
-listing all 18 \sno\ families can be seen in section S10 of the
-supplement.
+In 18 cases \snostrip\ automatically combined \sno\ sequences of two
+different \rfam\ models to a common \sno\ family. \PFS{A detailed
+  inspection showed that merged \rfam\ models were constructed from
+  disjoint sets of organism and indeed share the same target guiding
+  functionality.} For example, family CD\_12 (\sce: snR76) combines
+sequences of the \rfam\ models RF01209 and RF01514, \PFS{which were derived
+  from} Saccharomycetales and Pezizomycotina species, respectively. \PFS{A
+  pairwise comparison of the 18 families against all other \rfam\ models
+  with \texttt{CMcompare} \cite{Eggenhofer:2013} showed that the merged
+  pairs always exhibit the highest similarity.}  \TODO{can we show that the
+  similarity is much larger than the background distribution of other
+  pairs? Maybe a supplemental figure?}  A table listing all 18 \sno\
+families can be seen in section S10 of the supplement.
 
 \TODO{ Highlight the major benefit for \rfam\ since we provide a huge
-  amount of new \sno\ sequences, but also several families, that are
-  not incorporated yet. --> Discussion?}  }
+  amount of new \sno\ sequences, but also several families, that are not
+  incorporated yet. --> Discussion?}  
+}
 
 
 \paragraph{\textbf{Ribosome footprinting}}
