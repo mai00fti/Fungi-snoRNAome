@@ -24,7 +24,7 @@ reduce the number of false negatives and to exclude potentially
 incorrect annotations.  In total we found 5593 \cd\ and 2255 \haca\
 sequences, expanding the collection of annotated fungal snoRNAs by
 more than \NEW{200\% compared to the previously available \sno\ set
-  \cite{Bartschat:2014} and over 450\% compared to \rfam -annotated
+  \cite{Bartschat:2014} and over 450\% compared to \rfam{}-annotated
   \sno s}. The data substantially increase both the phylogenetic depth
 and the resolution of the snoRNA annotation.
 
@@ -890,7 +890,7 @@ modified.
 
 \NEW{
 \subsection{Data Validation}
-\paragraph{\textbf{Comparison to \rfam}}
+\paragraph{\textbf{Comparison to \rfam{}}}
 The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive
 source \PFS{of well-curated data on} non-coding RNAs. The extensive
 collection of \sno\ families \PFS{reported here is intended to be
@@ -908,14 +908,17 @@ are located in seed alignments. \PFS{Most of the 69 \rfam\ \sno\ sequence not
 compared to the consensus sequence. \PFS{This prevents \snostrip\ from
   including these sequences} into to data set even though their detection
 by means of \blast\ or \infernal\ was straightforward.
+}
 
+\NEW{
 \PFS{Conversely, 32 of the \snostrip -annotated \sno\ families had no
   representative in \rfam, even though they harbour} at least one
 experimentally verified \PFS{\sno\ that served as the starting point for
   homology search in this study. Most of these are attested for \ncr, where
   64 of the 75 \sno{}s published in \cite{Liu:2009} \TODO{** check
-    reference **} have not found their way into \rfam.}
+    reference **} have not found their way into \rfam.}}
 
+\NEW{
 In 18 cases \snostrip\ automatically combined \sno\ sequences of two
 different \rfam\ models to a common \sno\ family. \PFS{A detailed
   inspection showed that merged \rfam\ models were constructed from
@@ -929,68 +932,47 @@ sequences of the \rfam\ models RF01209 and RF01514, \PFS{which were derived
   similarity is much larger than the background distribution of other
   pairs? Maybe a supplemental figure?}  A table listing all 18 \sno\
 families can be seen in section S10 of the supplement.
-
-\TODO{ Highlight the major benefit for \rfam\ since we provide a huge
-  amount of new \sno\ sequences, but also several families, that are not
-  incorporated yet. --> Discussion?}  
 }
 
-
 \paragraph{\textbf{Ribosome footprinting}}
-\SB{ In general, Ribo-seq or ribosome profiling combines ribosome
-  footprinting with deep sequencing \cite{Ingolia:2009,
-    Ingolia:2012}. This technique is widely used to study translation
-  \textit{in vivo}, although not all detected events correspond to
-  ribosome-protected mRNA fragments and hence translated regions.  As
-  a byproduct, other non-ribosomal RNA-protein complexes are also
-  present including, for example, transfer RNAs, spliceosomal RNAs,
-  and snoRNAs \cite{Ingolia:2014, Ji:2016}.
+\NEW{Ribo-seq or ribosome profiling combines ribosome footprinting with
+  deep sequencing \cite{Ingolia:2009,Ingolia:2012} to study translation
+  \textit{in vivo}. Not all the detected events, however, correspond to
+  ribosome-protected mRNA fragments and hence to translated regions.  As a
+  byproduct, other non-ribosomal RNA-protein complexes are also detected,
+  including transfer RNAs, spliceosomal RNAs, and snoRNAs
+  \cite{Ingolia:2014, Ji:2016}. \PFS{We therefore used publicly available
+    Ribo-seq data from four different fungi (\Sce\ \cite{Ingolia:2009},
+    \Spo\ \cite{Duncan:2014}, \Calb\ \cite{Muzzey:2014}, and \Aca\
+    \cite{Gilmore:2015}) to support the identification of novel \sno{}s.}
+  \PFS{Importantly, all \sno{}s in \sce\ were based on independent
+    experimental studies, the serve as a positive control for the use of
+    Ribo-seq data.} In addition to the raw read data, we also evaluated the
+  localization of these reads when overlapping with our \snostrip\
+  annotation. Non-ribosomal protein-associated RNAs show a highly localized
+  read pattern in contrast to mRNAs where one would expect a rather
+  uniformly distributed pattern with a clearly visible 3nt periodicity.  We
+  therefore used the Percentage of Maximum Entropy (PME) to quantify the
+  uniformity of read distribution across the \sno -annotated regions,
+  employing the \texttt{Rfoot} tool \cite{Ji:2016}.
 
-  Here, we used available Ribo-seq reads in four different fungal
-  organisms to verify our set of predicted \sno s. This includes \Sce\
-  \cite{Ingolia:2009}, \Spo\ \cite{Duncan:2014}, \Calb\
-  \cite{Muzzey:2014}, and \Aca\ \cite{Gilmore:2015}. Since all of our
-  \sno s in \sce\ were already annotated and experimentally validated
-  before, the comparison with Ribo-seq data serves as a litmus test.
-
-  Besides raw sequence reads, we also looked at the localization of
-  these reads when overlapping with our \snostrip\
-  annotation. Non-ribosomal protein-associated RNAs show a highly
-  localized read pattern in contrast to mRNAs where one would expect a
-  rather uniformly distributed pattern with a clearly visible 3nt
-  periodicity. To take the circumstances into consideration, we
-  calculated the Percentage of Maximum Entropy (PME) to measure the
-  uniformity of read distribution in our \sno -annotated regions with
-  the help of the \texttt{Rfoot} tool \cite{Ji:2016}. 
-  %A PME-score of 0
-  %would describe a read distribution where all reads are located at the
-  %exact same position whereas a score of 1 equals an absolute uniform
-  %distribution.
-
-  When looking at \sce, all annotated \sno s show overlapping Ribo-seq
-  reads in at least 4 of the 14 libraries provided by
-  \cite{Ingolia:2009}, while we find evidence in all datasets for 52
-  \sno s. 65 \sno s are classified as 'non-coding' based on their
-  PME-score. The complete results can be seen in section S11 in the
-  supplement.  In case of \spo, 61 of 62 \sno\ are present in at least
-  one of the three short read archives, whereas we find overlapping
-  reads for 46 \sno s in all datasets. Based on their PME-score 49
-  annotated genes are found to be 'non-coding'. For \aca\ and \calb\,
-  all \snostrip -annotated sequences have Ribo-seq overlapping reads
-  in at least one experiment, while 60 (of 62) and 45 (of 67) are
-  present in all datasets, repsectively. In \aca are all \sno\ genes
-  attested to be 'non-coding' by \texttt{Rfoot} whereas in \calb two
-  sequences lack this sort of confirmation.
-
-  Please note that the vast majority of \sno s that are not classified
-  as 'non-coding' through their PME-score, have too few reads such that
-  these genes are not considered for the \texttt{Rfoot} analysis.
-
-  In general, the comparison with available Ribo-seq data clearly
-  substantiates the \snostrip -annotated \sno ome and adds an
-  additional layer of reliablity to our dataset.
-
-
+  Considering the \sce\ data, all annotated \sno s show overlapping
+  Ribo-seq reads in at least 4 of the 14 libraries provided by
+  \cite{Ingolia:2009}, with evidence from every datasets supporting 52
+  \sno{}s, and 65 \sno{}s are classified as 'non-coding' based on their
+  PME-scores. The complete results can be seen in section S11 in the
+  supplement.  In case of \spo, 61 of 62 \sno\ are present in at least one
+  of the three short read archives, with 46 \sno{}s supported in in all
+  available data sets. Based on their PME-score, 49 annotated genes are
+  classified as 'non-coding'. For \aca\ and \calb\, all \snostrip
+  -annotated sequences have Ribo-seq support from at least one experiment,
+  while 60 (of 62) and 45 (of 67) are present in all datasets,
+  respectively. In \aca are all \sno\ genes classified as 'non-coding', in
+  \calb\ two sequences lack support from the PME scoring. Almost all of the
+  \sno{}s without support by the PME-score lack sufficient read coverage
+  for the \texttt{Rfoot} analysis. The available Ribo-seq data thus
+  strongly supports the \snostrip -annotated \sno{}ome.
+}
 
 %RESULTS:
 %sce 52 in all
@@ -1008,5 +990,4 @@ families can be seen in section S10 of the supplement.
 %spo 46 in all
 %       61 in at least one
 %       62 snornas
-}
 
