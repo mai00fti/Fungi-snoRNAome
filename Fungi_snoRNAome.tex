@@ -294,21 +294,23 @@
 
 \begin{abstract}
   Small nucleolar RNAs (snoRNAs) are essential players in the rRNA
-  biogenesis due to their involvement in the nucleolytic processing of the
-  precursor and the subsequent guidance of nucleoside modifications. Within
-  the kingdom Fungi, several species-specific surveys have explored their
-  snoRNA repertoire. However, the wide range of the snoRNA landscape
-  spanning all major fungal lineages has not been mapped so far, mainly
-  because of missing tools for automatized \sno\ detection and functional
-  analysis. Here, we report a comprehensive inventory of fungal {\sno}s
-  together with an in-depth investigation of their evolutionary history
-  including innovations, deletions, and target switches. This large-scale
-  analysis, incorporating more than 120 \sno\ families with more than 7700
-  individual \sno\ sequences \PFS{doubles the number of attested fungal
-    \sno\ families and increases the number of sequences by 450\%. We show}
-  that the {\sno} landscape is subject to ongoing re-arrangements and
-  adaptations, e.g., through lineage-specific targets and redundant guiding
-  functions.
+  biogenesis due to their involvement in the nucleolytic processing of
+  the precursor and the subsequent guidance of nucleoside
+  modifications. Within the kingdom Fungi, a few species-specific
+  surveys have explored their snoRNA repertoire. However, the wide
+  range of the snoRNA landscape spanning all major fungal lineages has
+  not been mapped so far, mainly because of missing tools for
+  automatized \sno\ detection and functional analysis. For the first
+  time, we report here a comprehensive inventory of fungal \sno s together
+  with a functional analysis and an in-depth investigation of their
+  evolutionary history including innovations, deletions, and target
+  switches. This large-scale analysis, incorporating more than 120
+  \sno\ families with more than 7700 individual \sno\ sequences
+  \NEW{catalogues and clarifies the landscape of fungal \sno\ families, assignes
+    functions to previously orphan \sno s and increases the number of
+    sequences by 450\%. We show} that the \sno ome is subject to
+  ongoing re-arrangements and adaptations, e.g., through
+  lineage-specific targets and redundant guiding functions.
 
   An electronic supplement containing the data sets used and produced in
   this study is available at
@@ -358,29 +360,37 @@ there are chimeric snoRNAs that share features of both classes, are
 much longer and/or are described to have different functions
 \cite{Darzacq:2002}. Similar to other small ncRNAs, snoRNAs require
 both specific secondary structures and characteristic sequence motifs
-to perform their function. These features are therefore preserved during
-evolution and are clearly recognizable by comparative methods
+to perform their function. These features are therefore preserved
+during evolution and are clearly recognizable by comparative methods
 \cite{Ganot:1997,Tollervey:1997}. While sequence motifs involved in
 protein binding are common to all members of each of the the two
 classes, the ASEs are conserved only among members of snoRNA families
 with the same target. Overall, therefore, snoRNA sequences evolve
 rapidly, making them hard to identify by purely sequence-base methods
-such as \texttt{blast} \cite{Altschul:1990}.
+such as \texttt{blast} \cite{Altschul:1990}. To overcome this
+limitation, we introduced a computational annotation pipeline
+\snostrip\ \cite{Bartschat:2014} that is specifically designed to
+track all specific characteristics of snoRNAs.
 
-To overcome this limitation, we introduced a computational annotation
-pipeline \snostrip\ \cite{Bartschat:2014} that is specifically designed to
-track all specific characteristics of snoRNAs. Here we use this approach to
-analyze a large set of fungal species with genomes that are available in
-decent quality for their snoRNA abundance.  We started with experimentally
-verified snoRNAs in five fungi.  Further, we studied the evolutionary
-conservation of those snoRNAs and the coevolution of snoRNAs and their
-targets. We provide a comprehensive set of fungal snoRNAs, their detailed
-description with respect to genomic location, box motifs and position,
+\NEW{Up to date, the fungal \sno\ landscape has mainly been explored
+  by species-specific analysis leaving plenty uncharted areas to be
+  filled by both an annotational point of view and a functional one.}
+Here we use the \snostrip\ approach to analyze a large set of fungal
+species with genomes that are available in decent quality for their
+snoRNA abundance.  We started with experimentally verified snoRNAs in
+five fungi.  Further, we studied the evolutionary conservation of
+those snoRNAs and the coevolution of snoRNAs and their targets
+\NEW{across the whole kingdom to gain insights into the evoultionary
+  history of this ncRNA class and to understand the dynamics and
+  processes to which it is still subjected to.} We provide a
+comprehensive set of fungal snoRNAs, their detailed description with
+respect to genomic location, box motifs and position,
 potential/confirmed target information (including observed target
-switches), family assignment and a suggestion of the evolutionary history
-of individual snoRNA families.  All data can be viewed in and downloaded
-from our electronic supplement. Manually curated snoRNA family alignments
-will be submitted to the \texttt{Rfam} database \cite{Nawrocki:2015}.
+switches), family assignment and a suggestion of the evolutionary
+history of individual snoRNA families.  All data can be viewed in and
+downloaded from our electronic supplement. Manually curated snoRNA
+family alignments will be submitted to the \texttt{Rfam} database
+\cite{Nawrocki:2015}.
 
 % --------------------------------------------------------------------------- %
 
@@ -448,12 +458,12 @@ and compared to canonical box motifs of yeast and vertebrate snoRNAs.
 Sequence lengths and distances between all box motifs were collected
 and compared. Secondary structure prediction was done using the \fold\
 and \alifold\ programs from the Vienna RNA
-Package\cite{Hofacker:1994}.
+Package \cite{Hofacker:1994}.
 
 \subsection{Phylogenetic analysis}
 
 To follow the evolution of the snoRNA families along the phylogenetic
-tree we used the software \epope\cite{Hertel:2015}.  It implements a
+tree we used the software \epope\ \cite{Hertel:2015}.  It implements a
 variant of Sankoff’s parsimony algorithm using the Dollo variant that
 excludes the loss and re-gain of a gene family along the same lineage
 during evolution.  Innovation and deletion$/$loss$/$divergence events
@@ -471,7 +481,7 @@ targets for \cd s and \haca s, respectively \cite{Kehr:2011,
 potential based on these predictions and/or confirmed target
 interactions. SnoRNAs that remain without target association are
 considered orphan. SnoRNAs that are assigned to the same family but
-show variance in their associated target are investigated manually for
+show variance in their associated targets are manually investigated for
 a potential target switch.
 
 \subsection{Lineage-specific conservation of target interactions}

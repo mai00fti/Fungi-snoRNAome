@@ -1,17 +1,21 @@
-
-There is at present no generally accepted nomenclature of snoRNA families
-across different fungal species. In the following we will use established
-gene names to designate snoRNA families where possible. In cases where
-homologs have different names in different species we use the preferred
-order \emph{S.\ cerevisiae}, \emph{N.\ crassa}, \emph{A.\ fumigatus},
-\emph{C.\ albicans}, and \emph{S.\ pombe}. To simplify cross-referencing
-with machine readable data we also list the \snostrip\ family designations
-in parentheses.  A complete dictionary of nomenclature correspondences can
-be found in Supplementary Table S3.  Similarly, we pragmatically identify
-target positions with their position in the multiple sequence alignments of
+\NEW{Up to now, there is no generally accepted nomenclature of snoRNA
+  families across different fungal species and quiet a few \sno\ genes
+  of distinct organisms are named differently although these genes
+  belong to the same \sno\ family. Here, we present the first complete
+  and reliable mapping of \sno\ names, that is entirely based on
+  sequence and functional homologies across the kingdom of fungi.}  In
+the following we will use established gene names to designate snoRNA
+families where possible. In cases where homologs have different names
+in different species we use the preferred order \emph{S.\ cerevisiae},
+\emph{N.\ crassa}, \emph{A.\ fumigatus}, \emph{C.\ albicans}, and
+\emph{S.\ pombe}. To simplify cross-referencing with machine readable
+data we also list the \snostrip\ family designations in parentheses.
+A complete dictionary of nomenclature correspondences can be found in
+Supplementary Table S3.  Similarly, we pragmatically identify target
+positions with their position in the multiple sequence alignments of
 the target RNAs. Coordinates for reference sequences from selected
-organisms are given in parentheses.  Single sequence target RNAs and target
-RNA alignments are provided in Supplementary Table S4.
+organisms are given in parentheses.  Single sequence target RNAs and
+target RNA alignments are provided in Supplementary Table S4.
 
 \subsection{Expanded fungi snoRNA complement}
 
@@ -21,12 +25,12 @@ set of 67 \cd\ and 56 \haca\ families in 147 fungal species. The U3
 various splice variants and characteristics \cite{Canzler:2017}. All
 \snostrip\ candidates were carefully cross-checked in all species to
 reduce the number of false negatives and to exclude potentially
-incorrect annotations.  In total we found 5593 \cd\ and 2255 \haca\
+incorrect annotations.  In total, we found 5593 \cd\ and 2255 \haca\
 sequences, expanding the collection of annotated fungal snoRNAs by
-more than \NEW{200\% compared to the previously available \sno\ set
+more than \NEW{200\% compared to our previously available \sno\ set
   \cite{Bartschat:2014} and over 450\% compared to \rfam{}-annotated
-  \sno s}. The data substantially increase both the phylogenetic depth
-and the resolution of the snoRNA annotation.
+  \sno s}. This massive amount of \sno\ data substantially increases both the
+phylogenetic depth and the resolution of the snoRNA annotation.
 
 \subsection{Characteristics of fungal snoRNAs}
 
@@ -106,10 +110,11 @@ and secondary structures are highly comparable between Fungi and
 Metazoa \cite{Kehr:2014}.
 
 \subsection{Phylogenetic distribution of fungi snoRNAs}
-  
-\paragraph{\textbf{Phylogenetic distribution of snoRNAs}}
-A heatmap depicting the distribution of fungal \cd\ families is shown
-in figure \ref{fig:heatmap_CD_snoRNAs}. Higher resolution heatmaps of
+
+\NEW{Due to our comprehensive \sno\ dataset, it is now feasible to
+  thoroughly examine the pyhlogenetic fundmanent of fungal \sno s.}  A
+heatmap depicting the distribution of fungal \cd\ families is shown in
+figure \ref{fig:heatmap_CD_snoRNAs}. Higher resolution heatmaps of
 both C/D and H/ACA snoRNA families are included in supplement section
 S7.
 
@@ -282,6 +287,12 @@ detected in Schizosaccharomyces (AJ632009 (HACA\_50), AJ632017
 
 \subsection{Conservation of Target Interaction}
 
+\NEW{Despite some single-species studies, a thorough functional
+  analysis of the entire fungal \sno ome has not been done before but
+  is essential to sort and clarify the \sno\ landscape (identification of
+  functional homologous sequences) and to further investigate
+  functional re-arrangements and other peculiarities.}
+
 In accordance to their conserved function, each \sno\ family can
 either be classified as single guide, double guide, or orphan
 \sno. Single guide sequences share a conserved and functional anti
@@ -307,16 +318,17 @@ point of view.
 \end{figure*}
 
 Among the 68 \cd\ families, the majority (40) are \textit{true} single
-guides \NEW{meaning that these families share one conserved target region
-  only} (of these, 28 families share a functional D' target and 12 a
-conserved D target). Another 14 \cd\ families are \textit{predominantly}
-single guides, i.e., these families share exactly one strongly conserved
-target binding region (three families share a conserved D target while 11
-families share a functional D' target), while the other target region is
-only found to be functional in a restricted subset of taxa. Only eight
-families harbor two functional target binding regions that are conserved
-throughout all the lineages in which the \sno\ families are present. The
-remaining six families stay orphan, i.e., no potential interaction has been
+guides \NEW{meaning that these families share exactly one conserved
+  target region} (of these, 28 families share a functional D' target
+and 12 a conserved D target). Another 14 \cd\ families are
+\textit{predominantly} single guides, i.e., these families share
+exactly one strongly conserved target binding region (three families
+share a conserved D target while 11 families share a functional D'
+target), while the other target region is only found to be functional
+in a restricted subset of taxa. Only eight families harbor two
+functional target binding regions that are conserved throughout all
+the lineages in which the \sno\ families are present. The remaining
+six families stay orphan, i.e., no potential interaction has been
 published so far.
 
 In case of {\haca}s, 23 families are \textit{true} single guides (8
@@ -890,6 +902,9 @@ modified.
 
 \NEW{
 \subsection{Data Validation}
+To verify our \sno\ data and to add further reliability, we compared
+our data with the \rfam\ and cross-checked with available Ribo-seq
+archives.
 \paragraph{\textbf{Comparison to \rfam{}}}
 The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive
 source \PFS{of well-curated data on} non-coding RNAs. The extensive
@@ -901,13 +916,13 @@ covers 755 snoRNA models. 116 \PFS{families} contain at least one fungal
 contain 1621 \sno\ sequences found in our set of organisms, 457 of which
 are included in the \rfam\ seed alignments, identifying them as very high
 confidence sequences, typically with direct experimental support. \PFS{The
-  7852 \snostrip -detected \sno s emcompass the overwhelming majority of
+  7852 \snostrip -detected \sno s encompass the overwhelming majority of
   \rfam -annotated sequences (1586 of 1621 \sno\ genes),} and 441 sequences
 are located in seed alignments. \PFS{Most of the 69 \rfam\ \sno\ sequence not
   recognized by \snostrip\ have} box motifs with two or more mutations
 compared to the consensus sequence. \PFS{This prevents \snostrip\ from
-  including these sequences} into to data set even though their detection
-by means of \blast\ or \infernal\ was straightforward.
+  including these sequences} into our data set even though their detection
+by means of \blast\ or \infernal\ is straightforward.
 }
 
 \NEW{
@@ -915,8 +930,7 @@ by means of \blast\ or \infernal\ was straightforward.
   representative in \rfam, even though they harbour} at least one
 experimentally verified \PFS{\sno\ that served as the starting point for
   homology search in this study. Most of these are attested for \ncr, where
-  64 of the 75 \sno{}s published in \cite{Liu:2009} \TODO{** check
-    reference **} have not found their way into \rfam.}}
+  64 of the 75 \sno{}s published in \cite{Liu:2009} have not found their way into \rfam.}}
 
 \NEW{
 In 18 cases \snostrip\ automatically combined \sno\ sequences of two
@@ -928,10 +942,10 @@ sequences of the \rfam\ models RF01209 and RF01514, \PFS{which were derived
   from} Saccharomycetales and Pezizomycotina species, respectively. \PFS{A
   pairwise comparison of the 18 families against all other \rfam\ models
   with \texttt{CMcompare} \cite{Eggenhofer:2013} showed that the merged
-  pairs always exhibit the highest similarity.}  \TODO{can we show that the
-  similarity is much larger than the background distribution of other
-  pairs? Maybe a supplemental figure?}  A table listing all 18 \sno\
-families can be seen in section S10 of the supplement.
+  pairs most likely exhibit the highest similarity.} A table listing all 18 \sno\
+families and their respective \rfam\ models can be seen in section S10
+of the supplement alongside figures showing the \texttt{CMcompare}\
+score distribution. 
 }
 
 \paragraph{\textbf{Ribosome footprinting}}
@@ -945,8 +959,8 @@ families can be seen in section S10 of the supplement.
     Ribo-seq data from four different fungi (\Sce\ \cite{Ingolia:2009},
     \Spo\ \cite{Duncan:2014}, \Calb\ \cite{Muzzey:2014}, and \Aca\
     \cite{Gilmore:2015}) to support the identification of novel \sno{}s.}
-  \PFS{Importantly, all \sno{}s in \sce\ were based on independent
-    experimental studies, the serve as a positive control for the use of
+  \PFS{Importantly, all \sno s in \sce\ were based on independent
+    experimental studies, that serve as a positive control for the use of
     Ribo-seq data.} In addition to the raw read data, we also evaluated the
   localization of these reads when overlapping with our \snostrip\
   annotation. Non-ribosomal protein-associated RNAs show a highly localized
@@ -958,20 +972,21 @@ families can be seen in section S10 of the supplement.
 
   Considering the \sce\ data, all annotated \sno s show overlapping
   Ribo-seq reads in at least 4 of the 14 libraries provided by
-  \cite{Ingolia:2009}, with evidence from every datasets supporting 52
-  \sno{}s, and 65 \sno{}s are classified as 'non-coding' based on their
+  \cite{Ingolia:2009}, with evidence from every dataset supporting 52
+  \sno s. 65 \sno s are classified as 'non-coding' based on their
   PME-scores. The complete results can be seen in section S11 in the
   supplement.  In case of \spo, 61 of 62 \sno\ are present in at least one
-  of the three short read archives, with 46 \sno{}s supported in in all
+  of the three short read archives, with 46 \sno s supported in in all
   available data sets. Based on their PME-score, 49 annotated genes are
   classified as 'non-coding'. For \aca\ and \calb\, all \snostrip
   -annotated sequences have Ribo-seq support from at least one experiment,
   while 60 (of 62) and 45 (of 67) are present in all datasets,
-  respectively. In \aca are all \sno\ genes classified as 'non-coding', in
-  \calb\ two sequences lack support from the PME scoring. Almost all of the
-  \sno{}s without support by the PME-score lack sufficient read coverage
-  for the \texttt{Rfoot} analysis. The available Ribo-seq data thus
-  strongly supports the \snostrip -annotated \sno{}ome.
+  respectively. In \aca, all \sno\ genes classified as 'non-coding', in
+  \calb, on the other hand, two sequences lack support from the PME scoring. Almost all of the
+  \sno s without PME score support lack sufficient read coverage
+  for the \texttt{Rfoot} analysis. Even though, the available Ribo-seq data
+  strongly supports our \snostrip -annotated datasets and hence, adds
+  another convincing layer of reliability to our fungal \sno ome. 
 }
 
 %RESULTS:
