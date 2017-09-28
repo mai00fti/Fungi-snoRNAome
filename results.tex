@@ -676,22 +676,6 @@ alternative target at position 25S-2813 is convincingly predicted with
 evidence for this precise position is missing, the prediction remains
 hypothetical.
 
-\subsection{Target switches}
-
-Occasionally during evolution, novel guiding interactions are acquired
-or ancestral ones are lost in different species or lineages. It is,
-however, much more uncommon that some target interactions are
-translocated from one snoRNA to another. Therein, the position of the
-ASE within the snoRNA sequence, upstream of box D/D’ or in HP1/HP2, is
-mostly preserved but it happens sporadically that this position is also
-shifted. Two highly complex rearrangements have been automatically
-detected by \snostrip. Each of these two '\sno\ clans' comprise two,
-three, or even more \sno\ sequences in each organism with distinct
-target interactions. Due to target switches during fungal evolution,
-these previously independent \sno\ sequences became connected. Table
-\ref{tab:sno_clans} summarizes the target interactions that are
-convincingly predicted in the \sno\ clans CD\_5 (containing budding
-yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
 \begin{table}
   \caption{Interaction properties of four LSU modifications of CD\_5
     are shown. Properties for three SSU and two LSU methylations are
@@ -717,6 +701,28 @@ yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
   \end{scriptsize}
   \end{center}
 \end{table}
+
+
+\subsection{Target switches}
+
+Occasionally during evolution, novel guiding interactions are acquired
+or ancestral ones are lost in different species or lineages. It is,
+however, much more uncommon that some target interactions are
+translocated from one snoRNA to another. Therein, the position of the
+ASE within the snoRNA sequence, upstream of box D/D’ or in HP1/HP2, is
+mostly preserved but it happens sporadically that this position is also
+shifted. 
+\NEW{In the following, we will present an in-depth description of 
+  highly complex rearrangments including target translocations and
+  duplications between several \sno\ families that have been automatically uncovered by \snostrip.}  
+
+Each of these two '\sno\ clans' comprise two,
+three, or even more \sno\ sequences in each organism with distinct
+target interactions. Due to target switches during fungal evolution,
+these previously independent \sno\ sequences became connected. Table
+\ref{tab:sno_clans} summarizes the target interactions that are
+convincingly predicted in the \sno\ clans CD\_5 (containing budding
+yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
 
 In the following, we will focus on the description of the \sno\ clan
 CD\_5. The potential evolutionary history of CD\_19 is illustrated and
@@ -903,7 +909,7 @@ modified.
 \NEW{
 \subsection{Data Validation}
 To verify our \sno\ data and to add further reliability, we compared
-our data with the \rfam\ and cross-checked with available Ribo-seq
+our data with \rfam -annotated families and cross-checked with available Ribo-seq
 archives.
 \paragraph{\textbf{Comparison to \rfam{}}}
 The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive
