@@ -291,7 +291,7 @@ detected in Schizosaccharomyces (AJ632009 (HACA\_50), AJ632017
   analysis of the entire fungal \sno ome has not been done before but
   is essential to sort and clarify the \sno\ landscape (identification of
   functional homologous sequences) and to further investigate
-  functional re-arrangements and other peculiarities.}
+  functional rearrangements and other peculiarities.}
 
 In accordance to their conserved function, each \sno\ family can
 either be classified as single guide, double guide, or orphan
@@ -340,7 +340,7 @@ families remain orphan. A summary of the \sno\ classification can be seen in
 Figure \ref{fig:pie_charts}.  Detailed information about each family and
 the \snostrip-assigned target interactions, e.g., alignment position of the
 modification site, ICI scores, and mean minimum free energy values, can be
-found in the supplement (sections S10-S21).
+found in the supplement (sections S12-S23).
 
 %%%%%
 %% DOUBLE GUIDE SNORNAS
@@ -401,7 +401,7 @@ are mapped to species with verified targets.
 
 A detailed summary of these sequences and their predicted targets with
 respect to evolutionary conservation is shown in supplementary Table
-S14. Highly conserved target interaction that are predicted by
+S16. Highly conserved target interaction that are predicted by
 \snostrip\ are shown in Table \ref{tab:orphan_cd_snoRNAs_short}.
 
 \begin{table}
@@ -524,7 +524,7 @@ on the other hand, is not found to be conserved outside of Neurospora.
 
 Within the initial \haca\ datasets, orphan sequences were published
 for \ncr\ (6 sequences), \afu\ (1), and \spo\ (8).  A detailed summary
-of these sequence can be seen in supplementary Table S20.
+of these sequence can be seen in supplementary Table S22.
 
 By means of \snostrip, eight orphan sequences are found to be
 conserved on sequence level and five of them include budding yeast
@@ -590,7 +590,7 @@ Interesting \cd\ families with a previously annotated functional D'
 targets and lineage-specific D targets can be seen in Figure
 \ref{fig:additional_targets}. Detailed information about all \sno\
 families with an additional, lineage-specific target are found in
-Supplementary Table S12.
+Supplementary Table S14.
 
 Family snR87 (CD\_10), for example, with its experimentally verified
 target 18S-479 (18S-436; D' target) \cite{Davis:2006}, is detected in
@@ -645,7 +645,7 @@ Similar to the box C/D \sno\ class, several \haca s have a functional
 and highly conserved target guiding region in one hairpin and show
 lineage-specificity in the other, see Figure
 \ref{fig:additional_targets}.  A detailed summary can be found in the
-supplement, see Table S18. Some of these functions might already been
+supplement, see Table S20. Some of these functions might already been
 annotated, especially in \sno\ sequences of the budding yeast, see
 families snR189 (HACA\_4) and snR191 (HACA\_42) which are in fact
 officially denoted as double guides in \sce\ \cite{Badis:2003,
@@ -955,45 +955,47 @@ score distribution.
 }
 
 \paragraph{\textbf{Ribosome footprinting}}
-\NEW{Ribo-seq or ribosome profiling combines ribosome footprinting with
-  deep sequencing \cite{Ingolia:2009,Ingolia:2012} to study translation
-  \textit{in vivo}. Not all the detected events, however, correspond to
-  ribosome-protected mRNA fragments and hence to translated regions.  As a
-  byproduct, other non-ribosomal RNA-protein complexes are also detected,
-  including transfer RNAs, spliceosomal RNAs, and snoRNAs
-  \cite{Ingolia:2014, Ji:2016}. \PFS{We therefore used publicly available
-    Ribo-seq data from four different fungi (\Sce\ \cite{Ingolia:2009},
-    \Spo\ \cite{Duncan:2014}, \Calb\ \cite{Muzzey:2014}, and \Aca\
-    \cite{Gilmore:2015}) to support the identification of novel \sno{}s.}
-  \PFS{Importantly, all \sno s in \sce\ were based on independent
-    experimental studies, that serve as a positive control for the use of
-    Ribo-seq data.} In addition to the raw read data, we also evaluated the
-  localization of these reads when overlapping with our \snostrip\
-  annotation. Non-ribosomal protein-associated RNAs show a highly localized
-  read pattern in contrast to mRNAs where one would expect a rather
-  uniformly distributed pattern with a clearly visible 3nt periodicity.  We
-  therefore used the Percentage of Maximum Entropy (PME) to quantify the
-  uniformity of read distribution across the \sno -annotated regions,
-  employing the \texttt{Rfoot} tool \cite{Ji:2016}.
+\NEW{Ribo-seq or ribosome profiling combines ribosome footprinting
+  with deep sequencing \cite{Ingolia:2009,Ingolia:2012} to study
+  translation \textit{in vivo}. Not all the detected events, however,
+  correspond to ribosome-protected mRNA fragments and hence to
+  translated regions.  As a byproduct, other non-ribosomal RNA-protein
+  complexes are also detected, including transfer RNAs, spliceosomal
+  RNAs, and snoRNAs \cite{Ingolia:2014, Ji:2016}. \PFS{We therefore
+    used publicly available Ribo-seq data from four different fungi
+    (\Sce\ \cite{Ingolia:2009}, \Spo\ \cite{Duncan:2014}, \Calb\
+    \cite{Muzzey:2014}, and \Aca\ \cite{Gilmore:2015}) to support the
+    identification of novel \sno{}s.}  \PFS{Importantly, all \sno s in
+    \sce\ were based on independent experimental studies, that serve
+    as a positive control for the use of Ribo-seq data.} In addition
+  to the raw read data, we also evaluated the localization of these
+  reads when overlapping with our \snostrip\ annotation. Non-ribosomal
+  protein-associated RNAs show a highly localized read pattern in
+  contrast to mRNAs where one would expect a rather uniformly
+  distributed pattern with a clearly visible 3nt periodicity.  We
+  therefore used the Percentage of Maximum Entropy (PME) to quantify
+  the uniformity of read distribution across the \sno -annotated
+  regions, employing the \texttt{Rfoot} tool \cite{Ji:2016}. The
+  complete results are shown in section S11 in the supplement.
 
   Considering the \sce\ data, all annotated \sno s show overlapping
   Ribo-seq reads in at least 4 of the 14 libraries provided by
   \cite{Ingolia:2009}, with evidence from every dataset supporting 52
   \sno s. 65 \sno s are classified as 'non-coding' based on their
   PME-scores. The complete results can be seen in section S11 in the
-  supplement.  In case of \spo, 61 of 62 \sno\ are present in at least one
-  of the three short read archives, with 46 \sno s supported in in all
-  available data sets. Based on their PME-score, 49 annotated genes are
-  classified as 'non-coding'. For \aca\ and \calb\, all \snostrip
-  -annotated sequences have Ribo-seq support from at least one experiment,
-  while 60 (of 62) and 45 (of 67) are present in all datasets,
-  respectively. In \aca, all \sno\ genes classified as 'non-coding', in
-  \calb, on the other hand, two sequences lack support from the PME scoring. Almost all of the
-  \sno s without PME score support lack sufficient read coverage
-  for the \texttt{Rfoot} analysis. Even though, the available Ribo-seq data
-  strongly supports our \snostrip -annotated datasets and hence, adds
-  another convincing layer of reliability to our fungal \sno ome. 
-}
+  supplement.  In case of \spo, 61 of 62 \sno\ are present in at least
+  one of the three short read archives, with 46 \sno s supported in in
+  all available data sets. Based on their PME-score, 49 annotated
+  genes are classified as 'non-coding'. For \aca\ and \calb\, all
+  \snostrip -annotated sequences have Ribo-seq support from at least
+  one experiment, while 60 (of 62) and 45 (of 67) are present in all
+  datasets, respectively. In \aca, all \sno\ genes classified as
+  'non-coding', in \calb, on the other hand, two sequences lack
+  support from the PME scoring. Almost all of the \sno s without PME
+  score support lack sufficient read coverage for the \texttt{Rfoot}
+  analysis. Even though, the available Ribo-seq data strongly supports
+  our \snostrip -annotated datasets and hence, adds another convincing
+  layer of reliability to our fungal \sno ome.  }
 
 %RESULTS:
 %sce 52 in all

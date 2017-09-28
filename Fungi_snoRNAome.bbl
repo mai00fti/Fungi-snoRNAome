@@ -343,7 +343,7 @@ Duncan CD, Mata J.
 \bibitem{Muzzey:2014}
 Muzzey D, Sherlock G, Weissman JS.
 \newblock Extensive and coordinated control of allele-specific expression by
-  both transcription and translation in candida albicans.
+  both transcription and translation in \emph{Candida albicans}.
 \newblock Genome Res 24, 2014:963--73.
 \newblock \doi{10.1101/gr.166322.113}.
 
