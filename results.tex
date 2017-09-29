@@ -908,47 +908,45 @@ modified.
 
 \NEW{
 \subsection{Data Validation}
-To verify our \sno\ data and to add further reliability, we compared
-our data with \rfam -annotated families and cross-checked with available Ribo-seq
-archives.
-\paragraph{\textbf{Comparison to \rfam{}}}
+
+To add further reliability to our \sno\ annotations, we compared
+our data with \rfam -annotated families and additionally cross-checked with Ribo-seq
+archives of four differnt Fungi. This should allow us to point out
+that our \snostrip\ annotations are inline with existing \rfam\
+annotations. Novel \sno\ sequences, meaning that they are not listed
+anywhere else, should be confirmed by Ribo-seq to be transcribed and
+classified as 'non-coding'.
+ 
+\paragraph{\textbf{Comparison to \texttt{Rfam}}}
 The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive
-source \PFS{of well-curated data on} non-coding RNAs. The extensive
-collection of \sno\ families \PFS{reported here is intended to be
-  integrated into \rfam.  We therefore carefully compared} our results with
-the previous \rfam -annotated \sno s. The current \rfam\ (version 12.3)
-covers 755 snoRNA models. 116 \PFS{families} contain at least one fungal
-\sno\ from the 147 organisms investigated here. In total, these 116 models
-contain 1621 \sno\ sequences found in our set of organisms, 457 of which
-are included in the \rfam\ seed alignments, identifying them as very high
-confidence sequences, typically with direct experimental support. \PFS{The
+source of well-curated data on non-coding RNAs. The
   7852 \snostrip -detected \sno s encompass the overwhelming majority of
-  \rfam -annotated sequences (1586 of 1621 \sno\ genes),} and 441 sequences
-are located in seed alignments. \PFS{Most of the 69 \rfam\ \sno\ sequence not
-  recognized by \snostrip\ have} box motifs with two or more mutations
-compared to the consensus sequence. \PFS{This prevents \snostrip\ from
-  including these sequences} into our data set even though their detection
+  \rfam -annotated sequences (1586 of 1621 \sno\ genes), and 441 of them
+are located in seed alignments.  Most of the 35 \rfam\ \sno\ sequences
+that are not included in our data set exhibit box motifs with two or more mutations
+compared to the consensus sequence. This prevents \snostrip\ from
+  including these sequences into our data set even though their detection
 by means of \blast\ or \infernal\ is straightforward.
 }
 
 \NEW{
-\PFS{Conversely, 32 of the \snostrip -annotated \sno\ families had no
-  representative in \rfam, even though they harbor} at least one
-experimentally verified \PFS{\sno s that served as the starting point for
+Conversely, 32 of the \snostrip -annotated \sno\ families had no
+  representative in \rfam, even though they harbor at least one
+experimentally verified \sno s that served as the starting point for
   homology search in this study. Most of these are attested for \ncr, where
-  64 of the 75 \sno{}s published in \cite{Liu:2009} have not found their way into \rfam.}}
+  64 of the 75 \sno s published in \cite{Liu:2009} have not found their way into \rfam.}
 
 \NEW{
 In 18 cases \snostrip\ automatically combined \sno\ sequences of two
-different \rfam\ models to a common \sno\ family. \PFS{A detailed
+different \rfam\ models to a common \sno\ family. A detailed
   inspection showed that merged \rfam\ models were constructed from
   disjoint sets of organisms and indeed share the same target guiding
-  functionality.} For example, family CD\_12 (\sce: snR76) combines
-sequences of the \rfam\ models RF01209 and RF01514, \PFS{which were derived
-  from} Saccharomycetales and Pezizomycotina species, respectively. \PFS{A
+  functionality. For example, family CD\_12 (\sce: snR76) combines
+sequences of the \rfam\ models RF01209 and RF01514, which were derived
+  from Saccharomycetales and Pezizomycotina species, respectively. A
   pairwise comparison of the 18 families against all other \rfam\ models
   with \texttt{CMcompare} \cite{Eggenhofer:2013} showed that the merged
-  pairs most likely exhibit the highest similarity.} A table listing all 18 \sno\
+  pairs most likely exhibit the highest similarity. A table listing all 18 \sno\
 families and their respective \rfam\ models can be seen in section S10
 of the supplement alongside figures showing the \texttt{CMcompare}\
 score distribution. 
@@ -961,28 +959,13 @@ score distribution.
   correspond to ribosome-protected mRNA fragments and hence to
   translated regions.  As a byproduct, other non-ribosomal RNA-protein
   complexes are also detected, including transfer RNAs, spliceosomal
-  RNAs, and snoRNAs \cite{Ingolia:2014, Ji:2016}. \PFS{We therefore
-    used publicly available Ribo-seq data from four different fungi
-    (\Sce\ \cite{Ingolia:2009}, \Spo\ \cite{Duncan:2014}, \Calb\
-    \cite{Muzzey:2014}, and \Aca\ \cite{Gilmore:2015}) to support the
-    identification of novel \sno{}s.}  \PFS{Importantly, all \sno s in
-    \sce\ were based on independent experimental studies, that serve
-    as a positive control for the use of Ribo-seq data.} In addition
-  to the raw read data, we also evaluated the localization of these
-  reads when overlapping with our \snostrip\ annotation. Non-ribosomal
-  protein-associated RNAs show a highly localized read pattern in
-  contrast to mRNAs where one would expect a rather uniformly
-  distributed pattern with a clearly visible 3nt periodicity.  We
-  therefore used the Percentage of Maximum Entropy (PME) to quantify
-  the uniformity of read distribution across the \sno -annotated
-  regions, employing the \texttt{Rfoot} tool \cite{Ji:2016}. The
-  complete results are shown in section S11 in the supplement.
+  RNAs, and snoRNAs \cite{Ingolia:2014, Ji:2016}. 
 
-  Considering the \sce\ data, all annotated \sno s show overlapping
+  Considering the \sce\ data, all 74 annotated \sno s show overlapping
   Ribo-seq reads in at least 4 of the 14 libraries provided by
   \cite{Ingolia:2009}, with evidence from every dataset supporting 52
   \sno s. 65 \sno s are classified as 'non-coding' based on their
-  PME-scores. The complete results can be seen in section S11 in the
+  PME-scores calculated by the \texttt{Rfoot} tool \cite{Ji:2016}. The complete results can be seen in section S11 in the
   supplement.  In case of \spo, 61 of 62 \sno\ are present in at least
   one of the three short read archives, with 46 \sno s supported in
   all available data sets. Based on their PME-score, 49 annotated
@@ -993,7 +976,8 @@ score distribution.
   'non-coding', in \calb, on the other hand, two sequences lack
   support from the PME scoring. Almost all of the \sno s without PME
   score support lack sufficient read coverage for the \texttt{Rfoot}
-  analysis. Even though, the available Ribo-seq data strongly supports
+  analysis.
+Even though, the available Ribo-seq data strongly supports
   our \snostrip -annotated datasets and hence, adds another convincing
   layer of reliability to our fungal \sno ome.  }
 

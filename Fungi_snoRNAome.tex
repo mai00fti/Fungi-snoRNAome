@@ -372,8 +372,9 @@ limitation, we introduced a computational annotation pipeline
 \snostrip\ \cite{Bartschat:2014} that is specifically designed to
 track all specific characteristics of snoRNAs.
 
-\NEW{Up to date, the fungal \sno\ landscape has mainly been explored
-  by species-specific analysis leaving plenty uncharted areas to be
+\NEW{Up to date, the topic of fungal \sno s has mainly been approached
+  by species-specific analysis leading to an exceptionally sparse
+  \sno\ landscape.  This leaves plenty of uncharted areas to be
   filled by both an annotational point of view and a functional one.}
 Here we use the \snostrip\ approach to analyze a large set of fungal
 species with genomes that are available in decent quality for their
@@ -551,6 +552,44 @@ $O_\tau(s) = \{\ k\ |\ \exists t\ :\ X(t,s,k) \ne \emptyset\ \&\ v_k
 subtree $\tau$ and share at least one snoRNA of family $s$. $v_k$ is
 the leaf that denotes organism $k$.
 
+\NEW{
+\subsection{Data validation}}
+
+\NEW{ To verify our \sno\ annotations we compared
+our data with \rfam -annotated families and cross-checked with available Ribo-seq
+archives.}
+
+\NEW{\paragraph{\rfam\ database} The extensive collection of \sno\ families reported here is intended to be
+  integrated into \rfam.  We therefore carefully compared our results with
+the previous \rfam -annotated \sno s. The current \rfam\ (version 12.3)
+covers 755 snoRNA models. 116 of these families contain at least one fungal
+\sno\ from the 147 organisms investigated here. In total, these 116 models
+contain 1621 \sno\ sequences found in our set of organisms, 457 of which
+are included in the \rfam\ seed alignments, identifying them as very high
+confidence sequences, typically with direct experimental support. }
+
+\NEW{\paragraph{Ribosome footprinting} Despite its natural purpose of
+  visualizing translation, Ribo-seq data is also known to
+  include ncRNAs that are not part of ribosomal protein-protected
+  complexes in their high-throughput sequencing libraries
+  \cite{Ingolia:2014, Ji:2016}. We therefore
+    used publicly available Ribo-seq data from four different fungi
+    (\Sce\ \cite{Ingolia:2009}, 14 libraries; \Spo\ \cite{Duncan:2014}
+    , 3 libraries; \Calb\
+    \cite{Muzzey:2014}, 3 libraries; and \Aca\ \cite{Gilmore:2015}, 4 libraries) to support the
+    identification of our novel \sno s.  Importantly, all \sno s in
+    \sce\ were based on independent experimental studies, and will
+    hence serve here as a positive control for the use of Ribo-seq data.
+
+    In addition to the raw read data, we also evaluated the localization of these
+  reads when overlapping with our \snostrip\ annotation. Non-ribosomal
+  protein-associated RNAs show a highly localized read pattern in
+  contrast to mRNAs where one would expect a rather uniformly
+  distributed pattern with a clearly visible 3nt periodicity.  We
+  therefore used the Percentage of Maximum Entropy (PME) to quantify
+  the uniformity of read distribution across the \sno -annotated
+  regions, employing the \texttt{Rfoot} tool \cite{Ji:2016}. 
+}
 
 % --------------------------------------------------------------------------- %
 
