@@ -17,14 +17,13 @@ complete picture despite
 %doubling the number of \sno\ families and
 increasing the number \sno\ sequences by more than a factor of
 four. Additionally, for 26 of 39 orphan \sno s (including sequences
-with single-sequence target predictions only) could be mapped to
-experimentally 
-verified targets or a least a quite convincing prediction based on the
-Interaction Conservation Index (ICI)
-could be assigned.}
+with single-sequence target predictions only) a mapping to
+experimentally verified targets could be found, or a least a quite
+convincing prediction based on the Interaction Conservation Index
+(ICI) could be assigned.}
 
 
-The processing of this amount data is well beyond the realm of manual
+The processing of this amount of data is well beyond the realm of manual
 curation and has been possible only with the help of \snostrip, a pipeline
 specifically developed to investigate the evolution of snoRNA families
 across a broad phylogenetic range \cite{Bartschat:2014}.  The in-depth
@@ -32,7 +31,7 @@ analysis of potential target interactions adds a new layer of
 information. We have demonstrated here that the coevolution of \sno s and
 their targets can be tracked with high resolution based on the functional
 characteristics of the \sno s as determined by \snostrip\ together with a
-quantitative assessment of predicted RNA-RNA interaction based on the 
+quantitative assessment of predicted RNA-RNA interactions based on the 
 Interaction Conservation Index (ICI) \cite{Kehr:2014}.
 
 Similar to Metazoa, fungal \haca s show a higher loss-ratio compared
@@ -40,20 +39,20 @@ to \cd s. This might have both a technical and a biological
 explanation that manifests itself on two different levels. Since \haca
 s do not share long ASEs but rather short bipartite pseudouridylation
 pockets, it becomes considerably harder to detect homologous \sno s
-over large evolutionary timescales. This effect may limit the
-scope of the homology search procedure. The short interacting regions
-also make these molecules more vulnerable to mutations that disrupt
-the snoRNA-targetRNA interaction. At the same time, the presence of
-the second, independent ASE in the other hairpin may be a sufficient
-cause to retain mutated genes.
+over large evolutionary timescales. This effect may limit the scope of
+the homology search procedure. The short interacting regions make
+these molecules also more vulnerable to mutations that disrupt the
+snoRNA-target interaction. At the same time, the presence of the
+second, independent ASE in the other hairpin may be a sufficient cause
+to retain mutated genes.
 
-In general, fungal \sno s have well preserved target interactions and
+In general, fungal \sno s have well-preserved target interactions, and
 most families are found to contain exactly one highly conserved
 anti-sense element. The remaining target region is in turn free to
 evolve or to adapt to new lineage-specific or even species-specific
-targets. Here we introduced a variation on the ICI scoring adapted to
+targets. Here, we introduced a variation on the ICI scoring adapted to
 subclades, allowing a much more detailed quantitative assessment of
-target turnover. Many of the predictions made here of course await
+target turnover. Many of the predictions made here, of course, await
 experimental validation, given that experimental evidence for
 RNA-target interactions as well as direct measurements of chemical
 modifications in the primary target molecules (rRNAs and snRNAs) are
@@ -62,12 +61,12 @@ still restricted to a few model organisms.
 The computational analysis reported here strongly suggests that
 snoRNAs not only address a highly conserved ASE but also frequently
 have additional, secondary targets. The possibility that a single
-\sno\ target site exerts two distinct guiding functions has been
-reported from budding yeast \haca s. The budding yeast \sno\ family
+\sno\ target site exerts two distinct guiding functions has been exemplarily
+reported for budding yeast \haca s. The budding yeast \sno\ family
 snR3 (HACA\_3), for example, is verified to target two modification
 sites in its second hairpin \cite{Schattner:2004}.  Both interactions
 can be tracked across Dikarya.  Nevertheless, there is still very
-little experimental data on the generality of this effect and most of
+little experimental data on the generality of this effect, and most of
 the predicted 'double' target sites will still require experimental
 verification. Convincing examples of remarkably conserved multiple
 interactions are found in \cd\ families snR40 (CD\_43) and snR70
@@ -84,12 +83,12 @@ evidence from thermodynamic stability and evolutionary conservation, these
 predictions cannot be easily dismissed as false positives. The specialized
 ribosome hypothesis proposes distinct ribosomal conformations in different
 developmental stages and stress levels that might also entail different
-chemical modification patterns of the rRNAs; it is entirely plausible in
-this scenario that some modifications and thus snoRNA interaction sites
+chemical modification patterns of the rRNAs; it is entirely plausible, in
+this scenario, that some modifications and, thus, snoRNA interaction sites
 have remained undetected \citep{Xue:2012}. The existence of
 stress-induced conditional pseudouridylations indeed has been reported for
 the for the U2 snRNA of budding yeast \cite{Wu:2011}. The snR81 RNA, which
-is also responsible for guidance of a constitutive U2 pseudouridylation,
+is also responsible for the guidance of a constitutive U2 pseudouridylation,
 guides one of the novel modifications through imperfect and redundant base
 pairing. The authors speculate that conditionally induced modifications in
 RNA may well be a rather frequent phenomenon.
@@ -100,46 +99,45 @@ families. First, this includes redundant guides, meaning that two
 snoRNA families of the same species are responsible for the same
 modification. Second, we observed several target sites that are
 addressed by different snoRNA families in different taxonomic
-groups. A good example for the latter situation is the predicted
-pseudouridine at position 5.8S-18. Although there is not direct
+groups. A good example of the latter situation is the predicted
+pseudouridine at position 5.8S-18. Although there is no direct
 experimental evidence that this particular position is modified
 \emph{in vivo}, the site is predicted as a target for several distinct
-snoRNA families by \snoop\ (see supplement section S21).
+snoRNA families by \snoop\ (see Supplementary Section S21).
 
 The fact that specific modification sites are predicted to be guided
 by more than just one \sno\ family in the same organism has several
-possible reasons. SnoRNA expression recently was reported to be
+possible reasons. SnoRNA expression was recently reported to be
 strongly regulated in development and between tissues or cell lines
 \cite{Kapushesky:2012, Jorjani:2016}. It may thus be necessary for the
 organism to compensate for snoRNAs that are lowly expressed under
 certain circumstances to maintain the functional modification levels
-of the target RNA. This may be achieved by means of paralog or through
-the redundant target binding capability of another \sno\ family.
+of the target RNA. This may be achieved through paralogous snoRNAs or
+redundant target binding capabilities of other \sno\ families.
 
-In summary we observe that the landscape of snoRNAs keeps changing
-over the the evolutionary time-scale of the kingdom Fungi. We observe
-both the extinction of entire \sno\ families and the innovation of new
-ones. The function of snoRNA families itself also changes at these
-evolutionary scales, showing loss, gain, and turn-over of guiding
-functions that lead to target switches. The number of known snoRNA
-families in Fungi is lower than in animals, correlating well with the
-observation that animals have more (reported) modification sites in
-their rRNAs and snRNAs than ``lower'' Eukaryotes (see
-\texttt{Modomics} and the \texttt{RNA Modification Database}
-\cite{Machnicka:2013, Cantara:2011}) or even Bacteria (which have
-target-specific enzymes for each individual modification instead of
-the generic enzyme machinery with snoRNAs as evolutionary flexible
-``address labels'').
+In summary, we observe that the landscape of snoRNAs keeps constantly
+changing in the kingdom of Fungi. We observe both the extinction of
+entire \sno\ families and the innovation of new ones. Even the
+function of snoRNA families itself changes at these evolutionary
+scales, showing loss, gain, and turn-over of guiding functions that
+lead to target switches. The number of known snoRNA families in Fungi
+is lower than in animals, correlating well with the observation that
+animals have more (reported) modification sites in their rRNAs and
+snRNAs than ``lower'' Eukaryotes (see \texttt{Modomics} and the
+\texttt{RNA Modification Database} \cite{Machnicka:2013,
+Cantara:2011}) or even Bacteria (which have target-specific enzymes
+for each individual modification instead of the generic enzyme
+machinery with snoRNAs as evolutionary flexible ``address labels'').
 
 On the other hand, there are many similarities between the fungal and
-the metazoan snoRNAome.  A common feature is the detectable burst in
+the metazoan snoRNAome.  A common feature is a detectable burst in
 the \sno\ diversity at each major branching point in the taxonomic
-tree of both kingdoms.  In case of \cd s, the distribution of orphan,
+tree of both kingdoms.  In case of fungal \cd s, the distribution of orphan,
 single guided, and double guided \snos\ is quite similar compared
-between fungi and animals, as reported by the human \sno\ atlas
-\citep{Jorjani:2016}: Over 70\% of the human box C/D carrying \sno s
-are found to be single guided (75\% in Fungi).  In both human and
-fungi the remainder is about equally split between double guided and
+to animals, as reported by the human \sno\ atlas
+\citep{Jorjani:2016}: over 75\% of the box C/D \sno s
+are found to be single guided (over 70\% in Metazoa).  In both human and
+fungi the remainder is about equally distributed among double guided and
 orphan snoRNAs. The situation is somewhat different for \haca s: in
 human double guided \sno s comprise the largest group (47\%), while in
 Fungi, only 22\% of the \haca\ families target two distinct
