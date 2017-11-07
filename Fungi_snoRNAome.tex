@@ -294,26 +294,25 @@
 
 \begin{abstract}
   Small nucleolar RNAs (snoRNAs) are essential players in the rRNA
-  biogenesis due to their involvement in the nucleolytic processing of
-  the precursor and the subsequent guidance of nucleoside
-  modifications. Within the kingdom Fungi, merely a few species-specific
-  surveys have explored their snoRNA repertoire. However, the wide
-  range of the snoRNA landscape spanning all major fungal lineages has
-  not been mapped so far, mainly because of missing tools for
-  automatized \sno\ detection and functional analysis. For the first
-  time, we report here a comprehensive inventory of fungal \sno s together
-  with a functional analysis and an in-depth investigation of their
-  evolutionary history including innovations, deletions, and target
-  switches. This large-scale analysis, incorporating more than 120
-  \sno\ families with more than 7700 individual \sno\ sequences
-  \NEW{catalogues and clarifies the landscape of fungal \sno\ families, assigns
-    functions to previously orphan \sno s and increases the number of
-    sequences by 450\%. We also show} that the \sno ome is subject to
-  ongoing rearrangements and adaptations, e.g., through
-  lineage-specific targets and redundant guiding functions.
+  biogenesis due to their involvement in the nucleolytic processing of the
+  precursor and the subsequent guidance of nucleoside modifications. Within
+  the kingdom Fungi, merely a few species-specific surveys have explored
+  their snoRNA repertoire. However, the wide range of the snoRNA landscape
+  spanning all major fungal lineages has not been mapped so far, mainly
+  because of missing tools for automatized \sno\ detection and functional
+  analysis. For the first time, we report here a comprehensive inventory of
+  fungal \sno s together with a functional analysis and an in-depth
+  investigation of their evolutionary history including innovations,
+  deletions, and target switches. This large-scale analysis, incorporating
+  more than 120 \sno\ families with more than 7700 individual \sno\
+  sequences catalogues and clarifies the landscape of fungal \sno\
+  families, assigns functions to previously orphan \sno s and increases the
+  number of sequences by 450\%. We also show that the \sno ome is subject
+  to ongoing rearrangements and adaptations, e.g., through lineage-specific
+  targets and redundant guiding functions.
 
   An electronic supplement containing the datasets used and produced in
-  this study is available at
+  this study is available at\newline
   \url{http://www.bioinf.uni-leipzig.de/publications/supplements/17-001}. 
 \end{abstract}
 
@@ -347,49 +346,45 @@ nucleolytic processing of rRNA precursors, the synthesis of telomeric DNA,
 genomic imprinting, and alternative splicing
 \cite{Maxwell:1995,Tollervey:1997,Kiss:2002,Matera:2007}.
 
-There are two distinct classes of snoRNAs: box C/D and box H/ACA
-snoRNAs.  They are distinguished by their secondary structure,
-sequence features, and the modifications they are guiding
-\cite{Balakin:1996,Tollervey:1997}.  Box C/D snoRNAs form a stem-loop
-structure with a rather long loop, which is stabilized by the
-associated proteins and guide the 2'-O-methylation of ribose groups.
-Box H/ACA snoRNAs are longer, fold into a thermodynamically more
-stable double stem-loop structure, and guide the pseudouridylation of
+There are two distinct classes of snoRNAs: box C/D and box H/ACA snoRNAs.
+They are distinguished by their secondary structure, sequence features, and
+the modifications they are guiding \cite{Balakin:1996,Tollervey:1997}.  Box
+C/D snoRNAs form a stem-loop structure with a rather long loop, which is
+stabilized by the associated proteins and guide the 2'-O-methylation of
+ribose groups.  Box H/ACA snoRNAs are longer, fold into a thermodynamically
+more stable double stem-loop structure, and guide the pseudouridylation of
 uracil residues in the target RNA.  Additionally, there are chimeric
-snoRNAs that share features of both classes. They are much longer and
-are described to have different functions \cite{Darzacq:2002}. Similar
-to other small ncRNAs, snoRNAs require both specific secondary
-structures and characteristic sequence motifs to perform their
-function. These features are therefore preserved during evolution and
-are clearly recognizable by comparative methods
-\cite{Ganot:1997,Tollervey:1997}. While sequence motifs that are involved in
-protein binding are common to all members in each of the two classes,
-the ASEs are conserved only among members of snoRNA families with the
-same target. Overall, therefore, snoRNA sequences evolve rapidly,
-making them hard to identify by purely sequence-based methods such as
-\texttt{blast} \cite{Altschul:1990}. To overcome this limitation, we
-introduced a computational annotation pipeline \snostrip\
-\cite{Bartschat:2014} that is specifically designed to track all
-specific characteristics of snoRNAs.
+snoRNAs that share features of both classes. They are much longer and are
+described to have different functions \cite{Darzacq:2002}. Similar to other
+small ncRNAs, snoRNAs require both specific secondary structures and
+characteristic sequence motifs to perform their function. These features
+are therefore preserved during evolution and are clearly recognizable by
+comparative methods \cite{Ganot:1997,Tollervey:1997}. While sequence motifs
+that are involved in protein binding are common to all members in each of
+the two classes, the ASEs are conserved only among members of snoRNA
+families with the same target. Overall, therefore, snoRNA sequences evolve
+rapidly, making them hard to identify by purely sequence-based methods such
+as \texttt{blast} \cite{Altschul:1990}. To overcome this limitation, we
+introduced \PFS{the} computational annotation pipeline \snostrip\
+\cite{Bartschat:2014} that is specifically designed to track all specific
+characteristics of snoRNAs.
 
-\NEW{Up to date, the topic of fungal \sno s has mainly been approached
-  by species-specific analysis leading to an exceptionally sparse
-  \sno\ landscape. } Here, we use the \snostrip\ approach to analyze a
-large set of fungal species with genomes that are available in decent
-quality for their snoRNA abundance.  We started with experimentally
-verified snoRNAs in five fungi.  We subsequently studied their
-evolutionary conservation and the coevolution of snoRNAs with their
-targets \NEW{across the whole kingdom to gain insights into the
-  evolutionary history of this ncRNA class and to understand the
-  dynamics and processes to which it is still subjected to.} We
-provide a comprehensive set of fungal snoRNAs, their detailed
+\PFS{So far,} the topic of fungal \sno s has mainly been approached by
+species-specific analysis leading to an exceptionally sparse \sno\
+landscape. Here, we use the \snostrip\ approach to analyze a large set of
+fungal species with genomes that are available in decent quality for their
+snoRNA abundance.  We started with experimentally verified snoRNAs in five
+fungi.  We subsequently studied their evolutionary conservation and the
+coevolution of snoRNAs with their targets across the whole kingdom to gain
+insights into the evolutionary history of this ncRNA class and to
+understand the dynamics and processes to which it is still subjected to.
+We provide a comprehensive set of fungal snoRNAs, their detailed
 description with respect to genomic location, box motifs,
 potential/confirmed target information (including observed target
-switches), family assignment and suggestions of the evolutionary
-history of individual snoRNA families.  All data can be viewed in and
-downloaded from our electronic supplement. We will submit manually curated snoRNA
-family alignments to the \texttt{Rfam} database
-\cite{Nawrocki:2015}.
+switches), family assignment and suggestions of the evolutionary history of
+individual snoRNA families.  All data can be viewed in and downloaded from
+our electronic supplement. We will submit manually curated snoRNA family
+alignments to the \texttt{Rfam} database \cite{Nawrocki:2015}.
 
 % --------------------------------------------------------------------------- %
 
@@ -401,24 +396,24 @@ Genome sequences from 147 fungal species were downloaded from Ensembl
 Genomes \cite{Kersey:2016}, JGI \cite{Nordberg:2014}, Broad Institute
 (Fungal Genome Initiative) , and Candida Genome Database
 \cite{Skrzypek:2017}.  An \ncbi-based taxonomic tree displaying the
-relationship, genome source, and version for all fungal organisms in
-this evolutionary survey is shown in the Supplementary Figures S1.
-For 63 out of the 147 species, most snoRNA sequences were already
-retrieved in a previous study, primarily to test \snostrip\
-\cite{Bartschat:2014}.  In this earlier work, we started with
-experimentally detected snoRNAs extracted from five surveys for \Ncr\
-\cite{Liu:2009}, \Afu\ \cite{Joechl:2008}, \Calb\
-\cite{Mitrovich:2010}, \Sce\ \cite{Piekna-Przybylska:2007}, and \Spo\
-\cite{Li:2005}. An overview of the experimentally verified \snos\ and
-the corresponding publications is compiled in Supplementary Table
-S2. The nomenclature of snoRNAs is consistent across different
-species.  Supplementary Table S3 contains a dictionary that combines
-the species-specific snoRNA names, taken from their original
-publications with internal snoRNA family designations.  Here we use
-the results of \cite{Bartschat:2014} as our starting point.  The
-initial set comprises 3564 snoRNA sequences assigned to 123 snoRNA
-families in the 63 species. It includes 231 experimentally validated
-\sno\ genes taken from the five publications.
+relationship, genome source, and version for all fungal organisms in this
+evolutionary survey is shown in the Supplementary Figures S1.  For 63 out
+of the 147 species, most snoRNA sequences were already retrieved in a
+previous study, primarily to test \snostrip\ \cite{Bartschat:2014}.  In
+this earlier work, we started with experimentally detected snoRNAs
+extracted from five surveys for \Ncr\ \cite{Liu:2009}, \Afu\
+\cite{Joechl:2008}, \Calb\ \cite{Mitrovich:2010}, \Sce\
+\cite{Piekna-Przybylska:2007}, and \Spo\ \cite{Li:2005}. An overview of the
+experimentally verified \snos\ and the corresponding publications is
+compiled in Supplementary Table S2. The nomenclature of snoRNAs \PFS{used
+  in this contribution} is consistent across different species.
+Supplementary Table S3 contains a dictionary that combines the
+species-specific snoRNA names, taken from their original publications with
+internal snoRNA family designations.  Here we use the results of
+\cite{Bartschat:2014} as our starting point.  The initial set comprises
+3564 snoRNA sequences assigned to 123 snoRNA families in the 63 species. It
+includes 231 experimentally validated \sno\ genes taken from the five
+publications.
 
 \subsection{Homology search}
 
@@ -432,22 +427,21 @@ homologs were found anymore.
 
 \subsection{Data curation}
 
-The candidate snoRNAs were curated regarding
-the automatically identified box motifs, class-specific sequence
-lengths lengths, and the overall fit of each \sno\ sequence in its
-respective family. To identify incorrectly annotated box motifs, the
-conservation of all predicted boxes was checked by comparing their
-start positions in the \sno\ family alignment. Motifs that start
-at unconserved positions are most probably false annotations and were
-readjusted to fit the \sno\ family-specific box pattern and box
-position.  Sequences, where readjusted C- or D-boxes did not agree
-with the canonical box motif pattern, were removed from further
-analysis.  Candidates sequences that are either too long or too short
-were mostly the consequence of misannotated box motifs because
-\snostrip\ cuts \sno\ genes based on their box motif positions. For
-these candidates, box motifs were analyzed with respect to their
-conserved start positions.  Sequences with readjusted
-box motifs were automatically trimmed or enlarged.
+The candidate snoRNAs were curated regarding the automatically identified
+box motifs, class-specific sequence lengths lengths, and the overall fit of
+each \sno\ sequence \PFS{within} its respective family. To identify
+incorrectly annotated box motifs, the conservation of all predicted boxes
+was checked by comparing their start positions in the \sno\ family
+alignment. Motifs that start at \PFS{non-conserved} positions are most
+probably false annotations and were readjusted to fit the \sno\
+family-specific box pattern and box position.  Sequences \PFS{with the
+  re-adjusted} C- or D-boxes \PFS{that} did not agree with the canonical
+box motif pattern were removed from further analysis.  Candidates sequences
+that are either too long or too short were mostly the consequence of
+misannotated box motifs because \snostrip\ cuts \sno\ genes based on their
+box motif positions. For these candidates, box motifs were analyzed with
+respect to their conserved start positions.  Sequences with re-adjusted box
+motifs were automatically trimmed or enlarged.
 
 \subsection{Box motifs, sequence, and structure}
 
@@ -473,20 +467,23 @@ tool that comes with the \epope\ distribution.
 \subsection{Target prediction and analysis}
 
 Target prediction is part of the \snostrip\ pipeline. There, the
-computational tools \plexy\ and \snoop\ are employed to predict
-targets for \cd s and \haca s, respectively \cite{Kehr:2011,
-  Tafer:2010}.  SnoRNAs are investigated for single or double guiding
-potentials based on these predictions and/or confirmed target
-interactions. SnoRNAs that remain without target association are
-considered orphan. SnoRNAs that are assigned to the same family but
-differ in their associated targets are manually investigated for
-a potential target switch.
+computational tools \plexy\ and \snoop\ are employed to predict targets for
+\cd s and \haca s, respectively \cite{Kehr:2011,Tafer:2010}.  SnoRNAs are
+investigated for single or double guiding potentials based on these
+predictions and/or confirmed target interactions. SnoRNAs that remain
+without target association are considered orphan. SnoRNAs that are assigned
+to the same family but differ in their associated targets are manually
+investigated for a potential target switch.
 
 \subsection{Lineage-specific conservation of target interactions}
-To study the conservation of interactions, single sequence \sno\ targets are initially predicted and, subsequently,
-their conservation in other species is evaluated. Kehr \emph{et al.} developed the Interaction Conservation Index (ICI) to formally investigate the conservation of such interactions \cite{Kehr:2014}. In brief, the
-conservation of the modification and the conservation in a specific
-snoRNA family are calculated as follows:
+
+To study the conservation of interactions, single sequence \sno\ targets
+are initially predicted and, subsequently, their conservation in other
+species is evaluated. Kehr \emph{et al.} developed the Interaction
+Conservation Index (ICI) to formally investigate the conservation of such
+interactions \cite{Kehr:2014}. In brief, the conservation of the
+modification and the conservation in a specific snoRNA family are
+calculated as follows:
 \begin{equation}
   \begin{split}
     ICI_{mod}\:(t,s) & = \frac{1}{|O(s)|} \left( \sum_{k\in O(t,s)} \frac{\varepsilon(t,s,k)}{\bar\varepsilon(t,k)} \right) \\
@@ -546,44 +543,42 @@ $O_\tau(s) = \{\ k\ |\ \exists t\ :\ X(t,s,k) \ne \emptyset\ \&\ v_k
 subtree $\tau$ and share at least one snoRNA of family $s$. $v_k$ is
 the leaf that denotes organism $k$.
 
-\NEW{
-\subsection{Data validation}}
+\subsection{Data validation}
 
-\NEW{ To verify our \sno\ annotations, we compared
-our data with \rfam -annotated families and cross-checked with available Ribo-seq
-archives.}
+To verify our \sno\ annotations, we compared our data with
+\rfam{}-annotated families and cross-checked with available Ribo-seq
+archives.
 
-\NEW{\paragraph{\rfam\ database} The extensive collection of \sno\ families reported here is intended to be
-  integrated into \rfam.  We therefore carefully compared our results with
-the previous \rfam -annotated \sno s. The current \rfam\ (version 12.3)
-covers 755 snoRNA models. 116 of these families contain at least one fungal
-\sno\ from the 147 organisms investigated here. In total, these 116 models
-contain 1621 \sno\ sequences found in our set of organisms, 457 of which
-are included in the \rfam\ seed alignments, identifying them as very high
-confidence sequences, typically with direct experimental support. }
+\paragraph{\rfam\ database} The extensive collection of \sno\ families
+reported here is intended to be integrated into \rfam.  We therefore
+carefully compared our results with the previous \rfam -annotated \sno
+s. The current \rfam\ (version 12.3) covers 755 snoRNA models. 116 of these
+families contain at least one fungal \sno\ from the 147 organisms
+investigated here. In total, these 116 models contain 1621 \sno\ sequences
+found in our set of organisms, 457 of which are included in the \rfam\ seed
+alignments, identifying them as very high confidence sequences, typically
+with direct experimental support.
 
-\NEW{\paragraph{Ribosome footprinting} Despite its natural purpose of
-  visualizing translation, Ribo-seq data is also known to
-  include ncRNAs that are not part of ribosomal protein-protected
-  complexes in their high-throughput sequencing libraries
-  \cite{Ingolia:2014, Ji:2016}. We, therefore,
-    used publicly available Ribo-seq data from four different fungi
-    (\Sce\ \cite{Ingolia:2009}, 14 libraries; \Spo\ \cite{Duncan:2014}
-    , 3 libraries; \Calb\
-    \cite{Muzzey:2014}, 3 libraries; and \Aca\ \cite{Gilmore:2015}, 4 libraries) to support the
-    identification of our novel \sno s.  Importantly, all \sno s in
-    \sce\ were based on independent experimental studies and will
-    serve here as a positive control for the use of Ribo-seq data.
+\paragraph{Ribosome footprinting} Despite its natural purpose of
+visualizing translation, Ribo-seq data is also known to include ncRNAs that
+are not part of ribosomal protein-protected complexes in their
+high-throughput sequencing libraries \cite{Ingolia:2014, Ji:2016}. We,
+therefore, used publicly available Ribo-seq data from four different fungi
+(\Sce\ \cite{Ingolia:2009}, 14 libraries; \Spo\ \cite{Duncan:2014}, 3
+libraries; \Calb\ \cite{Muzzey:2014}, 3 libraries; and \Aca\
+\cite{Gilmore:2015}, 4 libraries) to support the identification of our
+novel \sno s.  Importantly, all \sno s in \sce\ were based on independent
+experimental studies and will serve here as a positive control for the use
+of Ribo-seq data.
 
-    In addition to the raw read data, we also evaluated the
-    localization of these reads when overlapping with our \snostrip\
-    annotation. In contrast to mRNAs, where one would expect a rather
-    uniformly distributed pattern with a clearly visible 3nt
-    periodicity, non-ribosomal protein-associated RNAs show a highly
-    localized read pattern.  We, therefore, used the percentage of
-    maximum entropy (PME) to quantify the uniformity of read
-    distribution across the \sno -annotated regions, employing the
-    \texttt{Rfoot} tool \cite{Ji:2016}.  }
+In addition to the raw read data, we also evaluated the localization of
+these reads when overlapping with our \snostrip\ annotation. In contrast to
+mRNAs, where one would expect a rather uniformly distributed pattern with a
+clearly visible 3nt periodicity, non-ribosomal protein-associated RNAs show
+a highly localized read pattern.  We therefore used the percentage of
+maximum entropy (PME) to quantify the uniformity of read distribution
+across the \sno{}-annotated regions, employing the \texttt{Rfoot} tool
+\cite{Ji:2016}.
 
 % --------------------------------------------------------------------------- %
 
