@@ -16,7 +16,7 @@ sequence alignments of the target RNAs. Coordinates for reference sequences
 from selected organisms are given in parentheses.  Single sequence target
 RNAs and target RNA alignments are provided in Supplementary Table S4.
 
-\subsection{\PFS{Expanded complement of fungal} snoRNA complement}
+\subsection{\PFS{Expanded complement of fungal} snoRNAs}
 
 We used \snostrip\ to search for additional homologs of the initial set of
 67 \cd\ and 56 \haca\ families in 147 fungal species. The U3 \sno\ family
@@ -468,7 +468,7 @@ at 25S-1648 (\ncr\ 25S-667; D target) \cite{Liu:2009}. By means of
 lineages, and a highly conserved target region is clearly visible upstream
 of box D' that was originally denoted as orphan. This region shows
 convincing base pairing capabilities to U6-70 (\ncr\ U6-55) in virtually
-all organisms \PFS{considered here}. The high ICI$_{sno}$ score of 1.43 and
+all organisms. The high ICI$_{sno}$ score of 1.43 and
 the low mean mfe of -18.10 kcal/mol further promote the correctness of this
 prediction, see Table \ref{tab:orphan_cd_snoRNAs_short}. The initially
 annotated target \PFS{for box D}, on the other hand, is not found to be
@@ -534,7 +534,7 @@ appropriate target prediction impossible. Hence, a sufficient conclusion
 about their true function and, further on, about their genuine existence in
 terms of viability and biological necessity, remains elusive.
 
-\paragraph{\textbf{Lineage-specific Targets}}
+\paragraph{Lineage-specific Targets}
 \PFS{Several} \cd\ families harbor a highly conserved target either at
 their D or D' position. \PFS{It may be the case, however, that many of}
 these families exhibit additional lineage-specific target binding
@@ -672,24 +672,23 @@ remains hypothetical.
 
 \subsection{Target switches}
 
-Occasionally during evolution, novel guiding interactions are acquired
-or ancestral ones are lost in different species or lineages. It is,
-however, much more uncommon that some target interactions are
-translocated from one snoRNA to another. Therein, the position of the
-ASE within the snoRNA sequence, upstream of box D/D’ or in HP1/HP2, is
-mostly preserved, but it happens sporadically that this position is also
-shifted. 
-\NEW{In the following, we will present an in-depth description of 
-  highly complex rearrangements including target translocations and
-  duplications between several \sno\ families that have been automatically uncovered by \snostrip.}  
+Occasionally during evolution, novel guiding interactions are acquired or
+ancestral ones are lost in different species or lineages. It is, however,
+much more uncommon that some target interactions are translocated from one
+snoRNA to another. Therein, the position of the ASE within the snoRNA
+sequence, upstream of box D/D’ or in HP1/HP2, is mostly preserved, but it
+happens sporadically that this position is also shifted. In the following,
+we will present an in-depth description of highly complex rearrangements
+including target translocations and duplications between several \sno\
+families that have been automatically uncovered by \snostrip.
 
-Each of these two '\sno\ clans' comprise two,
-three, or even more \sno\ sequences in each organism with distinct
-target interactions. Due to target switches during fungal evolution,
-these previously independent \sno\ sequences became connected. Table
-\ref{tab:sno_clans} summarizes the target interactions that are
-convincingly predicted in the \sno\ clans CD\_5 (containing budding
-yeast sequences snR60, snR72, and snR78) and CD\_19 (snR52, snR56).
+Each of these two '\sno\ clans' comprise two, three, or even more \sno\
+sequences in each organism with distinct target interactions. Due to target
+switches during fungal evolution, these previously independent \sno\
+sequences became connected. Table \ref{tab:sno_clans} summarizes the target
+interactions that are convincingly predicted in the \sno\ clans CD\_5
+(containing budding yeast sequences snR60, snR72, and snR78) and CD\_19
+(snR52, snR56).
 
 In the following, we will focus on the description of the \sno\ clan
 CD\_5. The potential evolutionary history of CD\_19 is illustrated and
@@ -698,136 +697,126 @@ discussed in detail in Supplementary Section S9.
 \begin{figure*}
   \centering
   \includegraphics[width=0.9\textwidth]{pics/target_switches_CD_5.eps}
-  \caption[Potential evolutionary history of \sno\ clan
-  CD\_5.]{Potential evolutionary history of \sno\ clan CD\_5 involving
-    four modification sites on the LSU rRNA. Gain/loss events are
-    displayed with arrows, while potential rearrangements are shown
-    with red stars. $\top$ 25S-1866 is solely found in Pichia. $\mp$
-    Putative since LSU sequences are missing; \sno s show convincing
-    ASE conservation.}
+  \caption[Potential evolutionary history of \sno\ clan CD\_5.]{Potential
+    evolutionary history of \sno\ clan CD\_5 involving four modification
+    sites on the LSU rRNA. Gain/loss events are displayed with arrows,
+    while potential rearrangements are shown with red stars. $\top$
+    25S-1866 is solely found in Pichia. $\mp$ Putative since LSU sequences
+    are missing; \sno s show convincing ASE conservation.}
   \label{fig:CD_5}
 \end{figure*}
 
-\textbf{The \sno\ clan CD\_5} comprises three distinct budding yeast
-\sno\ sequences (snR60, snR72, and snR78), which at first sight do not
-share a common evolutionary background. SnR60 was verified to guide
-methylations at 25S-1898 (single sequence 25S-908, D target) and
-25S-1806 (25S-817, D' target), snR72 guides the methylation at
-25S-1866 (25S-876, D target), and snR78 was shown to direct the
-modification at position 25S-3615 (25S-2421, D' target)
-\cite{Lowe:1999}. The methylations at position 25S-1806, 25S-1898, and
-25S-3915 map to known and verified modifications in human large
-subunit ribosomal RNAs. Hence, they are supposed to be ancient, which in
-consequence suggest the real existence of both the methylations and
-the guiding snoRNAs at the root of fungi.  However, through individual
-target switches in the cause of fungal evolution, the history of these
-sequences became connected. A phylogenetic tree displaying a potential
-evolutionary history involving \sno s that are predicted to guide the
-aforementioned modifications is shown in Figure
-\ref{fig:CD_5}. Therein, the putative ancient state is described to be
-constituted of two individual \sno\ sequences guiding the three
-ancient methylations.  Parsimonious deletion and innovation events of
-target interactions are marked accordingly. The emergence of the
-fourth modification, 25S-1866, is predicted at the root of Ascomycota
-since all diverging lineages are either predicted or verified to
-target this specific site. The loss of any of the four guiding
-functions occurred rather frequently in several lineages, e.g.,
-Basidiomycota are supposed to have lost the guiding potential for
-25S-1806, while different Basidiomycota lineages are further predicted
-to have lost the ability to guide methylation at 25S-3615.
+\textbf{The \sno\ clan CD\_5} comprises three distinct budding yeast \sno\
+sequences (snR60, snR72, and snR78), which at first sight do not share a
+common evolutionary background. SnR60 was verified to guide methylations at
+25S-1898 (single sequence 25S-908, D target) and 25S-1806 (25S-817, D'
+target), snR72 guides the methylation at 25S-1866 (25S-876, D target), and
+snR78 was shown to direct the modification at position 25S-3615 (25S-2421,
+D' target) \cite{Lowe:1999}. The methylations at position 25S-1806,
+25S-1898, and 25S-3915 map to known and verified modifications in human
+large subunit ribosomal RNAs. Hence, they are \PFS{most likely} ancient,
+which suggests \PFS{that} both the methylations and \PFS{their} guiding
+snoRNAs \PFS{also existed} at the root of fungi.  However, through
+individual target switches in the cause of fungal evolution, the history of
+these sequences became connected. A phylogenetic tree displaying a
+potential evolutionary history involving \sno s that are predicted to guide
+the aforementioned modifications is shown in Figure \ref{fig:CD_5}. The
+putative \PFS{ancestral} state \PFS{probably consisted of} two individual
+\sno\ sequences guiding the three ancient methylations. Deletion and
+innovation events of target interactions \PFS{(inferred assuming
+  parsimony)} are marked accordingly. The emergence of the fourth
+modification, 25S-1866, is predicted at the root of Ascomycota since all
+diverging lineages are either predicted or verified to target this specific
+site. The loss of any of the four guiding functions occurred rather
+frequently in several lineages, e.g., Basidiomycota are supposed to have
+lost the guiding potential for 25S-1806, while different Basidiomycota
+lineages are further predicted to have lost the ability to guide
+methylation at 25S-3615.
 
 \begin{figure*}
   \centering
   \includegraphics[width=\textwidth]{pics/target_switches_CD_5_cluster.eps}
   \caption[Evolution of a \sno\ cluster harboring CD\_5
-  sequences.]{Sequences of the CD\_5 \sno\ family are incorporated into
-    a polycistronic transcript that harbors up to seven \sno\
-    genes. This cluster with its highly conserved structure and size
-    occurred at the root of Ascomycota, but most of its genes arose at
-    least at the root of Dikarya. There are different potential
-    histories regarding the evolution of the cluster depending on how
-    the newly innovated target guiding function at position 25S-1866
-    (orange) was initially introduced in this polycistronic
-    transcript. A) Evolutionary history under the assumption that
-    25S-1866 is incorporated as a second guiding function into the
-    \sno\ guiding 25S-3615. B) History under the hypothesis that a
+  sequences.]{Sequences of the CD\_5 \sno\ family are incorporated into a
+    polycistronic transcript that harbors up to seven \sno\ genes. This
+    cluster with its highly conserved structure and size occurred at the
+    root of Ascomycota, but most of its genes arose at least at the root of
+    Dikarya. There are different potential histories regarding the
+    evolution of the cluster depending on how the newly innovated target
+    guiding function at position 25S-1866 (orange) was initially introduced
+    in this polycistronic transcript. A) Evolutionary history under the
+    assumption that 25S-1866 is incorporated as a second guiding function
+    into the \sno\ guiding 25S-3615. B) History under the hypothesis that a
     novel single guide \sno\ is introduced at the 3' end of the \sno\
-    cluster. The most parsimonious rearrangement events that led to
-    the observed cluster organization are depicted in blue and green
-    stars, according to hypothesis A and B, respectively.}
+    cluster. The most parsimonious rearrangement events that led to the
+    observed cluster organization are depicted in blue and green stars,
+    according to hypothesis A and B, respectively.}
 \label{fig:CD_5_cluster_history}
 \end{figure*}
 
-In addition to gain and loss events, target interactions responsible
-for these four modifications switched between different \sno s several
-times during fungal evolution. However, the target sites within the \sno s (D' or
+In addition to gain and loss events, target interactions responsible for
+these four modifications switched between different \sno s several times
+during fungal evolution. However, the target sites within the \sno s (D' or
 D target) are mostly preserved. Within the Taphrinomycotina lineage,
 including the fission yeast, target guiding functions at 25S-1806 (D'
-target) and 25S-1866 (D target) are incorporated into one \sno\
-sequence after the original guidance of 25S-1898 (D target) was lost
-in this family.
-% \TODO{At least in \spo\, 25S-1898 is predicted to be guided by CD\_26...}
+target) and 25S-1866 (D target) are incorporated into one \sno\ sequence
+after the original guidance of 25S-1898 (D target) was lost in this family.
 
-At the root of Ascomycota, a polycistronic \sno\ transcript is
-arranged including the \sno\ sequences of snR77 (CD\_24), snR76
-(CD\_12), snR75 (CD\_7), snR74 (CD\_21), and snR73 (CD\_31) in 5'-3'
-direction, see Figure \ref{fig:CD_5_cluster_history}.  All these \sno\
-families are already present at the root of Dikarya, distributed over
-large distances or different chromosomes. After the formation of this
-cluster, the precise order and the length of approximately 1.5kb is
+At the root of Ascomycota, a polycistronic \sno\ transcript \PFS{harboured}
+the \sno\ sequences of snR77 (CD\_24), snR76 (CD\_12), snR75 (CD\_7), snR74
+(CD\_21), and snR73 (CD\_31), \PFS{ordered} in 5'-3' direction, see Figure
+\ref{fig:CD_5_cluster_history}.  All these \sno\ families \PFS{have been
+  present} already at the root of Dikarya, distributed over large distances
+or \PFS{over} different chromosomes. After the formation of this cluster,
+the precise order and the length of approximately 1.5kb \PFS{remained}
 highly conserved throughout all Ascomycota.
 
-Maybe a \sno\ of clan CD\_5 guiding methylation at 25S-3615 was
-already present at the 5' end of this cluster when it
-emerged. However, there are several possibilities how the \sno\
-cluster evolved after the innovation of guiding function for 25S-1866.
-One hypothesis (Blue stars in Figure \ref{fig:CD_5_cluster_history})
-is the initial incorporation of 25S-1866 into the \sno\ that already
-guides 25S-3615, creating a double guide \sno\ at the 5' end of the
-polycistronic transcript. In Taphrinomycotina, the loss of guiding
-function for 25S-3915 and 25S-1898 might have caused the rearrangement
-of 25S-1806 and 25S-1866 and the exclusion from the \sno\
-cluster. At the root of Saccharomycotina, the double guide \sno\ might
-have split up leaving a single guide at the 5' end (25S-3615) and a
-novel single guide at the 3' end of the cluster (25S-1866). The
-original formation is solely conserved in \Yli. In another hypothesis,
-evolution might have taken the other way round (green stars in Figure
-\ref{fig:CD_5_cluster_history}). Assuming that the innovation of
-25S-1866 led to a novel single guide \sno\ located at the 3' end of
-the \sno\ cluster, as seen in Saccharomycetaceae, \yli\ would be the
-only organism in Saccharomycotina where a rearrangement is
-detected. As a consequence, the previously single guide sequences are
-reorganized into a double guide sequence with guiding ability for
-25S-3615 as D' target and 25S-1866 as D target. This novel double
-guide is now located at the 5' end of the cluster.  Coincidentally,
-the same reorganization happened at the root of Pezizomycotina, where
-the first \sno\ of the cluster is found to guide modifications at
-position 25S-3615 (D') and 25S-1866 (D). Proteins that are located up-
-and downstream of the previously described \sno\ cluster are not found
-to be conserved throughout major fungal lineages.
+Maybe a \sno\ of clan CD\_5 guiding methylation at 25S-3615 was already
+present at the 5' end of this cluster when it emerged. However, there are
+several possibilities how \PFS{this} \sno\ cluster evolved after the
+innovation of guiding function for 25S-1866.  One hypothesis (Blue stars in
+Figure \ref{fig:CD_5_cluster_history}) is the initial incorporation of
+25S-1866 into the \sno\ that already guides 25S-3615, creating a double
+guide \sno\ at the 5' end of the polycistronic transcript. In
+Taphrinomycotina, the loss of guiding function for 25S-3915 and 25S-1898
+might have caused the rearrangement of 25S-1806 and 25S-1866 and the
+exclusion from the \sno\ cluster. At the root of Saccharomycotina, the
+double guide \sno\ might have split up leaving a single guide at the 5' end
+(25S-3615) and a novel single guide at the 3' end of the cluster
+(25S-1866). \PFS{In this scenario, the original arrangement} is conserved
+\PFS{only} in \Yli. \PFS{An alternative is outline by the} green stars in
+Figure \ref{fig:CD_5_cluster_history}. Assuming that the innovation of
+25S-1866 led to a novel single guide \sno\ located at the 3' end of the
+\sno\ cluster, as seen in Saccharomycetaceae, \yli\ would be the only
+organism in Saccharomycotina where a rearrangement is detected. As a
+consequence, the previously single guide sequences are reorganized into a
+double guide sequence with guiding ability for 25S-3615 as D' target and
+25S-1866 as D target. This novel double guide is now located at the 5' end
+of the cluster.  Coincidentally, the same reorganization happened at the
+root of Pezizomycotina, where the first \sno\ of the cluster is found to
+guide modifications at position 25S-3615 (D') and 25S-1866 (D). Proteins
+that are located up- and downstream of the previously described \sno\
+cluster are not found to be conserved throughout major fungal lineages.
 
-A further interesting observation is the potential duplication of
-target interaction for 25S-1898 at the root of Pezizomycotina. This
-ability is inserted into family snR67 (CD\_26) as a D' target in the
-lineages Dothideomycetes, Eurotiomycetes, and Leotiomycetes
-(ICI$_{Pezizomycotina}$: 1.13, mean mfe: -18.79 kcal/mol). Neurospora
-species are also predicted to guide this methylation with its
-Nc\_CD\_26 (CD\_26) \sno \cite{Liu:2009}. In reverse, the original D'
-target of snR67, 25S-3836, was abolished in these organisms and is not
-found to be reestablished in any other \sno\ family. For more detailed
-information on family CD\_26, please confer Figure
-\ref{fig:additional_targets}. The invention of redundant guides would
-explain the findings that in some of these species the original target
-site of 25S-1898 vanished in CD\_5 \sno s, e.g., in Capnodiales, some
-Aspergillus organisms, or Onygenales. Families CD\_5 and CD\_26 are
-not merged due to a switch of the ASE (from D in CD\_5 to D' in
-CD\_26).
-
+A further interesting observation is the potential duplication of target
+interaction for 25S-1898 at the root of Pezizomycotina. This ability is
+inserted into family snR67 (CD\_26) as a D' target in the lineages
+Dothideomycetes, Eurotiomycetes, and Leotiomycetes (ICI$_{Pezizomycotina}$:
+1.13, mean mfe: -18.79 kcal/mol). Neurospora species are also predicted to
+guide this methylation with its Nc\_CD\_26 (CD\_26) \sno
+\cite{Liu:2009}. In reverse, the original D' target of snR67, 25S-3836, was
+abolished in these organisms and is not found to be reestablished in any
+other \sno\ family. For more detailed information on family CD\_26, please
+confer Figure \ref{fig:additional_targets}. The invention of redundant
+guides would explain the findings that in some of these species the
+original target site of 25S-1898 vanished in CD\_5 \sno s, e.g., in
+Capnodiales, some Aspergillus \PFS{species}, \PFS{and} Onygenales. Families
+CD\_5 and CD\_26 are not merged due to a switch of the ASE (from D in CD\_5
+to D' in CD\_26).
 
 \paragraph{\textbf{Multiple Target Interactions}}
-In some cases, \sno\ families are not only convincingly predicted to
-guide one specific target modification but two or even more with the
-same ASE.
+In some cases, \sno\ families are not only convincingly predicted to guide
+one specific target modification but two or even more with the same ASE.
 \begin{table}
   \caption{Summary of multiple target predictions of families 
     snR40 (CD\_43) and snR70 (CD\_61) that are guided by the same ASE.}
@@ -850,103 +839,96 @@ same ASE.
     \end{footnotesize}
   \end{center}
 \end{table}
-An outstanding example is given by \cd\ family snR40 (CD\_43). It is
-predicted and experimentally validated \cite{Lowe:1999} to guide
-methylation at position 18S-1400 (18S-1271) with its D' target binding
-region. This interaction is predicted in 67 out of 90 \sno s and
-provides an ICI score of 0.95 with a mean interaction energy of -12.96
-kcal/mol. However, an even better target is predicted at position
-18S-614 (18S-562) with an ICI score of 1.61 and a mean mfe of
--21.69 kcal/mol. This interaction is found in 71 organisms. All 67 \sno s
-predicted to guide the first target are also predicted to guide the
-latter one, in a vast majority of cases even with a better binding
-energy. But since the genuine modification is neither reported in
-\sce, \ncr, nor human, this prediction, albeit its overly convincing
-nature, remains hypothetical.
+An outstanding example \PFS{is the} \cd\ family snR40 (CD\_43), \PFS{which
+  is known} to guide methylation at position 18S-1400 (18S-1271) with its
+D' target binding region \cite{Lowe:1999}. This interaction is predicted in
+67 out of 90 \sno s and provides an ICI score of 0.95 with a mean
+interaction energy of -12.96 kcal/mol. However, an even better target is
+predicted at position 18S-614 (18S-562) with an ICI score of 1.61 and a
+mean mfe of -21.69 kcal/mol. This interaction is found in 71 organisms. All
+67 \sno s predicted to guide the first target are also predicted to guide
+the latter one, in the \PFS{overwhelming} majority of cases even with a
+better binding energy. \PFS{However,} a genuine modification \PFS{of this
+  site has not been reported} in \sce, \ncr, or human. \PFS{Albeit very
+  compelling, the prediction thus remains a hypothesis.}
 
 An even more impressive example is the D' ASE. of the snR70 (CD\_61)
 family.  No less than five potential targets are predicted with an ICI
-score above 1.0, a mean mfe below -11.30 kcal/mol and more than 80
-single sequence predictions. Details are shown in Table
-\ref{tab:redundant_predictions}. This time, the most persuasive
-prediction is experimentally confirmed \cite{Lowe:1999}, whereas the
-other predicted positions have not been shown to be chemically
-modified so far.
+score above 1.0, a mean mfe below -11.30 kcal/mol and more than 80 single
+sequence predictions. Details are shown in Table
+\ref{tab:redundant_predictions}. This time, the most persuasive prediction
+is experimentally confirmed \cite{Lowe:1999}, whereas the other predicted
+positions have not been shown to be chemically modified so far.
 
-\NEW{
 \subsection{Data Validation}
 
-To add further reliability to our \sno\ annotations, we compared
-our data with \rfam -annotated families and additionally cross-checked with Ribo-seq
-archives of four different Fungi. This should allow us to point out
-that our \snostrip\ annotations are in line with existing \rfam\
+To add further reliability to our \sno\ annotations, we compared our data
+with \rfam -annotated families and additionally cross-checked with Ribo-seq
+archives of four different Fungi. This should allow us to point out that
+our \snostrip\ annotations are in line with existing \rfam\
 annotations. Novel \sno\ sequences, meaning that they are not listed
 anywhere else, should be confirmed by Ribo-seq to be transcribed and
 classified as 'non-coding'.
  
 \paragraph{\textbf{Comparison to \texttt{Rfam}}}
-The \rfam\ database \cite{Nawrocki:2015} is by far the most comprehensive
-source of well-curated data on non-coding RNAs. The
-  7852 \snostrip -detected \sno s encompass the overwhelming majority of
-  \rfam -annotated sequences (1586 of 1621 \sno\ genes), and 441 of them
-are located in seed alignments.  Most of the 35 \rfam\ \sno\ sequences
-that are not included in our dataset exhibit box motifs with two or more mutations
-compared to the consensus sequence. This prevents \snostrip\ from
-  including these sequences into our dataset even though their detection
-by means of \blast\ or \infernal\ is straightforward.
-}
+The \rfam\ database \cite{Nawrocki:2015} is by far the most
+comprehensive source of well-curated data on non-coding RNAs. The 7852
+\PFS{\sno s detected by \snostrip} encompass the overwhelming majority
+of \rfam -annotated sequences (1586 of 1621 \sno\ genes), and 441 of
+them are located in seed alignments.  Most of the 35 \rfam\ \sno\
+sequences that are not included in our dataset exhibit box motifs with
+two or more mutations compared to the consensus sequence. This
+prevents \snostrip\ from including these sequences into our dataset
+even though their detection by means of \blast\ or \infernal\ is
+straightforward.
 
-\NEW{
 Conversely, 32 of the \snostrip -annotated \sno\ families had no
-  representative in \rfam\ even though they harbor at least one
+representative in \rfam\ even though they harbor at least one
 experimentally verified \sno\ that served as the starting point for
-  homology search in this study. Most of these are published for \ncr, where
-  64 of the 75 \sno s proclaimed in \cite{Liu:2009} have not found their way into \rfam.}
+homology search in this study. Most of these are published for \ncr, where
+64 of the 75 \sno s proclaimed in \cite{Liu:2009} have not found their way
+into \rfam.
 
-\NEW{
 In 18 cases, \snostrip\ automatically combined \sno\ sequences of two
-different \rfam\ models to a common \sno\ family. A detailed
-  inspection showed that merged \rfam\ models were constructed from
-  disjoint sets of organisms and indeed share the same target guiding
-  functionality. For example, family CD\_12 (\sce: snR76) combines
-sequences of the \rfam\ models RF01209 and RF01514, which were derived
-  from Saccharomycetales and Pezizomycotina species, respectively. A
-  pairwise comparison of the 18 families against all other \rfam\ models
-  with \texttt{CMcompare} \cite{Eggenhofer:2013} showed that the merged
-  pairs most likely exhibit the highest similarity. A table listing all 18 \sno\
-families and their respective \rfam\ models can be seen in section S10
-of the supplement alongside figures showing the \texttt{CMcompare}\
-score distribution. 
-}
+different \rfam\ models to a common \sno\ family. A detailed inspection
+showed that merged \rfam\ models were constructed from disjoint sets of
+organisms and indeed share the same target guiding functionality. For
+example, family CD\_12 (\sce: snR76) combines sequences of the \rfam\
+models RF01209 and RF01514, which were derived from Saccharomycetales and
+Pezizomycotina species, respectively. A pairwise comparison of the 18
+families against all other \rfam\ models with \texttt{CMcompare}
+\cite{Eggenhofer:2013} showed that the merged pairs most likely exhibit the
+highest similarity. A table listing all 18 \sno\ families and their
+respective \rfam\ models can be seen in section S10 of the supplement
+alongside figures showing the \texttt{CMcompare}\ score distribution.  
 
 \paragraph{\textbf{Ribosome footprinting}}
-\NEW{Ribo-seq or ribosome profiling combines ribosome footprinting
-  with deep sequencing \cite{Ingolia:2009,Ingolia:2012} to study
-  translation \textit{in vivo}. Not all the detected events, however,
-  correspond to ribosome-protected mRNA fragments and hence to
-  translated regions.  As a byproduct, other non-ribosomal RNA-protein
-  complexes are also detected, including transfer RNAs, spliceosomal
-  RNAs, and snoRNAs \cite{Ingolia:2014, Ji:2016}. 
+Ribo-seq or ribosome profiling combines ribosome footprinting with deep
+sequencing \cite{Ingolia:2009,Ingolia:2012} to study translation \textit{in
+  vivo}. Not all the detected events, however, correspond to
+ribosome-protected mRNA fragments and hence to translated regions.  As a
+byproduct, other non-ribosomal RNA-protein complexes are also detected,
+including transfer RNAs, spliceosomal RNAs, and snoRNAs \cite{Ingolia:2014,
+  Ji:2016}.
 
-  Considering the \sce\ data, all 74 annotated \sno s show overlapping
-  Ribo-seq reads in at least 4 of the 14 libraries provided by
-  \cite{Ingolia:2009}, with evidence from every dataset supporting 52
-  \sno s. 65 \sno s are classified as 'non-coding' based on their
-  percentage of maximum mntropy (PME) scores calculated by the \texttt{Rfoot} tool \cite{Ji:2016}. The
-  complete results can be seen in Supplementary Section S11. In case
-  of \spo, 61 of 62 \sno\ are present in at least one of the three
-  short read archives, with 46 \sno s supported in all available
-  datasets. Based on their PME score, 49 annotated genes are
-  classified as 'non-coding'. For \aca\ and \calb , all \snostrip
-  -annotated sequences have Ribo-seq support from at least one
-  experiment, while 60 (of 62) and 45 (of 67) are present in all
-  datasets, respectively. In \aca, all \sno\ genes are classified as
-  'non-coding', in \calb, on the other hand, two sequences lack
-  support from the PME scoring. Almost all of the \sno s without
-  PME score support lack sufficient read coverage for the
-  \texttt{Rfoot} analysis.  Even though, the available Ribo-seq data
-  strongly supports our \snostrip -annotated datasets and hence adds
-  another convincing layer of reliability to our fungal \sno ome.  }
+Considering the \sce\ data, all 74 annotated \sno s show overlapping
+Ribo-seq reads in at least 4 of the 14 libraries provided by
+\cite{Ingolia:2009}, with evidence from every dataset supporting 52 \sno
+s. 65 \sno s are classified as 'non-coding' based on their percentage of
+maximum mntropy (PME) scores calculated by the \texttt{Rfoot} tool
+\cite{Ji:2016}. The complete results can be seen in Supplementary Section
+S11. In case of \spo, 61 of 62 \sno\ are present in at least one of the
+three short read archives, with 46 \sno s supported in all available
+datasets. Based on their PME score, 49 annotated genes are classified as
+'non-coding'. For \aca\ and \calb , all \snostrip -annotated sequences have
+Ribo-seq support from at least one experiment, while 60 (of 62) and 45 (of
+67) are present in all datasets, respectively. In \aca, all \sno\ genes are
+classified as 'non-coding', in \calb, on the other hand, two sequences lack
+support from the PME scoring. Almost all of the \sno s without PME score
+support lack sufficient read coverage for the \texttt{Rfoot} analysis.
+Even though, the available Ribo-seq data strongly supports our \snostrip
+-annotated datasets and hence adds another convincing layer of reliability
+to our fungal \sno ome.  
 
 %RESULTS:
 %sce 52 in all
