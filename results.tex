@@ -1,59 +1,58 @@
-\NEW{Up to now, there is no generally accepted nomenclature of snoRNA
-  families across different fungal species, and thus quite a few \sno\ genes
-  of distinct organisms are named differently, although these genes
-  belong to the same \sno\ family. Here, we present the first complete
-  and reliable mapping of \sno\ names across the kingdom of fungi, that is entirely based on
-  sequence and functional homologies.}  In
-the following, we will use established gene names to designate snoRNA
-families where possible. In cases where homologs have different names
-in different species, we use the preferred order \emph{S.\ cerevisiae},
-\emph{N.\ crassa}, \emph{A.\ fumigatus}, \emph{C.\ albicans}, and
-\emph{S.\ pombe}. To simplify cross-referencing with machine-readable
-data we also list the \snostrip\ family designations in parentheses.
-A complete dictionary of nomenclature correspondences can be found in
-Supplementary Table S3.  Similarly, we pragmatically identify target
-positions with their position in the multiple sequence alignments of
-the target RNAs. Coordinates for reference sequences from selected
-organisms are given in parentheses.  Single sequence target RNAs and
-target RNA alignments are provided in Supplementary Table S4.
+\PFS{So far,} there is no generally accepted nomenclature of snoRNA
+families across different fungal species, and thus quite a few \sno\ genes
+of distinct organisms are named differently, although these genes belong to
+the same \sno\ family. Here, we present the first complete and reliable
+mapping of \sno\ names across the kingdom of fungi, that is entirely based
+on sequence and functional homologies.  In the following, we will use
+established gene names to designate snoRNA families where possible. In
+cases where homologs have different names in different species, we use the
+preferred order \emph{S.\ cerevisiae}, \emph{N.\ crassa}, \emph{A.\
+  fumigatus}, \emph{C.\ albicans}, and \emph{S.\ pombe}. To simplify
+cross-referencing with machine-readable data we also list the \snostrip\
+family designations in parentheses.  A complete dictionary of nomenclature
+correspondences can be found in Supplementary Table S3.  Similarly, we
+pragmatically identify target positions with their position in the multiple
+sequence alignments of the target RNAs. Coordinates for reference sequences
+from selected organisms are given in parentheses.  Single sequence target
+RNAs and target RNA alignments are provided in Supplementary Table S4.
 
-\subsection{Expanded fungi snoRNA complement}
+\subsection{\PFS{Expanded complement of fungal} snoRNA complement}
 
-We used \snostrip\ to search for additional homologs of the initial
-set of 67 \cd\ and 56 \haca\ families in 147 fungal species. The U3
-\sno\ family is published separately due to its special function,
-various splice variants and characteristics \cite{Canzler:2017}. All
-\snostrip\ candidates were carefully cross-checked in all species to
-reduce the number of false negatives and to exclude potentially
-incorrect annotations.  In total, we found 5593 \cd\ and 2255 \haca\
-sequences, expanding the collection of annotated fungal snoRNAs by
-more than \NEW{200\% compared to our previously available \sno\ set
-  \cite{Bartschat:2014} and over 450\% compared to \rfam{}-annotated
-  \sno s}. This massive amount of \sno\ data substantially increases both the
-phylogenetic depth and the resolution of the snoRNA annotation.
+We used \snostrip\ to search for additional homologs of the initial set of
+67 \cd\ and 56 \haca\ families in 147 fungal species. The U3 \sno\ family
+is published separately due to its special function, various splice
+variants and characteristics \cite{Canzler:2017}. All \snostrip\ candidates
+were carefully cross-checked in all species to reduce the number of false
+negatives and to exclude potentially incorrect annotations.  In total, we
+found 5593 \cd\ and 2255 \haca\ sequences, expanding the collection of
+annotated fungal snoRNAs by more than 200\% compared to our previously
+available \sno\ set \cite{Bartschat:2014} and over 450\% compared to
+\rfam{}-annotated \sno s. This massive amount of \sno\ data substantially
+increases both the phylogenetic depth and the resolution of the snoRNA
+annotation.
 
 \subsection{Characteristics of fungal snoRNAs}
 
-\paragraph{\textbf{Box motifs}} Sequence motifs were extracted from
-all \snostrip-annotated \sno s. The complete collection is available
-for download from supplement section S5. In general, these motifs are
+\paragraph{\textbf{Box motifs}} Sequence motifs were extracted from all
+\snostrip-annotated \sno s. The complete collection is available for
+download from supplement section S5. In general, these motifs are
 consistent with the published rules \cite{Xia:1997, Watkins:2000,
-  Cahill:2002, Watkins:2002} for canonical \sno\ box motifs known from
-both yeast and animals:
+  Cahill:2002, Watkins:2002} for canonical \sno\ box motifs known from both
+yeast and animals:
 
-Box C (\texttt{RUGAUGA}) and D (\texttt{CUGA}) match the consensus
-sequence motifs almost perfectly. Box C shows an initial purine
-(\texttt{R}) in 92\% of all cases.  The first \texttt{GA} dinucleotide
-is absolutely conserved.  In 4.2\% of the cases, the 5' nucleotide
-(\texttt{C}) of box D is substituted, usually by an adenine. The
-remaining positions are nearly perfectly conserved ($\ge$99.7\%). As
-expected from yeast and other animal snoRNAs the situation is
-different for prime box motifs \cite{
-  Cahill:2002,Kiss-László:1998}.  In box C', merely the first
-\texttt{UG} dinucleotide and, to a lesser extent, the trailing
-\texttt{GA} dinucleotide are highly conserved.  This might indicate a
-role in the binding of snoRNP associated proteins.  In box D',
-variations of the canonical nucleotides occur quite frequently in each position (between 15\% and 45\%).
+Box C (\texttt{RUGAUGA}) and D (\texttt{CUGA}) match the consensus sequence
+motifs almost perfectly. Box C shows an initial purine (\texttt{R}) in 92\%
+of all cases.  The first \texttt{GA} dinucleotide is absolutely conserved.
+In 4.2\% of the cases, the 5' nucleotide (\texttt{C}) of box D is
+substituted, usually by an adenine. The remaining positions are nearly
+perfectly conserved ($\ge$99.7\%). As expected from yeast and other animal
+snoRNAs the situation is different for prime box motifs
+\cite{Cahill:2002,Kiss-László:1998}.  In box C', merely the first
+\texttt{UG} dinucleotide and, to a lesser extent, the trailing \texttt{GA}
+dinucleotide are highly conserved.  This might indicate a role in the
+binding of snoRNP associated proteins.  In box D', variations of the
+canonical nucleotides occur quite frequently in each position (between 15\%
+and 45\%).
 
 In \haca s, we observe that the sequence of box ACA is highly
 conserved with rare variations in its middle position. The adenine
@@ -66,46 +65,40 @@ overrepresented nucleotide. Again, these results are in accordance
 with previously published motif constraints \cite{Normand:2006}.
 
 \paragraph{\textbf{Sequence length}} Consistent with the published
-\cd\ length, 90\% of the novel \snostrip-annotated \sno s are 80-135nt
-in length, with a median of 93nt (Supplementary Figure S6.2).
-Family Nc\_CD\_53 (\ncr, CD\_53 in \snostrip) is the only exception
-since its members share sequences with lengths between 200 and 300nt.
-Crucial features are the distances between box C and the potential box
-D' as well as between box C' and D since these stretches harbor the
-target binding sites. These regions provide sufficient space to harbor
-a potential ASE in all detected \sno\ candidates, see Figure S6.2.
+\PFS{lengths of \cd{}s,} 90\% of the novel \snostrip-annotated \sno s are
+80-135nt in length, with a median of 93nt (Supplementary Figure S6.2).
+Family Nc\_CD\_53 (\ncr, CD\_53 in \snostrip) is the only exception since
+its members share sequences with lengths between 200 and 300nt.  Crucial
+features are the distances between box C and the potential box D' as well
+as between box C' and D since these stretches harbor the target binding
+sites. These regions provide sufficient space to harbor a potential ASE in
+all detected \sno\ candidates, see Figure S6.2.
 
-Box H/ACA snoRNAs are usually longer than box C/D snoRNAs. Their
-median sequence length is 188nt. The shortest sequence covers
-115nt, while 90\% of all sequences are between 148 and 266nt.  Both
-single hairpin sequences share a similar length distribution. For
-boxplots and more details see Supplementary Section S6.
+Box H/ACA snoRNAs are usually longer than box C/D snoRNAs. Their median
+sequence length is 188nt. The shortest sequence covers 115nt, while 90\% of
+all sequences are between 148 and 266nt.  Both single hairpin sequences
+share a similar length distribution. For boxplots and more details see
+Supplementary Section S6.
 
 \paragraph{\textbf{Secondary structure}} Due to its specific
-post-transcriptional processing by exonucleases, both trailing ends of
-\cd s are cut precisely 5 nucleotides away from the C and D
-boxes, respectively \citep{Kishore:2013}. Because of these rather
-short ends, only a small subset of \sno\ sequences was predicted to
-fold a short closing stem (1208 out of 5593).  If we enlarge the
-trailing ends to 10nt instead, a stem could be predicted for nearly
-60\% (3317). The fact that more than 40\% of the box C/D snoRNAs do
-not form a terminal stem
-strongly suggests that the terminal helix is not required for their
-function and snoRNP-associated proteins itself may be in charge to bring
-the RNA molecule and the assembled proteins into the correct
-functional conformation.
+post-transcriptional processing by exonucleases, both trailing ends of \cd
+s are cut precisely 5 nucleotides away from the C and D boxes, respectively
+\citep{Kishore:2013}. Because of these rather short ends, only a small
+subset of \sno\ sequences was predicted to fold a short closing stem (1208
+out of 5593).  If we enlarge the trailing ends to 10nt instead, a stem
+could be predicted for nearly 60\% (3317). The fact that more than 40\% of
+the box C/D snoRNAs do not form a terminal stem strongly suggests that the
+terminal helix is not required for their function and snoRNP-associated
+proteins itself may be in charge to bring the RNA molecule and the
+assembled proteins into the correct functional conformation.
 
 In contrast, \haca s are required to develop a significant and
 specific secondary structure to function appropriately. Only 15\% (395
 out of 2255) of all box H/ACA snoRNAs were not predicted to fold into
 a stem-loop structure for both hairpins.
 
-%\TODO{can we say something whether the 2nd part is likely non-functional 
-%  in the cases where don't get a nice hairpin, e.g. be observing that 
-%  the putative ASE is not well conserved?} 
-
-In general, \sno -specific characteristics like box motifs, lengths,
-and secondary structures are highly comparable between Fungi and
+In general, \sno -specific characteristics \PFS{such as} box motifs,
+lengths, and secondary structures are \PFS{very similar} between Fungi and
 Metazoa \cite{Kehr:2014}.
 
 \subsection{Phylogenetic distribution of fungi snoRNAs}
